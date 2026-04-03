@@ -1,0 +1,1001 @@
+Transaction_ID,Date,Department,Vendor_Name,Employee_ID,Amount_INR,Payment_Method,Invoice_Number,Approval_Status,Risk_Category,Audit_Flag,Location,Expense_Type,Duplicate_Transaction,Late_Payment,Outside_Business_Hours
+TXN00201,2024-12-10 04:20:00,Finance,Dr Reddy Labs,EMP1157,62889.71,Bank Transfer,INV248225,Approved,Low,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00817,2024-01-09 18:43:00,Finance,Honeywell Automation,EMP1053,400753.67,Bank Transfer,INV483561,Approved,High,Yes,Ahmedabad,Consulting,Yes,No,Yes
+TXN00573,2024-10-12 08:57:00,HR,Colgate,EMP1310,336395.52,Credit Card,INV559094,Pending,High,Yes,Delhi,Travel,No,No,Yes
+TXN00845,2024-09-23 22:21:00,Procurement,Britannia,EMP1352,377549.96,Credit Card,INV824061,Approved,High,Yes,Mumbai,Salary,Yes,No,Yes
+TXN00178,2024-09-25 04:15:00,HR,Schneider Electric,EMP1270,129947.01,Bank Transfer,INV933551,Approved,Low,No,Chennai,Software,No,No,Yes
+TXN00991,2024-07-10 03:21:00,Procurement,Asian Paints,EMP1021,778074.25,Cash,INV900244,Pending,High,Yes,Delhi,Miscellaneous,No,Yes,Yes
+TXN00985,2024-11-24 23:28:00,HR,Wipro Technologies,EMP1487,676043.14,Bank Transfer,INV263267,Pending,High,Yes,Chennai,Software,No,Yes,Yes
+TXN00022,2024-02-07 00:29:00,IT,Honeywell Automation,EMP1052,41264.06,Bank Transfer,INV378082,Approved,Low,Yes,Chennai,Equipment,No,No,Yes
+TXN00851,2024-12-14 04:33:00,Procurement,Sun Pharma,EMP1165,127890.28,Cheque,INV435476,Approved,High,Yes,Mumbai,Salary,Yes,No,No
+TXN00481,2024-11-13 10:47:00,Finance,Colgate,EMP1485,455452.04,Bank Transfer,INV154067,Approved,Low,No,Pune,Equipment,No,No,No
+TXN00134,2024-04-10 20:35:00,Sales,Axis Bank,EMP1321,154898.18,Bank Transfer,INV626986,Approved,Low,No,Bangalore,Software,No,No,Yes
+TXN00065,2024-11-18 19:51:00,HR,Tata Motors,EMP1160,277665.31,Credit Card,INV197736,Approved,Medium,Yes,Delhi,Software,No,No,Yes
+TXN00131,2024-04-24 03:12:00,HR,Dr Reddy Labs,EMP1405,249540.86,Bank Transfer,INV700076,Approved,Medium,No,Delhi,Travel,No,No,Yes
+TXN00057,2024-02-20 06:40:00,HR,Cipla Ltd,EMP1339,45187.8,Bank Transfer,INV678805,Approved,Low,No,Ahmedabad,Equipment,No,Yes,Yes
+TXN00689,2024-10-21 03:43:00,HR,ITC Ltd,EMP1487,491436.77,Credit Card,INV276394,Rejected,Low,Yes,Ahmedabad,Salary,No,No,Yes
+TXN00028,2024-07-30 00:11:00,Sales,Nestle India,EMP1411,336604.03,Credit Card,INV360222,Approved,Medium,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00772,2024-11-15 17:06:00,Procurement,Colgate,EMP1298,403905.97,Credit Card,INV993077,Approved,Low,No,Kolkata,Travel,No,No,No
+TXN00367,2024-08-12 23:00:00,HR,Reliance Industries,EMP1078,12288.8,Bank Transfer,INV540656,Approved,Medium,No,Ahmedabad,Software,No,No,Yes
+TXN00685,2024-09-10 09:45:00,Procurement,HCL Tech,EMP1415,169906.55,Cheque,INV320843,Pending,High,Yes,Chennai,Software,No,No,No
+TXN00554,2024-02-24 10:09:00,Finance,Reliance Industries,EMP1236,416196.12,Credit Card,INV576111,Approved,Low,No,Pune,Travel,No,No,Yes
+TXN00237,2024-06-18 03:02:00,Procurement,HCL Tech,EMP1087,462445.2,Bank Transfer,INV859620,Approved,Low,No,Bangalore,Equipment,No,No,Yes
+TXN00663,2024-07-10 15:25:00,Procurement,HUL,EMP1497,372386.02,Bank Transfer,INV422763,Approved,Low,No,Mumbai,Travel,No,No,No
+TXN00696,2024-09-16 09:23:00,IT,Tata Motors,EMP1217,488666.03,Credit Card,INV360400,Approved,High,Yes,Hyderabad,Software,No,No,No
+TXN00559,2024-03-20 15:33:00,IT,Reliance Industries,EMP1149,236768.49,Bank Transfer,INV940480,Approved,Low,Yes,Hyderabad,Infrastructure,No,No,No
+TXN00628,2024-12-21 15:45:00,Procurement,Emami Ltd,EMP1138,292687.41,Credit Card,INV929029,Approved,Low,No,Chennai,Miscellaneous,No,No,Yes
+TXN00228,2024-11-14 07:29:00,Sales,3M India,EMP1498,249213.53,Credit Card,INV304915,Approved,Low,No,Bangalore,Travel,No,No,Yes
+TXN00279,2024-01-24 09:18:00,Procurement,Bosch India,EMP1306,264438.23,Bank Transfer,INV820141,Rejected,Low,Yes,Ahmedabad,Equipment,No,No,No
+TXN00978,2024-12-10 23:57:00,HR,3M India,EMP1370,758225.73,UPI,INV114859,Pending,High,Yes,Kolkata,Miscellaneous,No,Yes,Yes
+TXN00500,2024-10-24 15:36:00,Procurement,Cipla Ltd,EMP1322,344526.85,UPI,INV958029,Approved,Low,No,Hyderabad,Salary,No,No,No
+TXN00612,2024-06-08 02:40:00,Finance,TCS,EMP1246,218814.73,Cash,INV935946,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00398,2024-07-20 21:08:00,Finance,ITC Ltd,EMP1267,480499.82,Credit Card,INV755910,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00011,2024-10-03 16:58:00,Finance,Johnson Controls,EMP1166,246859.83,Bank Transfer,INV480612,Pending,Medium,No,Mumbai,Salary,No,No,No
+TXN00122,2024-04-03 04:04:00,Procurement,Wipro Technologies,EMP1151,104787.54,Credit Card,INV143941,Approved,Low,No,Ahmedabad,Equipment,No,Yes,Yes
+TXN00396,2024-10-14 22:01:00,Finance,Dr Reddy Labs,EMP1473,267060.61,Bank Transfer,INV512509,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00992,2024-08-06 03:36:00,IT,TCS,EMP1084,434153.26,Bank Transfer,INV725843,Pending,High,Yes,Chennai,Consulting,No,Yes,Yes
+TXN00594,2024-09-29 05:01:00,Sales,Bajaj Auto,EMP1126,415696.82,Cheque,INV707705,Approved,Medium,No,Kolkata,Consulting,No,Yes,Yes
+TXN00861,2024-03-11 11:56:00,Sales,Colgate,EMP1341,9188932.19,Bank Transfer,INV190181,Pending,High,Yes,Bangalore,Software,No,Yes,Yes
+TXN00173,2024-08-28 10:58:00,HR,Godrej Industries,EMP1161,209895.43,Credit Card,INV332022,Approved,Low,No,Kolkata,Equipment,No,No,No
+TXN00235,2024-08-19 17:47:00,IT,Dr Reddy Labs,EMP1049,233711.41,Cheque,INV246583,Approved,Low,No,Chennai,Salary,No,No,No
+TXN00643,2024-11-12 23:27:00,Procurement,ITC Ltd,EMP1467,331244.62,Credit Card,INV200174,Approved,High,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00759,2024-12-14 04:28:00,Sales,Colgate,EMP1433,314192.8,Bank Transfer,INV187546,Approved,Low,No,Mumbai,Consulting,No,No,Yes
+TXN00834,2024-05-05 18:47:00,Procurement,Tata Motors,EMP1419,103850.38,Credit Card,INV362147,Approved,High,Yes,Delhi,Software,Yes,No,Yes
+TXN00309,2024-07-03 09:13:00,IT,Bosch India,EMP1244,498332.39,Cheque,INV780840,Approved,Medium,No,Chennai,Travel,No,No,No
+TXN00821,2024-06-04 23:21:00,Sales,TCS,EMP1493,107543.27,Bank Transfer,INV960556,Approved,High,Yes,Bangalore,Consulting,Yes,No,Yes
+TXN00951,2024-12-01 03:30:00,Sales,Britannia,EMP1048,216689.72,Bank Transfer,INV688247,Approved,High,Yes,Hyderabad,Software,No,Yes,Yes
+TXN00459,2024-07-15 22:52:00,Procurement,ICICI Bank,EMP1291,269975.52,UPI,INV449636,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00314,2024-01-24 22:54:00,Finance,Havells India,EMP1476,253904.29,Bank Transfer,INV819195,Approved,Low,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00061,2024-10-21 18:01:00,Sales,Honeywell Automation,EMP1021,382738.96,Bank Transfer,INV644173,Approved,High,Yes,Bangalore,Consulting,No,No,Yes
+TXN00306,2024-03-29 23:32:00,Finance,ITC Ltd,EMP1021,217111.37,Credit Card,INV236384,Approved,Medium,Yes,Ahmedabad,Software,No,No,Yes
+TXN00215,2024-03-09 20:43:00,HR,Tech Mahindra,EMP1272,283829.15,Credit Card,INV272088,Approved,Medium,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00949,2024-03-08 23:56:00,Sales,Reliance Industries,EMP1040,249751.83,Cheque,INV121133,Pending,Medium,Yes,Bangalore,Travel,No,No,No
+TXN00959,2024-08-05 23:10:00,IT,Jyothy Labs,EMP1072,611745.07,UPI,INV538459,Pending,High,Yes,Hyderabad,Travel,No,Yes,Yes
+TXN00597,2024-06-14 08:24:00,Finance,HCL Tech,EMP1104,123613.37,Credit Card,INV347978,Approved,Medium,No,Delhi,Equipment,No,Yes,Yes
+TXN00054,2024-01-28 17:18:00,HR,Eaton India,EMP1445,377632.13,Bank Transfer,INV112861,Approved,Low,No,Bangalore,Travel,No,No,Yes
+TXN00496,2024-08-14 09:10:00,Procurement,Nestle India,EMP1072,418578.21,Credit Card,INV250616,Approved,Low,No,Pune,Travel,No,No,No
+TXN00447,2024-11-05 05:58:00,IT,SBI,EMP1338,226093.32,Cheque,INV373943,Pending,Low,No,Mumbai,Equipment,No,No,Yes
+TXN00365,2024-11-16 07:33:00,IT,Biocon,EMP1146,325986.24,Bank Transfer,INV381880,Approved,Medium,No,Hyderabad,Travel,No,No,Yes
+TXN00358,2024-07-04 23:37:00,IT,Dabur India,EMP1212,87822.46,Cheque,INV231113,Approved,Medium,No,Delhi,Salary,No,No,Yes
+TXN00877,2024-08-27 23:29:00,Sales,Infosys Ltd,EMP1082,4683107.47,Credit Card,INV627649,Approved,High,Yes,Kolkata,Consulting,No,Yes,Yes
+TXN00568,2024-09-27 00:27:00,IT,Berger Paints,EMP1284,36437.73,Cheque,INV537400,Pending,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00014,2024-10-28 07:00:00,Finance,Eaton India,EMP1031,118326.18,Cheque,INV446479,Approved,Low,No,Chennai,Consulting,No,No,Yes
+TXN00512,2024-01-21 02:20:00,Procurement,ICICI Bank,EMP1198,145387.66,Credit Card,INV427162,Approved,Medium,No,Kolkata,Equipment,No,No,Yes
+TXN00825,2024-07-05 14:00:00,HR,Pidilite Industries,EMP1434,279479.95,Bank Transfer,INV122536,Approved,High,Yes,Bangalore,Miscellaneous,Yes,No,Yes
+TXN00791,2024-07-25 01:57:00,IT,Bosch India,EMP1021,172007.99,Cash,INV592718,Approved,Medium,No,Hyderabad,Equipment,No,No,Yes
+TXN00220,2024-01-08 08:13:00,Finance,HCL Tech,EMP1486,395698.55,Bank Transfer,INV759104,Approved,Medium,No,Kolkata,Travel,No,No,Yes
+TXN00263,2024-08-14 10:17:00,Procurement,Johnson Controls,EMP1331,49196.99,Bank Transfer,INV963994,Approved,Low,No,Pune,Infrastructure,No,Yes,No
+TXN00424,2024-03-30 03:23:00,Finance,L&T Construction,EMP1468,50839.04,Bank Transfer,INV937838,Approved,Low,No,Ahmedabad,Software,No,No,Yes
+TXN00544,2024-05-16 09:47:00,Procurement,ITC Ltd,EMP1067,218497.75,Bank Transfer,INV326037,Rejected,Low,Yes,Chennai,Miscellaneous,No,No,No
+TXN00558,2024-08-04 02:48:00,Procurement,Godrej Industries,EMP1315,97246.14,Credit Card,INV197462,Approved,Low,No,Chennai,Software,No,No,Yes
+TXN00427,2024-06-13 06:12:00,Sales,Biocon,EMP1273,162979.15,Bank Transfer,INV223365,Approved,Low,Yes,Delhi,Salary,No,No,Yes
+TXN00869,2024-10-31 03:52:00,Sales,Honeywell Automation,EMP1247,7179446.77,Credit Card,INV227341,Pending,High,Yes,Mumbai,Software,No,Yes,Yes
+TXN00501,2024-03-15 10:29:00,HR,Havells India,EMP1084,31179.72,Bank Transfer,INV767153,Rejected,Low,Yes,Hyderabad,Equipment,No,No,No
+TXN00240,2024-09-05 11:58:00,IT,Colgate,EMP1165,197248.73,Bank Transfer,INV434367,Approved,Low,No,Hyderabad,Travel,No,No,No
+TXN00172,2024-04-14 12:58:00,HR,ABB India,EMP1165,388879.37,Bank Transfer,INV659572,Approved,Low,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00045,2024-07-07 05:38:00,IT,ICICI Bank,EMP1399,410554.08,UPI,INV213349,Approved,High,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00070,2024-10-29 10:55:00,Finance,Dabur India,EMP1052,265345.79,Bank Transfer,INV857537,Approved,Medium,No,Delhi,Miscellaneous,No,No,No
+TXN00457,2024-01-18 02:04:00,IT,Cipla Ltd,EMP1398,225711.62,Cheque,INV256085,Approved,Low,Yes,Kolkata,Equipment,No,No,Yes
+TXN00290,2024-09-22 16:44:00,IT,HDFC Bank,EMP1222,332548.07,Bank Transfer,INV462544,Approved,Medium,Yes,Mumbai,Travel,No,No,Yes
+TXN00078,2024-06-07 14:02:00,IT,Godrej Industries,EMP1375,70048.84,Cheque,INV442589,Approved,Low,Yes,Pune,Consulting,No,No,No
+TXN00847,2024-08-20 18:50:00,Procurement,ITC Ltd,EMP1011,59467.58,Cash,INV970860,Approved,High,Yes,Delhi,Equipment,Yes,No,Yes
+TXN00604,2024-07-30 17:57:00,Procurement,HUL,EMP1276,45168.65,Cheque,INV782902,Approved,Low,No,Ahmedabad,Software,No,No,No
+TXN00536,2024-12-09 07:16:00,IT,ITC Ltd,EMP1159,321279.78,Credit Card,INV951706,Approved,Low,No,Ahmedabad,Miscellaneous,No,Yes,Yes
+TXN00438,2024-09-18 12:54:00,HR,Aurobindo Pharma,EMP1032,187765.33,Bank Transfer,INV155708,Approved,Low,No,Delhi,Infrastructure,No,No,No
+TXN00858,2024-09-07 09:00:00,Finance,HUL,EMP1264,376152.18,Credit Card,INV486999,Approved,High,Yes,Delhi,Software,Yes,No,Yes
+TXN00747,2024-08-28 23:08:00,IT,Asian Paints,EMP1241,208703.63,Bank Transfer,INV919354,Approved,Low,Yes,Mumbai,Software,No,Yes,Yes
+TXN00969,2024-08-29 22:19:00,Finance,Dr Reddy Labs,EMP1287,344935.0,Bank Transfer,INV840551,Pending,High,Yes,Hyderabad,Infrastructure,No,Yes,Yes
+TXN00587,2024-09-07 23:26:00,HR,SBI,EMP1259,67926.37,Credit Card,INV235670,Rejected,Low,Yes,Delhi,Software,No,No,Yes
+TXN00168,2024-10-11 15:03:00,Sales,ITC Ltd,EMP1403,264609.21,Credit Card,INV528090,Approved,Low,No,Ahmedabad,Salary,No,No,No
+TXN00362,2024-09-30 09:58:00,Sales,Emami Ltd,EMP1277,117428.58,Bank Transfer,INV422823,Approved,Low,No,Mumbai,Consulting,No,No,No
+TXN00046,2024-04-11 02:37:00,HR,HDFC Bank,EMP1357,387378.04,Cheque,INV729577,Pending,Medium,No,Mumbai,Equipment,No,No,Yes
+TXN00204,2024-04-25 17:18:00,HR,Marico Ltd,EMP1290,372546.53,Credit Card,INV676429,Approved,Low,No,Pune,Consulting,No,No,No
+TXN00287,2024-07-23 14:17:00,Procurement,Emami Ltd,EMP1410,213761.21,Cheque,INV274880,Approved,Medium,Yes,Bangalore,Travel,No,No,No
+TXN00879,2024-12-03 09:59:00,Procurement,Tech Mahindra,EMP1470,8294941.19,Bank Transfer,INV594668,Pending,High,Yes,Bangalore,Consulting,No,Yes,Yes
+TXN00153,2024-01-20 05:26:00,HR,Wipro Technologies,EMP1429,201512.31,Bank Transfer,INV885386,Rejected,High,Yes,Mumbai,Travel,No,No,Yes
+TXN00252,2024-11-10 15:45:00,Finance,Britannia,EMP1483,328549.41,Credit Card,INV555292,Approved,Low,No,Chennai,Miscellaneous,No,No,Yes
+TXN00069,2024-07-29 01:20:00,Procurement,ITC Ltd,EMP1198,494264.93,Credit Card,INV783691,Rejected,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00806,2024-03-28 10:43:00,IT,Infosys Ltd,EMP1378,353292.85,Cheque,INV676289,Approved,High,Yes,Pune,Equipment,Yes,No,Yes
+TXN00557,2024-08-09 23:51:00,Sales,Johnson Controls,EMP1068,182726.91,Bank Transfer,INV485306,Approved,Low,No,Ahmedabad,Equipment,No,No,Yes
+TXN00509,2024-09-13 23:39:00,HR,Colgate,EMP1292,38826.83,Cheque,INV900319,Approved,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00179,2024-12-16 02:41:00,Finance,Reliance Industries,EMP1208,192735.69,Credit Card,INV158840,Approved,Medium,Yes,Kolkata,Software,No,No,Yes
+TXN00480,2024-07-08 20:29:00,Finance,Eaton India,EMP1037,195515.24,Credit Card,INV656710,Approved,Low,No,Chennai,Infrastructure,No,No,Yes
+TXN00357,2024-07-26 02:05:00,HR,Pidilite Industries,EMP1117,160173.62,Credit Card,INV844943,Approved,Medium,No,Ahmedabad,Infrastructure,No,No,Yes
+TXN00904,2024-09-10 00:55:00,Procurement,ITC Ltd,EMP1228,209960.99,Bank Transfer,INV497753,Pending,Medium,Yes,Kolkata,Consulting,No,Yes,No
+TXN00886,2024-07-27 18:34:00,Finance,Pidilite Industries,EMP1095,7117709.04,Cheque,INV863660,Pending,High,Yes,Ahmedabad,Salary,No,Yes,Yes
+TXN00968,2024-03-25 00:55:00,Sales,Tech Mahindra,EMP1459,777381.55,Cash,INV636561,Pending,High,Yes,Kolkata,Software,No,Yes,Yes
+TXN00002,2024-09-15 19:01:00,IT,L&T Construction,EMP1367,326692.8,Bank Transfer,INV331148,Approved,Low,No,Bangalore,Software,No,No,Yes
+TXN00899,2024-03-07 19:25:00,Procurement,ICICI Bank,EMP1337,2576028.75,Bank Transfer,INV670054,Approved,High,Yes,Pune,Infrastructure,No,Yes,Yes
+TXN00928,2024-12-11 20:29:00,Procurement,Berger Paints,EMP1225,388575.05,UPI,INV392866,Pending,High,Yes,Delhi,Salary,No,No,No
+TXN00316,2024-11-27 11:00:00,IT,ABB India,EMP1073,66001.4,Cash,INV725637,Approved,Low,Yes,Chennai,Software,No,No,No
+TXN00844,2024-04-07 01:37:00,Sales,Berger Paints,EMP1232,139618.16,Bank Transfer,INV312559,Approved,High,Yes,Delhi,Salary,Yes,No,Yes
+TXN00377,2024-12-03 02:02:00,HR,Mahindra & Mahindra,EMP1448,20480.51,Bank Transfer,INV300924,Approved,Low,No,Ahmedabad,Consulting,No,No,Yes
+TXN00397,2024-09-13 08:51:00,Finance,Eaton India,EMP1132,439945.25,Cheque,INV954441,Rejected,High,Yes,Hyderabad,Salary,No,No,Yes
+TXN00441,2024-07-31 14:57:00,IT,Britannia,EMP1320,93999.7,Bank Transfer,INV678866,Pending,Low,No,Kolkata,Consulting,No,Yes,No
+TXN00281,2024-05-10 17:39:00,Finance,Johnson Controls,EMP1025,332675.11,Credit Card,INV120700,Approved,Low,No,Delhi,Consulting,No,No,No
+TXN00883,2024-02-07 14:48:00,Sales,Johnson Controls,EMP1324,8305095.16,Cheque,INV436759,Approved,High,Yes,Ahmedabad,Miscellaneous,No,Yes,Yes
+TXN00938,2024-09-21 23:47:00,HR,Infosys Ltd,EMP1223,240802.71,UPI,INV740907,Pending,Medium,Yes,Bangalore,Travel,No,No,No
+TXN00773,2024-08-28 03:22:00,Procurement,Nestle India,EMP1465,411106.9,Credit Card,INV877155,Approved,High,Yes,Chennai,Consulting,No,No,Yes
+TXN00105,2024-05-26 02:41:00,Finance,Schneider Electric,EMP1305,255998.57,Bank Transfer,INV681242,Rejected,Medium,Yes,Mumbai,Miscellaneous,No,No,Yes
+TXN00225,2024-02-22 18:43:00,Finance,Sun Pharma,EMP1380,256868.32,Cash,INV112884,Approved,Low,No,Bangalore,Salary,No,No,Yes
+TXN00089,2024-12-17 03:31:00,Procurement,Tech Mahindra,EMP1461,44991.29,Credit Card,INV168872,Approved,Medium,No,Pune,Miscellaneous,No,No,Yes
+TXN00906,2024-01-15 10:46:00,IT,Britannia,EMP1444,727191.41,Cash,INV946616,Pending,Medium,Yes,Kolkata,Software,No,No,No
+TXN00675,2024-12-17 21:55:00,Procurement,Colgate,EMP1212,331813.06,Cash,INV769068,Rejected,Medium,Yes,Mumbai,Software,No,No,Yes
+TXN00840,2024-08-18 16:11:00,HR,ICICI Bank,EMP1434,265515.96,Bank Transfer,INV176054,Approved,High,Yes,Kolkata,Consulting,Yes,No,Yes
+TXN00044,2024-11-29 01:48:00,Finance,Dr Reddy Labs,EMP1103,420418.28,Credit Card,INV350132,Approved,Medium,No,Chennai,Miscellaneous,No,No,Yes
+TXN00074,2024-09-11 18:09:00,HR,Marico Ltd,EMP1327,130718.78,Bank Transfer,INV109853,Pending,Low,No,Bangalore,Travel,No,No,Yes
+TXN00708,2024-09-30 23:22:00,HR,Bosch India,EMP1351,306550.84,Credit Card,INV276718,Approved,Medium,No,Chennai,Salary,No,Yes,Yes
+TXN00206,2024-02-14 14:55:00,Finance,Dr Reddy Labs,EMP1108,406297.84,Credit Card,INV467663,Pending,Medium,No,Bangalore,Infrastructure,No,No,No
+TXN00734,2024-01-07 19:06:00,Procurement,ITC Ltd,EMP1011,59467.58,Cash,INV970860,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00999,2024-11-26 03:08:00,HR,Wipro Technologies,EMP1109,276453.44,Cash,INV456082,Pending,High,Yes,Bangalore,Miscellaneous,No,Yes,Yes
+TXN00211,2024-03-07 18:54:00,Procurement,Pidilite Industries,EMP1458,342863.2,Cash,INV204411,Approved,Medium,Yes,Bangalore,Miscellaneous,No,No,Yes
+TXN00491,2024-07-26 15:49:00,HR,Marico Ltd,EMP1476,163507.88,Cash,INV874368,Approved,Low,No,Hyderabad,Miscellaneous,No,No,No
+TXN00914,2024-05-01 06:20:00,IT,Godrej Industries,EMP1425,1260635.47,Cheque,INV174861,Pending,High,Yes,Hyderabad,Salary,No,Yes,No
+TXN00329,2024-02-28 15:43:00,Procurement,Emami Ltd,EMP1108,297441.49,Credit Card,INV530859,Approved,Low,No,Bangalore,Salary,No,No,No
+TXN00774,2024-12-03 08:19:00,Procurement,Dr Reddy Labs,EMP1003,450592.69,Bank Transfer,INV116284,Approved,Medium,No,Pune,Equipment,No,No,Yes
+TXN00285,2024-02-21 08:41:00,HR,Marico Ltd,EMP1152,135741.89,Bank Transfer,INV952679,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00375,2024-08-18 09:52:00,Sales,Siemens India,EMP1188,229769.09,Credit Card,INV630535,Approved,Low,Yes,Pune,Infrastructure,No,No,Yes
+TXN00239,2024-03-11 13:12:00,IT,Dr Reddy Labs,EMP1323,497073.2,Bank Transfer,INV120478,Rejected,Medium,Yes,Pune,Miscellaneous,No,No,No
+TXN00552,2024-04-14 09:11:00,HR,Colgate,EMP1422,140031.82,Cheque,INV714127,Approved,High,Yes,Mumbai,Consulting,No,No,Yes
+TXN00606,2024-05-23 21:58:00,Sales,L&T Construction,EMP1047,409059.01,Credit Card,INV947684,Approved,Low,No,Pune,Travel,No,No,Yes
+TXN00508,2024-03-04 19:13:00,IT,L&T Construction,EMP1095,336947.32,Cash,INV252627,Pending,High,Yes,Pune,Equipment,No,No,Yes
+TXN00422,2024-04-16 18:43:00,Sales,Havells India,EMP1034,484958.58,Bank Transfer,INV132687,Approved,Low,No,Bangalore,Consulting,No,No,Yes
+TXN00505,2024-01-09 15:22:00,Sales,Godrej Industries,EMP1072,409434.16,Cheque,INV726680,Approved,High,Yes,Bangalore,Software,No,No,No
+TXN00563,2024-03-28 20:30:00,Procurement,HUL,EMP1445,330569.96,Credit Card,INV861173,Approved,Medium,No,Pune,Software,No,No,Yes
+TXN00871,2024-01-04 15:39:00,HR,ICICI Bank,EMP1035,2000267.84,Bank Transfer,INV226913,Pending,High,Yes,Chennai,Salary,No,Yes,Yes
+TXN00440,2024-07-03 13:09:00,Sales,Axis Bank,EMP1069,10743.36,Credit Card,INV250990,Approved,Low,No,Bangalore,Travel,No,No,No
+TXN00794,2024-01-03 22:55:00,Finance,Cipla Ltd,EMP1453,393547.3,Bank Transfer,INV419071,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00522,2024-12-04 07:15:00,HR,Asian Paints,EMP1304,47046.16,Credit Card,INV419723,Approved,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00193,2024-07-03 22:57:00,IT,Johnson Controls,EMP1327,457628.62,Bank Transfer,INV360289,Approved,Low,No,Mumbai,Consulting,No,No,Yes
+TXN00148,2024-06-30 21:49:00,Sales,Schneider Electric,EMP1248,100170.76,Bank Transfer,INV685196,Approved,High,Yes,Hyderabad,Infrastructure,No,No,Yes
+TXN00918,2024-10-16 16:36:00,IT,Nestle India,EMP1276,1139611.64,UPI,INV936979,Pending,Medium,Yes,Ahmedabad,Software,No,No,No
+TXN00430,2024-04-11 22:48:00,IT,Reliance Industries,EMP1499,461778.08,Credit Card,INV695370,Approved,Medium,No,Ahmedabad,Travel,No,No,Yes
+TXN00360,2024-07-18 09:14:00,HR,Aurobindo Pharma,EMP1227,315107.94,Bank Transfer,INV979249,Approved,Low,No,Pune,Infrastructure,No,No,No
+TXN00449,2024-02-29 01:10:00,Procurement,HUL,EMP1244,154176.73,Credit Card,INV888977,Rejected,Low,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00881,2024-01-24 00:54:00,HR,Sun Pharma,EMP1050,6989457.29,Bank Transfer,INV812321,Pending,High,Yes,Chennai,Infrastructure,No,Yes,Yes
+TXN00009,2024-08-27 16:16:00,IT,Infosys Ltd,EMP1349,361757.3,Credit Card,INV663054,Pending,Medium,No,Hyderabad,Miscellaneous,No,No,No
+TXN00112,2024-03-24 05:53:00,IT,Tata Motors,EMP1370,221648.34,Bank Transfer,INV809217,Approved,High,Yes,Hyderabad,Infrastructure,No,No,Yes
+TXN00145,2024-08-01 18:19:00,Finance,Johnson Controls,EMP1243,136437.57,Credit Card,INV913864,Approved,Low,Yes,Ahmedabad,Salary,No,No,Yes
+TXN00418,2024-05-28 06:00:00,Finance,TCS,EMP1239,314603.07,Bank Transfer,INV989265,Approved,Medium,No,Mumbai,Equipment,No,No,Yes
+TXN00096,2024-04-20 12:26:00,Procurement,Pidilite Industries,EMP1081,188176.28,Credit Card,INV914571,Rejected,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00562,2024-11-15 08:21:00,HR,Bajaj Auto,EMP1095,43719.16,UPI,INV371914,Pending,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00232,2024-07-20 22:53:00,Sales,Berger Paints,EMP1232,139618.16,Bank Transfer,INV312559,Approved,Medium,Yes,Delhi,Salary,No,No,Yes
+TXN00497,2024-10-29 12:05:00,Finance,Nestle India,EMP1328,457633.2,Bank Transfer,INV682813,Approved,Low,No,Chennai,Salary,No,No,No
+TXN00880,2024-12-28 16:49:00,IT,Cipla Ltd,EMP1067,7233265.29,Bank Transfer,INV708934,Approved,High,Yes,Kolkata,Travel,No,Yes,Yes
+TXN00403,2024-09-08 15:08:00,HR,L&T Construction,EMP1116,20953.63,Credit Card,INV115743,Rejected,High,Yes,Chennai,Software,No,No,Yes
+TXN00704,2024-01-05 21:32:00,HR,Axis Bank,EMP1074,192506.33,Credit Card,INV155432,Rejected,Medium,Yes,Pune,Software,No,No,Yes
+TXN00345,2024-10-27 00:30:00,Finance,Cipla Ltd,EMP1035,194423.26,Credit Card,INV331087,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00656,2024-11-02 14:47:00,Sales,Axis Bank,EMP1143,162181.64,Credit Card,INV141531,Approved,High,Yes,Hyderabad,Infrastructure,No,Yes,Yes
+TXN00811,2024-03-31 08:56:00,Sales,Reliance Industries,EMP1224,423019.76,Bank Transfer,INV717476,Approved,High,Yes,Pune,Salary,Yes,No,No
+TXN00726,2024-02-01 22:12:00,Procurement,Jyothy Labs,EMP1351,268572.58,Bank Transfer,INV178628,Approved,Medium,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00808,2024-06-19 14:09:00,IT,Infosys Ltd,EMP1345,9195.7,Bank Transfer,INV531225,Approved,High,Yes,Chennai,Software,Yes,No,Yes
+TXN00519,2024-01-17 05:35:00,Sales,Tata Motors,EMP1252,218187.15,Bank Transfer,INV507980,Approved,Low,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00155,2024-06-18 05:46:00,Procurement,Cipla Ltd,EMP1368,97168.54,Credit Card,INV929179,Approved,Medium,No,Kolkata,Infrastructure,No,No,Yes
+TXN00777,2024-06-14 06:05:00,Finance,TCS,EMP1224,10711.37,Credit Card,INV260483,Approved,Medium,No,Delhi,Consulting,No,No,Yes
+TXN00830,2024-09-22 23:40:00,HR,Axis Bank,EMP1309,278274.96,Credit Card,INV390870,Approved,High,Yes,Hyderabad,Equipment,Yes,No,No
+TXN00714,2024-08-03 23:21:00,Finance,Tata Motors,EMP1342,103501.0,Bank Transfer,INV797557,Rejected,Low,Yes,Ahmedabad,Consulting,No,No,Yes
+TXN00849,2024-01-05 15:59:00,HR,TCS,EMP1184,44340.34,Credit Card,INV240600,Approved,High,Yes,Pune,Salary,Yes,No,Yes
+TXN00736,2024-06-18 15:09:00,HR,HCL Tech,EMP1279,347560.39,Credit Card,INV229054,Approved,Low,No,Delhi,Consulting,No,No,No
+TXN00364,2024-01-04 17:23:00,HR,Nestle India,EMP1452,282474.41,Bank Transfer,INV271200,Approved,Medium,No,Chennai,Equipment,No,Yes,No
+TXN00699,2024-03-24 12:29:00,Finance,Cipla Ltd,EMP1347,215544.97,Credit Card,INV661936,Approved,Medium,No,Chennai,Software,No,No,Yes
+TXN00059,2024-11-27 04:58:00,Sales,SBI,EMP1037,34520.83,Credit Card,INV723948,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00853,2024-12-06 05:19:00,Finance,Britannia,EMP1254,192651.91,Bank Transfer,INV218733,Approved,High,Yes,Delhi,Equipment,Yes,No,Yes
+TXN00686,2024-04-01 15:46:00,Procurement,Asian Paints,EMP1418,331328.9,Cheque,INV122613,Approved,Low,No,Pune,Infrastructure,No,No,No
+TXN00048,2024-03-31 23:33:00,Sales,Schneider Electric,EMP1414,460210.74,Credit Card,INV587455,Approved,Medium,No,Chennai,Infrastructure,No,No,Yes
+TXN00560,2024-08-06 09:36:00,Finance,ABB India,EMP1040,459064.5,Bank Transfer,INV635456,Approved,Low,No,Hyderabad,Equipment,No,No,No
+TXN00763,2024-06-12 18:02:00,IT,ITC Ltd,EMP1032,468547.53,Bank Transfer,INV551002,Rejected,Low,Yes,Chennai,Infrastructure,No,Yes,Yes
+TXN00093,2024-01-27 09:38:00,Sales,Havells India,EMP1054,291069.67,Bank Transfer,INV788637,Approved,Medium,No,Pune,Travel,No,No,Yes
+TXN00824,2024-12-05 15:16:00,Finance,Infosys Ltd,EMP1368,265289.66,Credit Card,INV575747,Pending,High,Yes,Chennai,Salary,Yes,No,Yes
+TXN00478,2024-09-02 22:52:00,Finance,Dabur India,EMP1254,124053.19,Credit Card,INV113026,Approved,Low,No,Pune,Equipment,No,No,Yes
+TXN00623,2024-04-22 08:46:00,HR,Pidilite Industries,EMP1434,279479.95,Bank Transfer,INV122536,Approved,Low,Yes,Bangalore,Miscellaneous,No,No,Yes
+TXN00900,2024-04-22 14:45:00,Sales,Godrej Industries,EMP1400,6135543.81,Credit Card,INV356068,Pending,High,Yes,Hyderabad,Equipment,No,Yes,Yes
+TXN00036,2024-03-16 20:44:00,Finance,HDFC Bank,EMP1399,215447.37,Bank Transfer,INV829716,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00809,2024-01-07 21:30:00,HR,Sun Pharma,EMP1373,492515.36,Bank Transfer,INV122977,Approved,High,Yes,Mumbai,Miscellaneous,Yes,No,No
+TXN00766,2024-03-23 22:27:00,Sales,Honeywell Automation,EMP1200,412392.77,Credit Card,INV726134,Approved,Medium,No,Bangalore,Equipment,No,No,Yes
+TXN00859,2024-08-08 11:42:00,IT,Aurobindo Pharma,EMP1238,317697.53,Bank Transfer,INV275715,Approved,High,Yes,Kolkata,Software,Yes,No,Yes
+TXN00645,2024-05-09 06:32:00,Finance,Marico Ltd,EMP1014,41231.77,Credit Card,INV886155,Approved,Low,No,Chennai,Miscellaneous,No,Yes,Yes
+TXN00467,2024-11-19 19:24:00,HR,TCS,EMP1451,246048.9,Cash,INV288128,Rejected,Medium,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00617,2024-06-30 13:30:00,IT,Dabur India,EMP1096,125360.48,Credit Card,INV163429,Approved,Low,No,Pune,Equipment,No,No,Yes
+TXN00170,2024-02-17 17:46:00,HR,HCL Tech,EMP1138,191698.15,Credit Card,INV141468,Pending,Low,No,Chennai,Miscellaneous,No,No,Yes
+TXN00618,2024-10-04 04:09:00,Procurement,Asian Paints,EMP1309,174735.66,Bank Transfer,INV108474,Approved,Medium,Yes,Chennai,Consulting,No,No,Yes
+TXN00140,2024-05-03 06:37:00,Sales,HCL Tech,EMP1026,144271.39,Credit Card,INV983791,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00208,2024-07-29 01:17:00,HR,Axis Bank,EMP1128,77390.5,Bank Transfer,INV359579,Pending,Medium,No,Hyderabad,Software,No,No,Yes
+TXN00523,2024-08-04 18:32:00,Procurement,Biocon,EMP1011,349499.45,Credit Card,INV431889,Approved,Low,No,Ahmedabad,Travel,No,No,Yes
+TXN00063,2024-01-19 14:05:00,Sales,Cipla Ltd,EMP1166,62381.19,Credit Card,INV639593,Pending,Low,No,Ahmedabad,Miscellaneous,No,Yes,No
+TXN00916,2024-03-23 11:02:00,Sales,SBI,EMP1467,948157.04,Cash,INV738622,Pending,Medium,Yes,Pune,Consulting,No,No,No
+TXN00866,2024-06-30 13:29:00,Procurement,Nestle India,EMP1237,2207547.04,Bank Transfer,INV904016,Pending,High,Yes,Bangalore,Consulting,No,Yes,Yes
+TXN00665,2024-08-05 23:15:00,HR,Emami Ltd,EMP1018,461126.93,Bank Transfer,INV840880,Approved,Medium,No,Hyderabad,Consulting,No,No,Yes
+TXN00389,2024-02-13 12:32:00,Procurement,Axis Bank,EMP1391,71761.03,Credit Card,INV611559,Approved,Low,No,Chennai,Salary,No,Yes,No
+TXN00147,2024-11-09 15:55:00,Finance,Axis Bank,EMP1266,107634.14,Bank Transfer,INV794395,Approved,Low,No,Ahmedabad,Consulting,No,No,Yes
+TXN00534,2024-04-19 08:28:00,Procurement,Cipla Ltd,EMP1442,296793.07,Bank Transfer,INV492906,Approved,Low,No,Ahmedabad,Software,No,No,Yes
+TXN00539,2024-10-07 23:20:00,Procurement,TCS,EMP1391,30788.92,Credit Card,INV760766,Approved,Medium,Yes,Chennai,Software,No,No,Yes
+TXN00735,2024-11-17 19:00:00,Finance,HDFC Bank,EMP1278,369385.1,Bank Transfer,INV841821,Approved,Low,No,Ahmedabad,Infrastructure,No,No,Yes
+TXN00319,2024-02-21 09:39:00,Finance,L&T Construction,EMP1163,245501.31,Bank Transfer,INV791454,Approved,Low,No,Pune,Infrastructure,No,No,No
+TXN00615,2024-07-14 12:06:00,IT,Nestle India,EMP1120,432968.46,Credit Card,INV754319,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00740,2024-12-04 11:59:00,Sales,Tech Mahindra,EMP1404,6078.49,Cheque,INV255863,Pending,Low,Yes,Ahmedabad,Software,No,No,No
+TXN00188,2024-05-06 23:40:00,Procurement,Johnson Controls,EMP1316,101796.37,Bank Transfer,INV419457,Approved,Low,No,Kolkata,Infrastructure,No,No,Yes
+TXN00199,2024-05-22 22:51:00,Finance,Honeywell Automation,EMP1053,400753.67,Bank Transfer,INV483561,Approved,Low,No,Ahmedabad,Consulting,No,No,Yes
+TXN00336,2024-12-01 06:44:00,Sales,Nestle India,EMP1186,57758.69,Bank Transfer,INV713805,Approved,Medium,No,Pune,Consulting,No,No,Yes
+TXN00781,2024-12-17 13:24:00,Sales,Eaton India,EMP1466,228184.87,Bank Transfer,INV413267,Approved,Low,No,Mumbai,Travel,No,No,No
+TXN00464,2024-06-06 03:29:00,IT,Tata Motors,EMP1428,297566.03,Cheque,INV211496,Approved,Low,No,Delhi,Infrastructure,No,No,Yes
+TXN00596,2024-05-10 02:09:00,Sales,Nestle India,EMP1348,88749.57,Credit Card,INV441092,Approved,Medium,No,Delhi,Equipment,No,No,Yes
+TXN00359,2024-02-22 03:04:00,Procurement,ABB India,EMP1028,18050.63,Bank Transfer,INV902156,Rejected,Low,Yes,Bangalore,Travel,No,No,Yes
+TXN00798,2024-10-29 16:32:00,Sales,Asian Paints,EMP1363,229740.87,Bank Transfer,INV629018,Approved,Low,No,Kolkata,Miscellaneous,No,No,No
+TXN00593,2024-11-25 17:05:00,HR,Schneider Electric,EMP1278,290543.51,Bank Transfer,INV697944,Approved,Medium,No,Mumbai,Travel,No,No,No
+TXN00113,2024-08-17 07:34:00,HR,Asian Paints,EMP1495,405268.82,Bank Transfer,INV975679,Approved,Medium,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00095,2024-12-25 09:58:00,Sales,Havells India,EMP1004,94795.75,Bank Transfer,INV789275,Approved,Low,No,Mumbai,Travel,No,No,No
+TXN00713,2024-02-25 14:42:00,Procurement,Tata Motors,EMP1072,180100.2,Bank Transfer,INV476687,Pending,Medium,Yes,Hyderabad,Travel,No,No,Yes
+TXN00071,2024-05-15 10:39:00,Procurement,Reliance Industries,EMP1437,167639.97,Credit Card,INV659543,Approved,Low,No,Ahmedabad,Infrastructure,No,No,No
+TXN00897,2024-01-30 07:14:00,Finance,3M India,EMP1006,3703444.15,Credit Card,INV946971,Pending,High,Yes,Mumbai,Infrastructure,No,Yes,Yes
+TXN00317,2024-06-25 06:26:00,IT,SBI,EMP1083,96076.4,Credit Card,INV365018,Approved,Low,No,Mumbai,Infrastructure,No,No,Yes
+TXN00015,2024-10-19 18:30:00,HR,Emami Ltd,EMP1414,206494.68,Bank Transfer,INV790993,Approved,Low,No,Mumbai,Software,No,No,Yes
+TXN00026,2024-12-19 04:34:00,Finance,Godrej Industries,EMP1299,278499.92,Bank Transfer,INV143860,Approved,Medium,No,Mumbai,Equipment,No,No,Yes
+TXN00016,2024-11-26 03:03:00,Procurement,Pidilite Industries,EMP1410,431527.91,Bank Transfer,INV299448,Approved,Low,No,Ahmedabad,Salary,No,No,Yes
+TXN00882,2024-05-01 03:57:00,HR,ITC Ltd,EMP1387,9299897.95,Cheque,INV164934,Pending,High,Yes,Delhi,Travel,No,Yes,Yes
+TXN00270,2024-11-07 09:19:00,Finance,Emami Ltd,EMP1033,171460.41,Bank Transfer,INV440930,Pending,Low,No,Hyderabad,Salary,No,No,No
+TXN00994,2024-08-23 01:42:00,HR,Mahindra & Mahindra,EMP1155,280645.06,Cash,INV347656,Pending,High,Yes,Kolkata,Travel,No,Yes,Yes
+TXN00277,2024-02-15 04:39:00,Procurement,Eaton India,EMP1220,204679.77,UPI,INV501936,Approved,Low,No,Mumbai,Equipment,No,No,Yes
+TXN00064,2024-09-22 11:39:00,Procurement,Eaton India,EMP1227,381195.32,Bank Transfer,INV675898,Approved,Low,No,Ahmedabad,Travel,No,Yes,Yes
+TXN00477,2024-10-23 07:57:00,IT,SBI,EMP1468,288981.89,Cash,INV146372,Approved,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00181,2024-01-17 05:59:00,Sales,TCS,EMP1493,107543.27,Bank Transfer,INV960556,Approved,Low,Yes,Bangalore,Consulting,No,No,Yes
+TXN00233,2024-06-09 13:07:00,IT,Havells India,EMP1494,386316.69,Bank Transfer,INV585854,Approved,Low,No,Hyderabad,Infrastructure,No,No,Yes
+TXN00662,2024-08-20 09:24:00,IT,Johnson Controls,EMP1247,40610.13,Bank Transfer,INV592053,Approved,High,Yes,Mumbai,Travel,No,No,No
+TXN00363,2024-03-10 11:18:00,Procurement,Siemens India,EMP1005,345446.13,Bank Transfer,INV892170,Approved,Low,No,Hyderabad,Consulting,No,No,Yes
+TXN00693,2024-11-26 22:27:00,Sales,Honeywell Automation,EMP1065,54223.42,Bank Transfer,INV933853,Approved,Low,No,Kolkata,Consulting,No,No,Yes
+TXN00200,2024-06-09 19:24:00,IT,HUL,EMP1301,61544.88,Bank Transfer,INV580101,Approved,Medium,No,Hyderabad,Consulting,No,No,Yes
+TXN00980,2024-04-11 03:32:00,HR,Eaton India,EMP1383,681593.02,Cash,INV426279,Approved,High,Yes,Pune,Travel,No,Yes,Yes
+TXN00407,2024-05-30 19:58:00,Finance,Bosch India,EMP1463,75408.61,Cheque,INV573639,Approved,Low,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00391,2024-11-11 14:39:00,HR,Dabur India,EMP1023,462485.54,Bank Transfer,INV818651,Approved,Medium,No,Delhi,Software,No,Yes,No
+TXN00121,2024-05-03 23:42:00,Finance,3M India,EMP1377,379556.07,Bank Transfer,INV469412,Approved,Medium,No,Ahmedabad,Software,No,No,Yes
+TXN00521,2024-01-24 04:53:00,Sales,Havells India,EMP1415,372318.28,Cash,INV755520,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00185,2024-07-03 03:05:00,Finance,Asian Paints,EMP1228,183159.16,Bank Transfer,INV238943,Approved,Low,No,Kolkata,Travel,No,Yes,Yes
+TXN00775,2024-10-19 13:15:00,IT,HUL,EMP1099,310052.62,Bank Transfer,INV154086,Pending,Low,Yes,Kolkata,Software,No,No,Yes
+TXN00123,2024-11-27 06:18:00,Sales,HCL Tech,EMP1444,329587.03,Bank Transfer,INV938171,Approved,Medium,No,Kolkata,Equipment,No,No,Yes
+TXN00801,2024-05-27 22:38:00,Procurement,Cipla Ltd,EMP1368,97168.54,Credit Card,INV929179,Approved,High,Yes,Kolkata,Infrastructure,Yes,No,Yes
+TXN00860,2024-01-01 01:16:00,IT,Tata Motors,EMP1129,479722.18,Credit Card,INV761519,Approved,High,Yes,Bangalore,Equipment,Yes,No,Yes
+TXN00862,2024-04-10 13:37:00,Finance,Aurobindo Pharma,EMP1113,2241025.17,Cheque,INV360810,Pending,High,Yes,Kolkata,Miscellaneous,No,Yes,Yes
+TXN00582,2024-11-21 05:01:00,Finance,Siemens India,EMP1304,133051.64,Cheque,INV418706,Approved,High,Yes,Delhi,Software,No,Yes,Yes
+TXN00039,2024-10-03 02:08:00,HR,Sun Pharma,EMP1197,348505.16,Credit Card,INV167348,Approved,Low,No,Mumbai,Salary,No,No,Yes
+TXN00055,2024-09-01 03:52:00,Finance,HUL,EMP1252,41670.67,Credit Card,INV156213,Approved,Medium,No,Delhi,Salary,No,No,Yes
+TXN00930,2024-06-12 05:09:00,Finance,Bajaj Auto,EMP1221,850832.21,UPI,INV745374,Pending,Medium,Yes,Pune,Equipment,No,Yes,No
+TXN00956,2024-06-13 22:36:00,Procurement,Infosys Ltd,EMP1138,567798.0,UPI,INV933298,Pending,High,Yes,Ahmedabad,Equipment,No,Yes,Yes
+TXN00347,2024-12-15 06:31:00,HR,Dr Reddy Labs,EMP1377,124817.98,Bank Transfer,INV340341,Approved,Low,No,Bangalore,Infrastructure,No,No,Yes
+TXN00386,2024-01-20 23:51:00,IT,ITC Ltd,EMP1041,391160.34,Cheque,INV450632,Approved,Medium,No,Delhi,Infrastructure,No,No,Yes
+TXN00103,2024-04-11 05:38:00,HR,Tech Mahindra,EMP1091,475889.61,Credit Card,INV586490,Pending,Medium,No,Pune,Infrastructure,No,No,Yes
+TXN00518,2024-09-15 08:34:00,Sales,Siemens India,EMP1280,13746.84,Credit Card,INV551313,Pending,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00196,2024-03-13 11:19:00,Sales,Marico Ltd,EMP1402,107399.33,Bank Transfer,INV599292,Approved,Medium,No,Delhi,Equipment,No,Yes,No
+TXN00219,2024-01-07 11:59:00,Sales,Axis Bank,EMP1199,431102.93,Credit Card,INV483162,Approved,Low,No,Delhi,Travel,No,No,Yes
+TXN00988,2024-08-27 02:20:00,IT,ITC Ltd,EMP1338,491293.09,Cash,INV438031,Pending,High,Yes,Pune,Infrastructure,No,Yes,Yes
+TXN00984,2024-04-25 01:17:00,HR,Aurobindo Pharma,EMP1133,573168.62,Bank Transfer,INV196901,Pending,High,Yes,Pune,Equipment,No,Yes,Yes
+TXN00510,2024-10-02 00:46:00,Finance,Bajaj Auto,EMP1472,254576.66,Credit Card,INV484264,Approved,Low,No,Delhi,Salary,No,No,Yes
+TXN00529,2024-06-12 02:40:00,HR,Nestle India,EMP1137,412736.8,Credit Card,INV368903,Approved,Low,No,Bangalore,Salary,No,Yes,Yes
+TXN00913,2024-05-11 00:43:00,Sales,Siemens India,EMP1368,210389.64,Bank Transfer,INV466718,Pending,Medium,Yes,Ahmedabad,Travel,No,Yes,No
+TXN00719,2024-03-15 13:01:00,IT,L&T Construction,EMP1047,432853.3,Bank Transfer,INV650472,Approved,Medium,No,Pune,Miscellaneous,No,No,No
+TXN00729,2024-01-27 20:15:00,HR,Siemens India,EMP1060,5692.98,Bank Transfer,INV734555,Rejected,Low,Yes,Hyderabad,Software,No,No,Yes
+TXN00010,2024-01-02 23:56:00,Sales,Colgate,EMP1391,93432.68,Cheque,INV755674,Approved,Medium,No,Bangalore,Equipment,No,No,Yes
+TXN00350,2024-03-30 14:07:00,IT,Marico Ltd,EMP1162,346159.22,Cash,INV320989,Approved,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00370,2024-06-08 10:10:00,Finance,ABB India,EMP1267,65460.05,Bank Transfer,INV413328,Approved,Medium,No,Chennai,Travel,No,No,Yes
+TXN00600,2024-08-04 17:28:00,Finance,Infosys Ltd,EMP1417,235002.77,Cheque,INV403300,Approved,Low,Yes,Ahmedabad,Equipment,No,No,Yes
+TXN00926,2024-02-07 23:58:00,Sales,Dabur India,EMP1467,701980.88,Cheque,INV876677,Pending,High,Yes,Hyderabad,Infrastructure,No,No,No
+TXN00210,2024-11-21 21:44:00,Sales,Tech Mahindra,EMP1408,269540.11,Bank Transfer,INV550513,Pending,Low,No,Hyderabad,Equipment,No,No,Yes
+TXN00718,2024-02-22 22:46:00,IT,Schneider Electric,EMP1093,98391.15,Cheque,INV759457,Approved,Low,Yes,Mumbai,Equipment,No,No,Yes
+TXN00207,2024-04-15 01:36:00,Sales,Siemens India,EMP1144,300444.55,Bank Transfer,INV838253,Approved,Low,No,Delhi,Salary,No,No,Yes
+TXN00003,2024-05-22 04:13:00,Sales,HDFC Bank,EMP1048,193064.01,Bank Transfer,INV460663,Approved,Medium,No,Delhi,Miscellaneous,No,Yes,Yes
+TXN00538,2024-02-11 15:30:00,Procurement,Pidilite Industries,EMP1368,214071.17,Cheque,INV205272,Pending,Medium,No,Pune,Miscellaneous,No,No,Yes
+TXN00202,2024-11-21 17:44:00,HR,ABB India,EMP1086,247372.8,Bank Transfer,INV429861,Pending,Medium,No,Mumbai,Miscellaneous,No,No,No
+TXN00218,2024-04-06 23:25:00,Sales,HCL Tech,EMP1402,449466.72,UPI,INV618927,Approved,Low,No,Delhi,Consulting,No,No,Yes
+TXN00320,2024-08-07 05:00:00,Sales,Dr Reddy Labs,EMP1403,114655.22,Credit Card,INV557309,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00676,2024-01-24 23:20:00,Procurement,Sun Pharma,EMP1311,244845.39,Credit Card,INV932527,Approved,Low,No,Ahmedabad,Software,No,No,Yes
+TXN00162,2024-08-04 11:44:00,Finance,Siemens India,EMP1031,467618.49,Bank Transfer,INV595002,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00608,2024-12-10 21:38:00,IT,Mahindra & Mahindra,EMP1034,296141.47,Credit Card,INV233620,Approved,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00638,2024-06-17 18:28:00,Sales,Reliance Industries,EMP1088,56635.02,Credit Card,INV133616,Pending,Medium,Yes,Chennai,Travel,No,No,Yes
+TXN00318,2024-10-08 14:41:00,IT,Tech Mahindra,EMP1149,337484.2,Bank Transfer,INV307007,Approved,Low,No,Bangalore,Software,No,No,No
+TXN00075,2024-06-25 18:19:00,Procurement,Cipla Ltd,EMP1234,423425.44,Bank Transfer,INV503380,Pending,Low,No,Pune,Consulting,No,No,Yes
+TXN00190,2024-11-20 15:36:00,HR,Berger Paints,EMP1193,143748.57,Credit Card,INV482746,Approved,Low,No,Bangalore,Software,No,No,No
+TXN00356,2024-08-16 02:24:00,IT,Aurobindo Pharma,EMP1238,317697.53,Bank Transfer,INV275715,Approved,High,Yes,Kolkata,Software,No,No,Yes
+TXN00371,2024-08-10 10:00:00,HR,Biocon,EMP1300,64226.55,Credit Card,INV109363,Rejected,Low,Yes,Ahmedabad,Software,No,No,Yes
+TXN00709,2024-03-09 16:22:00,Finance,Britannia,EMP1254,192651.91,Bank Transfer,INV218733,Approved,Medium,No,Delhi,Equipment,No,No,Yes
+TXN00118,2024-11-07 16:27:00,Finance,Aurobindo Pharma,EMP1122,154069.84,Cash,INV540218,Approved,Medium,Yes,Ahmedabad,Consulting,No,No,No
+TXN00138,2024-06-12 07:29:00,Finance,Biocon,EMP1231,127719.85,Bank Transfer,INV404309,Rejected,Medium,Yes,Kolkata,Salary,No,No,Yes
+TXN00214,2024-06-24 03:55:00,Procurement,Axis Bank,EMP1245,40060.01,Bank Transfer,INV866260,Pending,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00243,2024-12-24 11:36:00,IT,SBI,EMP1289,474442.41,Cheque,INV949767,Pending,Low,No,Ahmedabad,Travel,No,No,No
+TXN00679,2024-01-15 05:59:00,Sales,ITC Ltd,EMP1393,143777.13,Credit Card,INV798281,Approved,Medium,Yes,Bangalore,Consulting,No,No,Yes
+TXN00167,2024-12-10 10:15:00,Sales,SBI,EMP1339,263019.27,Bank Transfer,INV388519,Approved,High,Yes,Bangalore,Software,No,No,No
+TXN00910,2024-01-09 14:00:00,Procurement,Wipro Technologies,EMP1495,634276.93,UPI,INV328424,Pending,High,Yes,Delhi,Equipment,No,No,No
+TXN00945,2024-03-07 19:34:00,Finance,TCS,EMP1411,661903.97,Credit Card,INV469833,Pending,High,Yes,Delhi,Software,No,Yes,No
+TXN00088,2024-08-19 16:14:00,IT,Wipro Technologies,EMP1373,392697.36,Cheque,INV646781,Approved,Medium,Yes,Ahmedabad,Infrastructure,No,No,No
+TXN00936,2024-01-20 13:06:00,IT,Berger Paints,EMP1098,1285931.91,Cash,INV765318,Pending,High,Yes,Chennai,Salary,No,No,No
+TXN00099,2024-06-16 03:00:00,Procurement,Britannia,EMP1090,68946.92,Bank Transfer,INV341288,Approved,Medium,No,Delhi,Miscellaneous,No,No,Yes
+TXN00741,2024-09-01 02:07:00,IT,Britannia,EMP1492,364720.33,Bank Transfer,INV438746,Rejected,Low,Yes,Kolkata,Equipment,No,No,Yes
+TXN00776,2024-06-11 16:10:00,Procurement,Sun Pharma,EMP1051,356462.31,Bank Transfer,INV224122,Approved,Medium,No,Hyderabad,Infrastructure,No,No,No
+TXN00080,2024-12-11 12:54:00,IT,Godrej Industries,EMP1047,396387.57,Cash,INV662636,Approved,Low,No,Hyderabad,Consulting,No,No,No
+TXN00293,2024-02-22 12:26:00,Finance,ABB India,EMP1282,5084.01,Bank Transfer,INV733553,Rejected,Medium,Yes,Chennai,Software,No,No,No
+TXN00108,2024-11-19 20:21:00,Finance,Pidilite Industries,EMP1049,281191.79,Bank Transfer,INV364236,Approved,Medium,No,Bangalore,Equipment,No,No,Yes
+TXN00888,2024-08-06 20:24:00,Finance,Honeywell Automation,EMP1041,2953942.88,Bank Transfer,INV205814,Approved,High,Yes,Chennai,Travel,No,Yes,Yes
+TXN00053,2024-05-21 23:37:00,IT,Johnson Controls,EMP1145,490352.76,Cheque,INV410636,Approved,Low,Yes,Bangalore,Equipment,No,Yes,Yes
+TXN00242,2024-04-22 18:54:00,Procurement,Havells India,EMP1479,420415.01,Cheque,INV284654,Approved,Low,No,Pune,Consulting,No,Yes,Yes
+TXN00272,2024-01-19 18:45:00,IT,L&T Construction,EMP1176,364642.19,Bank Transfer,INV660605,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00590,2024-09-07 00:07:00,IT,Havells India,EMP1035,435861.14,Bank Transfer,INV700896,Approved,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00157,2024-10-20 00:16:00,Sales,Dr Reddy Labs,EMP1032,335554.13,Bank Transfer,INV267475,Approved,Low,No,Hyderabad,Software,No,No,Yes
+TXN00257,2024-09-24 13:34:00,Procurement,Honeywell Automation,EMP1452,121642.8,Bank Transfer,INV513982,Rejected,Medium,Yes,Bangalore,Travel,No,No,No
+TXN00158,2024-05-31 11:39:00,HR,Sun Pharma,EMP1491,71116.55,Bank Transfer,INV884056,Rejected,Low,Yes,Ahmedabad,Infrastructure,No,No,No
+TXN00110,2024-06-17 04:42:00,IT,Reliance Industries,EMP1331,336875.74,Bank Transfer,INV119116,Approved,Low,No,Ahmedabad,Salary,No,No,Yes
+TXN00967,2024-10-30 23:17:00,IT,Emami Ltd,EMP1108,176074.54,Cash,INV326957,Approved,High,Yes,Bangalore,Salary,No,Yes,Yes
+TXN00973,2024-08-14 01:33:00,Finance,3M India,EMP1159,296338.66,Bank Transfer,INV366086,Pending,High,Yes,Mumbai,Consulting,No,Yes,Yes
+TXN00483,2024-04-25 10:22:00,Sales,Colgate,EMP1349,214349.92,Bank Transfer,INV490923,Approved,Low,No,Delhi,Miscellaneous,No,No,No
+TXN00342,2024-07-26 18:12:00,IT,Infosys Ltd,EMP1378,353292.85,Cheque,INV676289,Approved,Medium,No,Pune,Equipment,No,No,Yes
+TXN00445,2024-05-30 09:10:00,Finance,Johnson Controls,EMP1384,155515.07,Credit Card,INV373094,Approved,Low,No,Mumbai,Software,No,No,No
+TXN00607,2024-12-26 22:38:00,HR,Infosys Ltd,EMP1101,492210.45,Credit Card,INV216335,Pending,Low,No,Chennai,Software,No,No,Yes
+TXN00492,2024-10-20 21:09:00,IT,Dabur India,EMP1174,346127.76,Credit Card,INV142027,Approved,Low,No,Kolkata,Consulting,No,No,Yes
+TXN00517,2024-12-13 10:09:00,Sales,Schneider Electric,EMP1320,52685.15,Bank Transfer,INV888119,Approved,Low,No,Hyderabad,Software,No,No,No
+TXN00049,2024-05-22 14:15:00,Procurement,Honeywell Automation,EMP1313,335753.29,Bank Transfer,INV618317,Pending,Low,No,Hyderabad,Equipment,No,No,No
+TXN00976,2024-07-08 23:39:00,HR,Mahindra & Mahindra,EMP1446,688207.33,Cash,INV539953,Pending,High,Yes,Delhi,Travel,No,Yes,Yes
+TXN00222,2024-05-02 01:15:00,Finance,Britannia,EMP1060,229419.06,Credit Card,INV424314,Approved,Medium,No,Mumbai,Software,No,No,Yes
+TXN00644,2024-11-17 17:18:00,Finance,Bajaj Auto,EMP1466,249276.35,UPI,INV679677,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00092,2024-02-13 02:27:00,Finance,Godrej Industries,EMP1416,69407.15,Bank Transfer,INV688866,Approved,Medium,No,Kolkata,Infrastructure,No,No,Yes
+TXN00084,2024-04-21 14:28:00,HR,Godrej Industries,EMP1051,490559.22,Bank Transfer,INV776149,Approved,Low,No,Delhi,Infrastructure,No,No,Yes
+TXN00254,2024-12-04 20:38:00,Procurement,L&T Construction,EMP1050,17739.17,Bank Transfer,INV405986,Rejected,Low,Yes,Delhi,Equipment,No,No,Yes
+TXN00712,2024-03-19 13:07:00,Procurement,Infosys Ltd,EMP1080,385876.57,Bank Transfer,INV593563,Approved,Low,No,Bangalore,Consulting,No,No,No
+TXN00261,2024-09-05 18:38:00,Procurement,Wipro Technologies,EMP1089,141330.0,Bank Transfer,INV738221,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00707,2024-08-05 21:32:00,HR,Emami Ltd,EMP1255,259930.69,UPI,INV658271,Approved,Low,No,Mumbai,Software,No,No,Yes
+TXN00666,2024-12-14 04:16:00,HR,Johnson Controls,EMP1297,476130.23,Cheque,INV112936,Approved,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00818,2024-05-28 07:33:00,Finance,ITC Ltd,EMP1075,31267.17,Bank Transfer,INV379947,Pending,High,Yes,Hyderabad,Salary,Yes,No,Yes
+TXN00843,2024-08-01 08:19:00,Finance,Emami Ltd,EMP1227,317535.63,Credit Card,INV720148,Approved,High,Yes,Ahmedabad,Travel,Yes,Yes,Yes
+TXN00721,2024-12-04 23:20:00,HR,Aurobindo Pharma,EMP1242,143678.88,Credit Card,INV551839,Approved,High,Yes,Pune,Equipment,No,No,Yes
+TXN00226,2024-01-19 17:51:00,Procurement,Sun Pharma,EMP1165,127890.28,Cheque,INV435476,Approved,Low,No,Mumbai,Salary,No,No,No
+TXN00767,2024-06-11 00:09:00,Procurement,SBI,EMP1256,432829.17,Bank Transfer,INV806682,Approved,Low,Yes,Ahmedabad,Infrastructure,No,No,Yes
+TXN00490,2024-05-13 11:11:00,HR,ABB India,EMP1363,22171.1,Bank Transfer,INV460549,Approved,Low,No,Hyderabad,Travel,No,No,No
+TXN00258,2024-08-17 05:10:00,HR,L&T Construction,EMP1065,26124.57,Bank Transfer,INV816308,Approved,High,Yes,Bangalore,Infrastructure,No,No,Yes
+TXN00288,2024-10-29 15:51:00,IT,Dabur India,EMP1093,307604.96,Credit Card,INV741055,Approved,Medium,No,Bangalore,Miscellaneous,No,No,No
+TXN00567,2024-12-31 13:26:00,Procurement,3M India,EMP1306,366883.88,UPI,INV138815,Approved,Low,No,Ahmedabad,Salary,No,No,No
+TXN00141,2024-05-15 23:23:00,Procurement,Godrej Industries,EMP1024,203287.9,Credit Card,INV304110,Approved,Low,No,Ahmedabad,Infrastructure,No,No,Yes
+TXN00680,2024-09-08 02:50:00,Sales,Sun Pharma,EMP1478,290106.18,Cheque,INV167808,Approved,Low,No,Kolkata,Software,No,No,Yes
+TXN00738,2024-02-27 15:10:00,Finance,Sun Pharma,EMP1053,478450.91,Bank Transfer,INV179995,Approved,Low,No,Delhi,Travel,No,No,No
+TXN00273,2024-03-28 21:56:00,IT,Mahindra & Mahindra,EMP1151,53313.52,Bank Transfer,INV371216,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00966,2024-04-20 02:11:00,IT,HDFC Bank,EMP1065,647663.36,UPI,INV776153,Pending,High,Yes,Pune,Consulting,No,Yes,Yes
+TXN00626,2024-03-17 10:15:00,Finance,Eaton India,EMP1408,143636.29,Bank Transfer,INV632959,Rejected,Medium,Yes,Chennai,Software,No,No,Yes
+TXN00803,2024-02-18 05:32:00,IT,3M India,EMP1140,379369.96,Cheque,INV519677,Approved,High,Yes,Ahmedabad,Consulting,Yes,No,Yes
+TXN00933,2024-01-14 11:13:00,Sales,Honeywell Automation,EMP1219,1138320.71,UPI,INV232307,Pending,High,Yes,Hyderabad,Travel,No,Yes,No
+TXN00526,2024-02-04 18:51:00,IT,Emami Ltd,EMP1219,108820.88,Credit Card,INV783185,Pending,Low,No,Pune,Salary,No,No,Yes
+TXN00837,2024-04-09 12:40:00,IT,Johnson Controls,EMP1163,475269.61,Cheque,INV742412,Pending,High,Yes,Ahmedabad,Salary,Yes,No,Yes
+TXN00452,2024-12-19 05:20:00,IT,Infosys Ltd,EMP1345,9195.7,Bank Transfer,INV531225,Approved,Low,No,Chennai,Software,No,No,Yes
+TXN00453,2024-04-08 01:01:00,IT,Reliance Industries,EMP1030,469560.21,Credit Card,INV976042,Approved,Low,Yes,Delhi,Travel,No,No,Yes
+TXN00793,2024-04-24 01:52:00,Finance,Axis Bank,EMP1054,496802.48,Cheque,INV859434,Approved,Low,No,Pune,Infrastructure,No,No,Yes
+TXN00324,2024-01-06 21:15:00,IT,Tata Motors,EMP1388,259497.66,Bank Transfer,INV287847,Approved,Low,No,Bangalore,Software,No,No,Yes
+TXN00253,2024-10-03 08:42:00,Sales,Asian Paints,EMP1122,52478.38,Bank Transfer,INV676363,Pending,Low,No,Kolkata,Travel,No,No,Yes
+TXN00868,2024-07-25 21:00:00,Procurement,Bosch India,EMP1236,8293985.29,Bank Transfer,INV383298,Pending,High,Yes,Delhi,Equipment,No,Yes,Yes
+TXN00308,2024-06-11 16:14:00,HR,Bosch India,EMP1035,394197.83,Bank Transfer,INV669460,Approved,Low,No,Chennai,Software,No,No,No
+TXN00209,2024-08-19 02:40:00,Finance,HUL,EMP1264,376152.18,Credit Card,INV486999,Approved,Low,No,Delhi,Software,No,No,Yes
+TXN00129,2024-12-26 14:13:00,IT,Aurobindo Pharma,EMP1356,458657.06,Bank Transfer,INV228594,Approved,Low,No,Ahmedabad,Travel,No,No,No
+TXN00001,2024-11-23 03:01:00,Sales,Dr Reddy Labs,EMP1115,74071.27,Bank Transfer,INV876646,Pending,Low,No,Mumbai,Travel,No,No,Yes
+TXN00717,2024-05-06 19:09:00,IT,Mahindra & Mahindra,EMP1128,144163.72,Bank Transfer,INV376331,Rejected,Low,Yes,Kolkata,Salary,No,No,Yes
+TXN00955,2024-08-30 22:46:00,HR,HCL Tech,EMP1393,420063.31,Bank Transfer,INV426584,Pending,High,Yes,Bangalore,Travel,No,Yes,Yes
+TXN00684,2024-03-16 19:18:00,HR,Wipro Technologies,EMP1307,163468.98,Bank Transfer,INV822049,Approved,High,Yes,Ahmedabad,Software,No,No,Yes
+TXN00387,2024-11-30 19:59:00,Finance,Eaton India,EMP1399,317935.84,Bank Transfer,INV649855,Approved,Low,Yes,Chennai,Salary,No,Yes,Yes
+TXN00561,2024-02-11 16:01:00,Finance,Marico Ltd,EMP1092,394157.66,Cheque,INV147457,Approved,Medium,No,Ahmedabad,Infrastructure,No,No,Yes
+TXN00330,2024-01-21 18:09:00,Finance,Tata Motors,EMP1133,461611.2,Bank Transfer,INV525151,Approved,Low,Yes,Hyderabad,Travel,No,No,Yes
+TXN00660,2024-11-21 06:17:00,Procurement,Reliance Industries,EMP1487,486414.82,Bank Transfer,INV275915,Approved,Low,No,Kolkata,Infrastructure,No,No,Yes
+TXN00369,2024-12-31 07:24:00,Procurement,Dr Reddy Labs,EMP1378,497295.03,Bank Transfer,INV871041,Pending,Low,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00058,2024-05-27 22:18:00,Procurement,Tech Mahindra,EMP1352,120544.78,Bank Transfer,INV929683,Approved,Medium,No,Kolkata,Travel,No,No,Yes
+TXN00815,2024-09-07 07:30:00,Procurement,ITC Ltd,EMP1085,32062.47,Bank Transfer,INV544828,Approved,High,Yes,Pune,Travel,Yes,No,Yes
+TXN00659,2024-04-14 07:32:00,Finance,Britannia,EMP1372,236201.75,Bank Transfer,INV307131,Approved,Low,No,Hyderabad,Consulting,No,No,Yes
+TXN00005,2024-05-22 14:40:00,Sales,Tata Motors,EMP1190,180859.0,Credit Card,INV835911,Rejected,Medium,Yes,Bangalore,Consulting,No,No,No
+TXN00674,2024-02-21 00:29:00,Procurement,Axis Bank,EMP1014,302945.04,Cheque,INV393042,Rejected,Medium,Yes,Chennai,Equipment,No,No,Yes
+TXN00942,2024-09-04 15:38:00,Procurement,Dr Reddy Labs,EMP1015,542755.82,UPI,INV325555,Pending,High,Yes,Kolkata,Travel,No,No,No
+TXN00964,2024-06-28 01:35:00,Sales,Eaton India,EMP1008,745909.62,Bank Transfer,INV397992,Pending,High,Yes,Kolkata,Consulting,No,Yes,Yes
+TXN00307,2024-01-21 04:59:00,Sales,Johnson Controls,EMP1027,387962.17,Credit Card,INV984096,Approved,Low,No,Pune,Travel,No,No,Yes
+TXN00111,2024-03-11 04:04:00,Sales,HDFC Bank,EMP1260,386582.99,Cheque,INV652108,Approved,Low,No,Bangalore,Consulting,No,No,Yes
+TXN00532,2024-02-16 12:53:00,HR,Dr Reddy Labs,EMP1058,287631.82,Bank Transfer,INV226502,Approved,Medium,No,Hyderabad,Miscellaneous,No,No,No
+TXN00278,2024-09-28 06:01:00,Finance,Eaton India,EMP1376,128167.45,Credit Card,INV461076,Approved,Low,No,Hyderabad,Salary,No,Yes,Yes
+TXN00919,2024-06-11 08:12:00,IT,Aurobindo Pharma,EMP1467,479439.14,Bank Transfer,INV937818,Pending,High,Yes,Pune,Salary,No,No,No
+TXN00102,2024-03-27 02:32:00,Finance,Bosch India,EMP1262,100982.33,Credit Card,INV468154,Approved,Medium,No,Chennai,Travel,No,No,Yes
+TXN00244,2024-04-29 19:14:00,Finance,Bosch India,EMP1245,5338.33,Cheque,INV311250,Pending,Low,No,Pune,Travel,No,Yes,Yes
+TXN00043,2024-08-20 10:21:00,Procurement,Biocon,EMP1386,475846.04,Bank Transfer,INV975467,Approved,Low,No,Pune,Salary,No,No,No
+TXN00541,2024-03-09 08:11:00,IT,Berger Paints,EMP1410,144489.68,Bank Transfer,INV485456,Approved,Medium,No,Chennai,Travel,No,No,Yes
+TXN00060,2024-12-24 12:17:00,IT,Siemens India,EMP1253,221690.64,Credit Card,INV553014,Approved,Medium,Yes,Chennai,Software,No,No,No
+TXN00771,2024-12-18 21:27:00,Sales,Schneider Electric,EMP1481,462942.12,Cheque,INV191876,Pending,Low,No,Kolkata,Travel,No,No,Yes
+TXN00780,2024-05-14 05:05:00,Finance,Jyothy Labs,EMP1433,183891.67,Cheque,INV509783,Approved,Medium,No,Ahmedabad,Software,No,Yes,Yes
+TXN00890,2024-03-21 09:04:00,IT,Honeywell Automation,EMP1124,8398964.12,Cheque,INV624337,Approved,High,Yes,Mumbai,Consulting,No,Yes,Yes
+TXN00325,2024-07-02 01:14:00,Procurement,Sun Pharma,EMP1033,135856.77,Bank Transfer,INV801062,Approved,High,Yes,Pune,Miscellaneous,No,No,Yes
+TXN00770,2024-06-29 17:27:00,IT,Pidilite Industries,EMP1059,463542.69,Bank Transfer,INV491246,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00542,2024-10-12 20:39:00,HR,Reliance Industries,EMP1499,233900.32,Bank Transfer,INV993209,Approved,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00275,2024-09-13 03:55:00,Procurement,Bosch India,EMP1153,209488.09,Cheque,INV258102,Approved,Low,No,Ahmedabad,Salary,No,No,Yes
+TXN00454,2024-03-07 12:42:00,IT,Mahindra & Mahindra,EMP1459,59868.32,Bank Transfer,INV408877,Approved,High,Yes,Ahmedabad,Equipment,No,No,No
+TXN00238,2024-04-05 08:17:00,Procurement,SBI,EMP1018,308982.76,Credit Card,INV778720,Approved,Low,No,Mumbai,Travel,No,No,Yes
+TXN00245,2024-10-27 22:58:00,HR,ICICI Bank,EMP1434,265515.96,Bank Transfer,INV176054,Approved,High,Yes,Kolkata,Consulting,No,No,Yes
+TXN00298,2024-10-26 15:59:00,IT,Mahindra & Mahindra,EMP1355,291384.42,Credit Card,INV234618,Approved,Medium,No,Pune,Consulting,No,No,Yes
+TXN00390,2024-08-08 10:43:00,IT,Reliance Industries,EMP1058,337515.04,Bank Transfer,INV465227,Approved,Low,No,Hyderabad,Salary,No,No,No
+TXN00935,2024-04-23 23:04:00,Sales,Tata Motors,EMP1260,602705.17,Cheque,INV761257,Pending,High,Yes,Delhi,Software,No,No,No
+TXN00924,2024-03-05 01:53:00,Procurement,TCS,EMP1354,375363.11,Cash,INV238808,Pending,High,Yes,Kolkata,Miscellaneous,No,No,No
+TXN00657,2024-06-18 10:15:00,HR,Siemens India,EMP1028,453782.87,Credit Card,INV360401,Pending,Medium,No,Kolkata,Consulting,No,No,No
+TXN00574,2024-11-08 03:52:00,IT,Wipro Technologies,EMP1260,57178.49,Credit Card,INV315363,Rejected,Low,Yes,Hyderabad,Software,No,No,Yes
+TXN00632,2024-10-06 06:21:00,HR,Pidilite Industries,EMP1129,154844.21,Cheque,INV816742,Pending,Low,No,Bangalore,Infrastructure,No,No,Yes
+TXN00755,2024-09-13 16:46:00,IT,Bosch India,EMP1477,385474.93,Bank Transfer,INV237570,Approved,Low,No,Kolkata,Travel,No,No,No
+TXN00576,2024-08-30 10:18:00,IT,Tata Motors,EMP1044,136677.74,Credit Card,INV535168,Approved,Medium,No,Kolkata,Infrastructure,No,No,No
+TXN00068,2024-10-02 15:22:00,Sales,ABB India,EMP1391,273997.88,Bank Transfer,INV437408,Pending,High,Yes,Chennai,Consulting,No,No,No
+TXN00033,2024-07-13 21:47:00,HR,Schneider Electric,EMP1292,153970.19,Bank Transfer,INV100425,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00569,2024-01-11 05:18:00,HR,Emami Ltd,EMP1177,221864.79,Bank Transfer,INV716204,Rejected,Low,Yes,Ahmedabad,Salary,No,No,Yes
+TXN00098,2024-12-13 21:37:00,Procurement,Bosch India,EMP1342,157667.6,Bank Transfer,INV728437,Approved,Low,No,Bangalore,Infrastructure,No,No,Yes
+TXN00381,2024-11-22 18:22:00,Procurement,Britannia,EMP1453,56530.69,Credit Card,INV676680,Approved,Low,No,Ahmedabad,Equipment,No,No,Yes
+TXN00804,2024-12-24 19:30:00,IT,Biocon,EMP1211,463649.4,Credit Card,INV135087,Rejected,High,Yes,Pune,Travel,Yes,No,Yes
+TXN00486,2024-01-12 09:26:00,IT,Axis Bank,EMP1243,176616.62,Bank Transfer,INV776000,Approved,Low,Yes,Chennai,Infrastructure,No,No,No
+TXN00283,2024-03-01 09:07:00,Finance,Jyothy Labs,EMP1102,306455.9,Credit Card,INV971889,Approved,Low,No,Hyderabad,Salary,No,Yes,No
+TXN00137,2024-04-14 10:38:00,HR,Berger Paints,EMP1442,360589.63,Credit Card,INV462147,Rejected,Low,Yes,Pune,Consulting,No,No,Yes
+TXN00494,2024-12-12 21:05:00,IT,HUL,EMP1100,247780.35,Credit Card,INV636405,Rejected,High,Yes,Pune,Miscellaneous,No,No,Yes
+TXN00021,2024-11-13 02:26:00,IT,Honeywell Automation,EMP1268,161603.07,Bank Transfer,INV802258,Approved,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00091,2024-04-26 13:21:00,Procurement,HUL,EMP1213,366158.19,Bank Transfer,INV427704,Approved,Low,No,Ahmedabad,Travel,No,No,No
+TXN00850,2024-12-16 04:29:00,HR,L&T Construction,EMP1116,20953.63,Credit Card,INV115743,Rejected,High,Yes,Chennai,Software,Yes,No,Yes
+TXN00368,2024-06-18 02:53:00,HR,HCL Tech,EMP1137,388948.19,Bank Transfer,INV592984,Approved,Medium,No,Kolkata,Infrastructure,No,Yes,Yes
+TXN00432,2024-06-15 14:31:00,Finance,Tech Mahindra,EMP1244,60879.09,Bank Transfer,INV986850,Approved,Medium,No,Bangalore,Consulting,No,No,Yes
+TXN00550,2024-06-10 23:31:00,HR,ABB India,EMP1437,461812.14,Credit Card,INV561362,Approved,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00437,2024-08-16 06:13:00,Sales,Asian Paints,EMP1292,398201.6,Credit Card,INV555844,Approved,High,Yes,Delhi,Consulting,No,Yes,Yes
+TXN00334,2024-08-08 16:26:00,Sales,Wipro Technologies,EMP1358,267259.18,Bank Transfer,INV941272,Approved,Medium,No,Delhi,Miscellaneous,No,No,No
+TXN00737,2024-07-31 04:00:00,HR,TCS,EMP1117,216432.04,Bank Transfer,INV787199,Approved,High,Yes,Kolkata,Software,No,No,Yes
+TXN00648,2024-04-01 06:45:00,Finance,Siemens India,EMP1111,223818.78,Cash,INV765625,Pending,Medium,No,Delhi,Miscellaneous,No,No,Yes
+TXN00733,2024-03-31 12:43:00,IT,L&T Construction,EMP1036,76043.57,Bank Transfer,INV577127,Rejected,High,Yes,Delhi,Software,No,No,Yes
+TXN00443,2024-12-19 02:09:00,IT,Biocon,EMP1239,260890.03,Bank Transfer,INV739705,Approved,Low,No,Delhi,Software,No,No,Yes
+TXN00530,2024-06-07 14:31:00,IT,Britannia,EMP1217,325226.42,Cash,INV267099,Approved,Low,No,Hyderabad,Software,No,No,No
+TXN00126,2024-05-20 20:50:00,Finance,Tech Mahindra,EMP1344,320568.71,Bank Transfer,INV940010,Approved,Low,Yes,Ahmedabad,Travel,No,No,Yes
+TXN00810,2024-08-07 10:01:00,Procurement,Godrej Industries,EMP1407,355674.72,Cheque,INV378727,Approved,High,Yes,Delhi,Salary,Yes,No,No
+TXN00753,2024-07-19 23:22:00,HR,HDFC Bank,EMP1170,206606.85,Credit Card,INV205909,Approved,Medium,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00891,2024-12-23 03:37:00,Procurement,Cipla Ltd,EMP1335,2224835.22,Bank Transfer,INV373553,Approved,High,Yes,Mumbai,Salary,No,Yes,Yes
+TXN00229,2024-01-13 07:34:00,Sales,Eaton India,EMP1430,348263.1,Cash,INV451291,Approved,Medium,No,Hyderabad,Travel,No,No,Yes
+TXN00578,2024-02-05 02:21:00,Sales,HUL,EMP1396,86340.72,Bank Transfer,INV896070,Approved,High,Yes,Bangalore,Consulting,No,Yes,Yes
+TXN00802,2024-05-27 23:00:00,Finance,Bosch India,EMP1463,75408.61,Cheque,INV573639,Approved,High,Yes,Bangalore,Miscellaneous,Yes,No,Yes
+TXN00581,2024-06-03 02:02:00,IT,Pidilite Industries,EMP1200,363923.85,Credit Card,INV232126,Approved,Low,No,Hyderabad,Consulting,No,No,Yes
+TXN00276,2024-04-02 02:31:00,Sales,Eaton India,EMP1091,160139.97,Bank Transfer,INV574012,Approved,Medium,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00671,2024-02-10 09:05:00,Procurement,ICICI Bank,EMP1142,36809.91,Cash,INV346184,Approved,Medium,Yes,Mumbai,Equipment,No,No,Yes
+TXN00601,2024-12-14 12:22:00,HR,3M India,EMP1431,257612.57,Cash,INV875089,Approved,Low,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00789,2024-08-03 21:48:00,Procurement,Berger Paints,EMP1417,163460.1,Bank Transfer,INV941718,Approved,Low,No,Delhi,Travel,No,No,Yes
+TXN00807,2024-02-05 05:11:00,Finance,HUL,EMP1252,41670.67,Credit Card,INV156213,Approved,High,Yes,Delhi,Salary,Yes,No,Yes
+TXN00139,2024-03-22 10:59:00,IT,Berger Paints,EMP1098,382745.08,Bank Transfer,INV639728,Approved,Medium,No,Delhi,Miscellaneous,No,No,No
+TXN00035,2024-04-11 04:01:00,Finance,Dr Reddy Labs,EMP1244,307580.62,Credit Card,INV577538,Approved,Medium,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00260,2024-03-16 18:37:00,IT,HDFC Bank,EMP1474,57289.24,Credit Card,INV923914,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00169,2024-06-02 22:09:00,Procurement,HCL Tech,EMP1288,209275.36,Bank Transfer,INV655736,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00820,2024-03-16 03:06:00,Finance,SBI,EMP1438,21053.89,Credit Card,INV732590,Approved,High,Yes,Mumbai,Travel,Yes,No,Yes
+TXN00321,2024-07-02 09:31:00,IT,HDFC Bank,EMP1090,324548.04,Bank Transfer,INV394247,Pending,Low,No,Hyderabad,Software,No,No,No
+TXN00621,2024-04-27 14:39:00,HR,Dr Reddy Labs,EMP1247,368620.16,UPI,INV447618,Pending,Low,No,Mumbai,Equipment,No,Yes,Yes
+TXN00017,2024-02-08 14:51:00,IT,HDFC Bank,EMP1026,327811.72,Bank Transfer,INV115474,Rejected,High,Yes,Chennai,Salary,No,No,No
+TXN00341,2024-11-02 16:33:00,HR,Schneider Electric,EMP1087,338642.07,Bank Transfer,INV786837,Approved,Low,No,Kolkata,Equipment,No,No,Yes
+TXN00187,2024-12-16 12:10:00,HR,Biocon,EMP1155,137861.36,Bank Transfer,INV275329,Approved,Low,No,Delhi,Equipment,No,No,No
+TXN00852,2024-05-28 19:35:00,Procurement,Wipro Technologies,EMP1025,160717.24,Cheque,INV108890,Rejected,High,Yes,Kolkata,Consulting,Yes,No,Yes
+TXN00540,2024-10-21 02:07:00,HR,Dr Reddy Labs,EMP1265,358214.15,Credit Card,INV780715,Pending,Medium,No,Pune,Miscellaneous,No,No,Yes
+TXN00117,2024-01-20 09:58:00,Procurement,Axis Bank,EMP1389,354240.41,Bank Transfer,INV105506,Rejected,Low,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00979,2024-12-07 00:03:00,HR,Colgate,EMP1076,596717.8,Cash,INV280968,Pending,High,Yes,Hyderabad,Consulting,No,Yes,Yes
+TXN00922,2024-11-06 08:50:00,Sales,Pidilite Industries,EMP1161,309251.43,Cheque,INV541474,Pending,High,Yes,Bangalore,Consulting,No,No,No
+TXN00404,2024-04-13 06:04:00,HR,Dabur India,EMP1444,310444.38,Credit Card,INV579770,Pending,Low,No,Kolkata,Software,No,No,Yes
+TXN00401,2024-07-30 13:19:00,Procurement,Eaton India,EMP1478,370478.11,Bank Transfer,INV297062,Approved,Low,No,Hyderabad,Consulting,No,No,No
+TXN00420,2024-10-18 19:01:00,HR,L&T Construction,EMP1170,417743.52,Cheque,INV602381,Rejected,Medium,Yes,Bangalore,Miscellaneous,No,No,Yes
+TXN00434,2024-04-16 22:37:00,Procurement,Britannia,EMP1291,394726.75,Bank Transfer,INV347625,Approved,Medium,No,Ahmedabad,Travel,No,No,Yes
+TXN00383,2024-08-17 12:00:00,Finance,Aurobindo Pharma,EMP1306,13069.71,Bank Transfer,INV416503,Approved,High,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00769,2024-04-07 21:36:00,Finance,Godrej Industries,EMP1417,185078.25,Bank Transfer,INV421876,Approved,Medium,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00007,2024-04-18 18:56:00,Sales,Bajaj Auto,EMP1336,252119.47,Cheque,INV774079,Approved,Low,No,Hyderabad,Software,No,No,Yes
+TXN00465,2024-06-21 23:43:00,Procurement,Berger Paints,EMP1062,488047.37,Credit Card,INV244000,Approved,High,Yes,Chennai,Infrastructure,No,Yes,Yes
+TXN00987,2024-09-19 01:16:00,Procurement,Cipla Ltd,EMP1017,741439.53,UPI,INV790311,Pending,High,Yes,Ahmedabad,Salary,No,Yes,Yes
+TXN00468,2024-08-31 22:08:00,HR,SBI,EMP1328,139120.13,Bank Transfer,INV350875,Rejected,Medium,Yes,Mumbai,Consulting,No,No,Yes
+TXN00799,2024-09-19 06:49:00,Procurement,L&T Construction,EMP1036,142530.03,Bank Transfer,INV422066,Rejected,Low,Yes,Delhi,Salary,No,No,Yes
+TXN00236,2024-07-24 11:43:00,Finance,3M India,EMP1301,133116.22,Cheque,INV122859,Rejected,Low,Yes,Ahmedabad,Infrastructure,No,No,No
+TXN00639,2024-07-16 09:13:00,HR,Aurobindo Pharma,EMP1338,264575.87,Bank Transfer,INV486559,Approved,Low,No,Kolkata,Miscellaneous,No,No,No
+TXN00698,2024-03-13 09:54:00,HR,Axis Bank,EMP1309,278274.96,Credit Card,INV390870,Approved,Medium,Yes,Hyderabad,Equipment,No,No,No
+TXN00661,2024-09-03 00:48:00,Procurement,Britannia,EMP1438,46200.26,Cheque,INV414815,Approved,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00641,2024-06-07 18:12:00,IT,Marico Ltd,EMP1142,104842.85,UPI,INV567383,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00584,2024-10-24 18:45:00,IT,Johnson Controls,EMP1120,178416.88,Bank Transfer,INV922911,Pending,Low,Yes,Kolkata,Consulting,No,No,Yes
+TXN00405,2024-11-09 23:36:00,IT,Siemens India,EMP1269,322489.94,Credit Card,INV140382,Approved,Low,No,Mumbai,Salary,No,No,Yes
+TXN00953,2024-04-24 03:01:00,HR,Dabur India,EMP1190,407604.74,Cash,INV774044,Pending,High,Yes,Bangalore,Infrastructure,No,Yes,Yes
+TXN01000,2024-03-18 03:19:00,Procurement,Wipro Technologies,EMP1134,768884.56,Bank Transfer,INV288238,Approved,High,Yes,Delhi,Miscellaneous,No,Yes,Yes
+TXN00732,2024-08-10 11:09:00,Procurement,Reliance Industries,EMP1254,94849.2,Bank Transfer,INV284665,Approved,Low,No,Hyderabad,Travel,No,No,Yes
+TXN00143,2024-01-20 04:45:00,Sales,Emami Ltd,EMP1266,231209.34,Credit Card,INV640546,Approved,High,Yes,Pune,Salary,No,No,Yes
+TXN00077,2024-05-26 07:38:00,Sales,Sun Pharma,EMP1326,99115.33,Bank Transfer,INV892280,Approved,Medium,No,Delhi,Software,No,No,Yes
+TXN00571,2024-11-06 15:06:00,Procurement,Jyothy Labs,EMP1156,121185.86,Credit Card,INV119011,Approved,Low,No,Bangalore,Infrastructure,No,No,No
+TXN00106,2024-10-19 20:12:00,Sales,Johnson Controls,EMP1244,253176.81,UPI,INV572407,Approved,Medium,No,Delhi,Consulting,No,No,Yes
+TXN00531,2024-11-25 01:46:00,Procurement,TCS,EMP1029,430494.08,Bank Transfer,INV730823,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00116,2024-07-31 01:25:00,IT,Godrej Industries,EMP1121,196152.23,Bank Transfer,INV335445,Approved,High,Yes,Pune,Infrastructure,No,No,Yes
+TXN00176,2024-01-04 13:08:00,HR,Tech Mahindra,EMP1363,79759.68,Bank Transfer,INV578160,Approved,Medium,No,Ahmedabad,Software,No,No,No
+TXN00598,2024-08-25 17:26:00,Finance,Emami Ltd,EMP1015,206709.43,Bank Transfer,INV119527,Approved,High,Yes,Delhi,Salary,No,No,Yes
+TXN00816,2024-02-26 01:52:00,IT,Tech Mahindra,EMP1406,154548.47,Bank Transfer,INV719221,Approved,High,Yes,Ahmedabad,Miscellaneous,Yes,Yes,Yes
+TXN00664,2024-10-16 05:12:00,Procurement,Cipla Ltd,EMP1395,456977.57,Credit Card,INV634363,Approved,Medium,No,Mumbai,Software,No,No,Yes
+TXN00723,2024-02-14 03:08:00,IT,ICICI Bank,EMP1022,295347.92,Cheque,INV786141,Pending,Low,No,Delhi,Travel,No,No,Yes
+TXN00195,2024-08-25 21:37:00,IT,SBI,EMP1177,498862.85,Bank Transfer,INV409783,Approved,High,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00460,2024-06-23 02:53:00,Procurement,Aurobindo Pharma,EMP1332,105544.63,Credit Card,INV502824,Approved,Low,No,Delhi,Software,No,No,Yes
+TXN00609,2024-01-12 22:43:00,IT,Schneider Electric,EMP1130,341936.78,Cheque,INV102049,Rejected,Medium,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00090,2024-09-28 09:29:00,IT,Johnson Controls,EMP1221,54093.34,Credit Card,INV994217,Approved,Medium,No,Chennai,Miscellaneous,No,No,Yes
+TXN00247,2024-03-30 12:19:00,Sales,Axis Bank,EMP1091,365771.32,Cheque,INV700660,Approved,High,Yes,Mumbai,Salary,No,No,Yes
+TXN00762,2024-07-24 10:04:00,Sales,Pidilite Industries,EMP1310,245716.03,Credit Card,INV599352,Approved,Low,No,Ahmedabad,Salary,No,No,No
+TXN00929,2024-09-09 10:03:00,IT,Bosch India,EMP1460,859011.42,UPI,INV985066,Pending,High,Yes,Hyderabad,Equipment,No,No,No
+TXN00993,2024-03-12 02:42:00,Finance,Reliance Industries,EMP1159,644647.58,Cash,INV940422,Pending,High,Yes,Kolkata,Salary,No,Yes,Yes
+TXN00332,2024-06-24 14:38:00,IT,Tech Mahindra,EMP1118,192214.62,Bank Transfer,INV117367,Approved,Medium,No,Kolkata,Infrastructure,No,No,No
+TXN00565,2024-03-15 20:15:00,Procurement,Eaton India,EMP1440,396055.71,Bank Transfer,INV415535,Pending,Low,No,Delhi,Salary,No,No,Yes
+TXN00475,2024-08-26 14:26:00,HR,Pidilite Industries,EMP1113,443772.44,Credit Card,INV927899,Pending,High,Yes,Bangalore,Consulting,No,No,No
+TXN00934,2024-08-15 13:31:00,Sales,Reliance Industries,EMP1443,334704.35,Credit Card,INV867173,Pending,High,Yes,Pune,Infrastructure,No,Yes,No
+TXN00655,2024-03-04 09:15:00,Procurement,Dr Reddy Labs,EMP1318,44297.87,Bank Transfer,INV622952,Approved,Low,No,Mumbai,Salary,No,No,No
+TXN00192,2024-05-09 21:09:00,Procurement,ITC Ltd,EMP1038,227288.03,Credit Card,INV710527,Approved,Low,No,Kolkata,Consulting,No,Yes,Yes
+TXN00828,2024-12-05 19:30:00,Finance,Pidilite Industries,EMP1274,390370.93,Bank Transfer,INV637566,Rejected,High,Yes,Pune,Miscellaneous,Yes,No,No
+TXN00322,2024-02-09 23:04:00,Finance,Colgate,EMP1324,20441.14,Credit Card,INV524814,Pending,Low,Yes,Hyderabad,Consulting,No,No,Yes
+TXN00939,2024-12-18 08:39:00,Procurement,Eaton India,EMP1299,466866.31,Credit Card,INV607755,Pending,High,Yes,Bangalore,Equipment,No,Yes,No
+TXN00353,2024-03-31 13:31:00,HR,Eaton India,EMP1265,269321.38,Bank Transfer,INV610258,Approved,Low,No,Kolkata,Travel,No,No,Yes
+TXN00749,2024-03-21 08:05:00,IT,ITC Ltd,EMP1487,66941.01,Bank Transfer,INV749114,Approved,Low,No,Delhi,Infrastructure,No,No,Yes
+TXN00489,2024-12-30 17:18:00,HR,Mahindra & Mahindra,EMP1430,355515.02,Cheque,INV933048,Approved,Low,Yes,Pune,Consulting,No,No,No
+TXN00416,2024-04-17 22:13:00,IT,HCL Tech,EMP1056,287826.7,UPI,INV654640,Rejected,Low,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00580,2024-09-27 19:58:00,HR,HUL,EMP1229,323720.28,Cheque,INV754688,Pending,Medium,No,Kolkata,Infrastructure,No,No,Yes
+TXN00266,2024-08-16 05:55:00,Procurement,3M India,EMP1283,178131.15,Bank Transfer,INV371224,Approved,Medium,No,Kolkata,Travel,No,No,Yes
+TXN00835,2024-12-22 13:23:00,Finance,Sun Pharma,EMP1380,256868.32,Cash,INV112884,Approved,High,Yes,Bangalore,Salary,Yes,No,Yes
+TXN00923,2024-11-19 06:57:00,HR,Marico Ltd,EMP1008,375140.77,Cheque,INV376169,Pending,High,Yes,Ahmedabad,Software,No,Yes,No
+TXN00965,2024-06-05 03:39:00,Sales,ABB India,EMP1278,531199.52,Cash,INV181239,Pending,High,Yes,Delhi,Software,No,Yes,Yes
+TXN00702,2024-04-23 12:06:00,Finance,Mahindra & Mahindra,EMP1270,365522.07,Bank Transfer,INV961240,Pending,Low,No,Hyderabad,Consulting,No,No,No
+TXN00029,2024-04-12 14:22:00,Sales,Sun Pharma,EMP1115,16713.9,Bank Transfer,INV444207,Approved,Low,No,Pune,Software,No,No,No
+TXN00234,2024-11-04 01:13:00,Sales,SBI,EMP1047,357022.91,UPI,INV515492,Approved,Medium,No,Bangalore,Travel,No,No,Yes
+TXN00838,2024-02-25 08:56:00,IT,Havells India,EMP1035,435861.14,Bank Transfer,INV700896,Approved,High,Yes,Kolkata,Miscellaneous,Yes,No,Yes
+TXN00983,2024-12-14 01:57:00,HR,Asian Paints,EMP1028,334482.84,Bank Transfer,INV286650,Approved,High,Yes,Pune,Miscellaneous,No,Yes,Yes
+TXN00637,2024-06-18 18:40:00,IT,Johnson Controls,EMP1294,434137.65,UPI,INV314124,Rejected,Low,Yes,Kolkata,Salary,No,No,Yes
+TXN00857,2024-10-30 03:03:00,HR,Tech Mahindra,EMP1363,79759.68,Bank Transfer,INV578160,Approved,High,Yes,Ahmedabad,Software,Yes,No,No
+TXN00986,2024-08-10 23:41:00,Sales,Bajaj Auto,EMP1176,574740.37,UPI,INV678406,Pending,High,Yes,Hyderabad,Travel,No,Yes,Yes
+TXN00159,2024-12-06 06:48:00,HR,Johnson Controls,EMP1448,394748.49,Bank Transfer,INV653829,Approved,Low,No,Mumbai,Infrastructure,No,No,Yes
+TXN00302,2024-01-07 16:06:00,Finance,ITC Ltd,EMP1075,31267.17,Bank Transfer,INV379947,Pending,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00577,2024-08-07 13:58:00,Procurement,Marico Ltd,EMP1488,426933.29,Credit Card,INV479347,Rejected,Low,Yes,Mumbai,Software,No,No,No
+TXN00487,2024-11-26 10:26:00,IT,Pidilite Industries,EMP1336,324795.36,Bank Transfer,INV722180,Approved,Low,No,Ahmedabad,Equipment,No,No,No
+TXN00313,2024-04-26 08:26:00,Procurement,Dabur India,EMP1323,205201.77,Bank Transfer,INV508422,Approved,Low,No,Delhi,Infrastructure,No,No,Yes
+TXN00697,2024-03-12 18:31:00,Sales,Bosch India,EMP1467,493079.66,Bank Transfer,INV664353,Approved,Medium,No,Mumbai,Salary,No,Yes,Yes
+TXN00315,2024-12-04 00:30:00,HR,Siemens India,EMP1113,72508.82,Bank Transfer,INV936223,Pending,Low,No,Hyderabad,Software,No,No,Yes
+TXN00731,2024-10-25 03:46:00,Procurement,Cipla Ltd,EMP1446,314983.67,Credit Card,INV316173,Pending,Low,No,Kolkata,Salary,No,No,Yes
+TXN00977,2024-08-15 00:45:00,Sales,HDFC Bank,EMP1440,458062.61,Cash,INV786927,Pending,High,Yes,Mumbai,Equipment,No,Yes,Yes
+TXN00854,2024-09-06 09:04:00,Procurement,Bosch India,EMP1153,209488.09,Cheque,INV258102,Approved,High,Yes,Ahmedabad,Salary,Yes,No,Yes
+TXN00947,2024-07-30 06:35:00,HR,Infosys Ltd,EMP1019,1291400.65,UPI,INV207500,Pending,High,Yes,Ahmedabad,Travel,No,Yes,No
+TXN00027,2024-05-07 21:06:00,Sales,ABB India,EMP1453,437982.8,UPI,INV885884,Approved,High,Yes,Bangalore,Infrastructure,No,No,Yes
+TXN00667,2024-02-11 16:58:00,HR,Britannia,EMP1085,415726.03,Bank Transfer,INV416900,Approved,Low,No,Hyderabad,Software,No,No,Yes
+TXN00535,2024-05-22 04:23:00,Procurement,Godrej Industries,EMP1421,157544.84,Credit Card,INV735242,Approved,Medium,No,Mumbai,Software,No,No,Yes
+TXN00152,2024-03-21 13:41:00,Procurement,Emami Ltd,EMP1334,103730.71,UPI,INV436768,Approved,Low,No,Chennai,Consulting,No,No,No
+TXN00144,2024-11-11 23:53:00,Sales,3M India,EMP1173,256120.92,Bank Transfer,INV613641,Approved,Low,No,Pune,Equipment,No,No,Yes
+TXN00895,2024-04-10 17:38:00,Procurement,TCS,EMP1283,5616300.04,Bank Transfer,INV495552,Pending,High,Yes,Kolkata,Software,No,Yes,Yes
+TXN00974,2024-05-19 02:41:00,Procurement,HUL,EMP1023,796803.39,UPI,INV365329,Approved,High,Yes,Mumbai,Consulting,No,Yes,Yes
+TXN00937,2024-04-22 21:12:00,Sales,Emami Ltd,EMP1078,804084.68,Bank Transfer,INV869194,Pending,High,Yes,Bangalore,Salary,No,Yes,No
+TXN00962,2024-09-25 03:53:00,Finance,Berger Paints,EMP1214,184419.34,Bank Transfer,INV170304,Pending,High,Yes,Mumbai,Equipment,No,Yes,Yes
+TXN00339,2024-11-21 00:51:00,Finance,SBI,EMP1242,463301.58,Bank Transfer,INV167193,Approved,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00756,2024-12-15 12:15:00,HR,Schneider Electric,EMP1311,42124.15,Bank Transfer,INV758285,Rejected,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00303,2024-12-19 09:13:00,IT,Wipro Technologies,EMP1184,407942.98,Bank Transfer,INV808340,Approved,Medium,No,Kolkata,Salary,No,No,No
+TXN00351,2024-05-01 08:30:00,IT,Pidilite Industries,EMP1188,96037.27,Bank Transfer,INV539450,Approved,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00591,2024-11-06 04:48:00,HR,Colgate,EMP1326,233163.4,Bank Transfer,INV570888,Approved,Medium,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00602,2024-10-11 08:56:00,Procurement,Bajaj Auto,EMP1313,254886.02,Cheque,INV815234,Rejected,Medium,Yes,Ahmedabad,Equipment,No,No,Yes
+TXN00504,2024-04-06 17:39:00,IT,Siemens India,EMP1365,277800.85,Credit Card,INV219502,Approved,High,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00863,2024-07-23 03:57:00,Sales,Asian Paints,EMP1306,4330518.5,Bank Transfer,INV811902,Pending,High,Yes,Bangalore,Software,No,Yes,Yes
+TXN00076,2024-12-24 09:01:00,Procurement,Biocon,EMP1005,285134.86,Credit Card,INV880841,Rejected,High,Yes,Ahmedabad,Infrastructure,No,No,No
+TXN00338,2024-03-11 21:07:00,HR,Dabur India,EMP1401,351159.16,Bank Transfer,INV324875,Approved,Medium,No,Mumbai,Salary,No,No,Yes
+TXN00705,2024-12-13 19:26:00,Procurement,Mahindra & Mahindra,EMP1225,493191.91,Credit Card,INV626625,Approved,High,Yes,Chennai,Equipment,No,No,Yes
+TXN00271,2024-05-03 01:51:00,IT,HUL,EMP1339,163194.94,Bank Transfer,INV126691,Approved,High,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00752,2024-10-16 01:36:00,Procurement,Wipro Technologies,EMP1025,160717.24,Cheque,INV108890,Rejected,Medium,Yes,Kolkata,Consulting,No,No,Yes
+TXN00495,2024-08-06 11:24:00,Sales,Infosys Ltd,EMP1146,175735.51,Bank Transfer,INV567220,Pending,Low,No,Ahmedabad,Software,No,No,No
+TXN00249,2024-02-15 22:42:00,Sales,Dabur India,EMP1006,136280.16,Bank Transfer,INV171087,Approved,Medium,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00146,2024-11-13 12:09:00,HR,Wipro Technologies,EMP1294,474361.56,Bank Transfer,INV119857,Approved,Low,No,Chennai,Miscellaneous,No,No,No
+TXN00348,2024-02-10 21:42:00,Procurement,Schneider Electric,EMP1004,383300.89,Bank Transfer,INV144316,Pending,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00423,2024-04-05 19:07:00,Sales,Berger Paints,EMP1364,20655.97,Bank Transfer,INV621199,Pending,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00920,2024-06-10 23:07:00,HR,Dabur India,EMP1376,1442771.53,Cheque,INV479459,Pending,Medium,Yes,Delhi,Equipment,No,No,No
+TXN00174,2024-06-17 07:24:00,IT,Dr Reddy Labs,EMP1256,277568.05,Cheque,INV453961,Approved,Medium,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00893,2024-02-06 13:38:00,IT,Reliance Industries,EMP1455,6135689.39,Cheque,INV383648,Pending,High,Yes,Delhi,Travel,No,Yes,Yes
+TXN00269,2024-08-23 08:13:00,Procurement,Asian Paints,EMP1347,262715.76,Credit Card,INV712879,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00150,2024-03-15 09:02:00,Sales,Reliance Industries,EMP1178,462384.77,Credit Card,INV883641,Approved,Low,No,Hyderabad,Salary,No,No,No
+TXN00107,2024-01-21 07:45:00,Procurement,Dabur India,EMP1269,263760.28,Bank Transfer,INV490963,Rejected,Low,Yes,Pune,Software,No,No,Yes
+TXN00128,2024-07-06 12:20:00,Sales,Dr Reddy Labs,EMP1492,61157.06,Credit Card,INV623285,Approved,High,Yes,Delhi,Equipment,No,No,Yes
+TXN00439,2024-01-16 07:27:00,IT,HUL,EMP1321,162473.02,Bank Transfer,INV500099,Approved,Low,No,Bangalore,Salary,No,No,Yes
+TXN00451,2024-11-29 08:21:00,Sales,Biocon,EMP1411,53647.01,Credit Card,INV510154,Approved,Medium,No,Chennai,Consulting,No,No,Yes
+TXN00629,2024-07-21 06:19:00,Procurement,ITC Ltd,EMP1293,82818.62,Cheque,INV366893,Approved,Low,Yes,Ahmedabad,Consulting,No,No,Yes
+TXN00668,2024-02-15 03:40:00,IT,Havells India,EMP1417,75643.17,Credit Card,INV884639,Approved,Low,No,Ahmedabad,Travel,No,No,Yes
+TXN00373,2024-06-11 17:50:00,Sales,Dabur India,EMP1376,100517.82,Credit Card,INV475565,Approved,Low,Yes,Ahmedabad,Consulting,No,No,No
+TXN00925,2024-03-06 12:44:00,IT,Dr Reddy Labs,EMP1365,546079.05,Credit Card,INV964776,Pending,High,Yes,Delhi,Software,No,Yes,No
+TXN00408,2024-08-18 00:11:00,Procurement,3M India,EMP1460,357754.02,Bank Transfer,INV576769,Approved,Low,No,Bangalore,Software,No,No,Yes
+TXN00300,2024-06-09 22:47:00,IT,Eaton India,EMP1112,104440.1,Credit Card,INV404694,Approved,High,Yes,Bangalore,Software,No,No,Yes
+TXN00062,2024-09-08 02:30:00,Sales,Nestle India,EMP1171,163923.84,Bank Transfer,INV268637,Approved,Medium,No,Kolkata,Infrastructure,No,No,Yes
+TXN00493,2024-08-16 11:05:00,Sales,HCL Tech,EMP1312,322449.76,Credit Card,INV332934,Pending,Medium,No,Delhi,Consulting,No,No,No
+TXN00450,2024-09-28 13:00:00,Sales,Dabur India,EMP1196,340854.24,UPI,INV816047,Rejected,Low,Yes,Pune,Infrastructure,No,No,Yes
+TXN00907,2024-09-30 14:27:00,IT,Honeywell Automation,EMP1394,850532.36,Bank Transfer,INV499812,Pending,High,Yes,Chennai,Salary,No,Yes,No
+TXN00547,2024-11-06 21:51:00,IT,Wipro Technologies,EMP1003,130560.16,Credit Card,INV417201,Rejected,Medium,Yes,Bangalore,Consulting,No,Yes,Yes
+TXN00124,2024-09-11 22:31:00,Sales,Bosch India,EMP1137,401568.3,Credit Card,INV182760,Approved,High,Yes,Bangalore,Consulting,No,No,Yes
+TXN00710,2024-05-30 08:13:00,Finance,Eaton India,EMP1292,199842.63,Cheque,INV774206,Approved,Medium,No,Ahmedabad,Travel,No,No,Yes
+TXN00267,2024-10-19 06:54:00,HR,Sun Pharma,EMP1347,107331.84,Credit Card,INV638214,Approved,Medium,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00901,2024-12-23 17:32:00,Finance,HCL Tech,EMP1178,1365574.26,UPI,INV609825,Pending,Medium,Yes,Chennai,Salary,No,Yes,No
+TXN00073,2024-01-29 09:22:00,Sales,Britannia,EMP1075,125877.73,Bank Transfer,INV814919,Pending,Low,Yes,Kolkata,Consulting,No,No,No
+TXN00395,2024-05-29 20:24:00,HR,ITC Ltd,EMP1261,488422.91,Bank Transfer,INV430779,Approved,Low,Yes,Chennai,Consulting,No,No,Yes
+TXN00482,2024-10-13 22:04:00,IT,Bajaj Auto,EMP1071,490719.55,Bank Transfer,INV219073,Approved,Medium,No,Chennai,Infrastructure,No,No,Yes
+TXN00533,2024-05-01 19:07:00,Sales,Pidilite Industries,EMP1427,294241.48,Bank Transfer,INV884727,Approved,High,Yes,Chennai,Salary,No,No,Yes
+TXN00796,2024-09-27 07:36:00,Procurement,Jyothy Labs,EMP1500,143868.09,Credit Card,INV606154,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00744,2024-04-14 00:23:00,IT,Emami Ltd,EMP1491,71128.38,Bank Transfer,INV466317,Approved,Medium,No,Bangalore,Equipment,No,No,Yes
+TXN00941,2024-08-02 14:20:00,HR,Britannia,EMP1060,387862.49,Credit Card,INV792702,Pending,Medium,Yes,Kolkata,Software,No,Yes,No
+TXN00072,2024-11-12 02:15:00,Sales,Sun Pharma,EMP1383,49737.77,UPI,INV897305,Approved,Medium,No,Hyderabad,Travel,No,Yes,Yes
+TXN00754,2024-01-20 09:10:00,HR,Marico Ltd,EMP1041,443175.92,Bank Transfer,INV853362,Approved,Low,No,Bangalore,Infrastructure,No,No,Yes
+TXN00963,2024-12-25 23:12:00,Finance,Siemens India,EMP1235,298276.35,Cash,INV755331,Pending,High,Yes,Bangalore,Travel,No,Yes,Yes
+TXN00164,2024-04-24 00:48:00,Finance,Asian Paints,EMP1238,338382.43,Bank Transfer,INV657772,Approved,Low,No,Bangalore,Equipment,No,No,Yes
+TXN00340,2024-09-23 09:45:00,IT,HCL Tech,EMP1485,387936.18,Bank Transfer,INV618382,Approved,Low,No,Hyderabad,Salary,No,Yes,No
+TXN00701,2024-02-26 21:35:00,Procurement,Tech Mahindra,EMP1169,321887.86,Bank Transfer,INV449718,Pending,Low,No,Hyderabad,Travel,No,No,Yes
+TXN00513,2024-08-07 06:54:00,Finance,Emami Ltd,EMP1481,341169.9,Bank Transfer,INV806906,Approved,Low,No,Delhi,Travel,No,No,Yes
+TXN00613,2024-06-23 01:52:00,Sales,Bosch India,EMP1407,122188.11,Bank Transfer,INV729108,Approved,Medium,No,Delhi,Travel,No,No,Yes
+TXN00836,2024-04-15 23:05:00,Finance,Aurobindo Pharma,EMP1122,154069.84,Cash,INV540218,Approved,High,Yes,Ahmedabad,Consulting,Yes,No,No
+TXN00248,2024-11-09 07:40:00,IT,HDFC Bank,EMP1480,250611.6,Bank Transfer,INV181586,Approved,High,Yes,Bangalore,Software,No,No,Yes
+TXN00455,2024-12-20 21:49:00,Sales,Cipla Ltd,EMP1083,391461.99,Bank Transfer,INV165417,Approved,Low,Yes,Hyderabad,Salary,No,No,Yes
+TXN00251,2024-01-18 09:01:00,Sales,Cipla Ltd,EMP1488,56838.9,Bank Transfer,INV493696,Approved,Low,No,Delhi,Equipment,No,No,No
+TXN00471,2024-12-09 01:03:00,Sales,Aurobindo Pharma,EMP1108,220162.46,Bank Transfer,INV944264,Pending,Low,Yes,Mumbai,Consulting,No,No,Yes
+TXN00473,2024-06-15 07:06:00,HR,Nestle India,EMP1446,103978.14,Cheque,INV177101,Approved,Low,No,Bangalore,Salary,No,No,Yes
+TXN00592,2024-07-21 10:34:00,Finance,Dabur India,EMP1377,142300.67,Bank Transfer,INV273659,Approved,Low,No,Hyderabad,Consulting,No,No,Yes
+TXN00212,2024-08-07 06:44:00,HR,Asian Paints,EMP1082,437839.57,Cheque,INV197874,Approved,Low,No,Bangalore,Travel,No,No,Yes
+TXN00032,2024-12-06 10:39:00,Sales,ICICI Bank,EMP1369,450523.18,Bank Transfer,INV799287,Approved,Low,No,Bangalore,Salary,No,No,No
+TXN00067,2024-07-31 10:59:00,IT,Biocon,EMP1421,6269.8,Credit Card,INV978157,Approved,High,Yes,Ahmedabad,Infrastructure,No,No,No
+TXN00903,2024-02-28 00:31:00,Finance,Biocon,EMP1143,944124.21,Credit Card,INV967359,Pending,High,Yes,Mumbai,Equipment,No,No,No
+TXN00136,2024-09-11 20:34:00,Sales,Asian Paints,EMP1248,126214.57,Cheque,INV525818,Approved,Low,Yes,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00331,2024-11-06 15:55:00,Procurement,Tata Motors,EMP1113,416029.97,Credit Card,INV933215,Approved,Medium,No,Hyderabad,Salary,No,No,No
+TXN00205,2024-01-22 23:28:00,IT,Bajaj Auto,EMP1218,55696.14,Cheque,INV887842,Approved,Medium,Yes,Hyderabad,Equipment,No,No,Yes
+TXN00636,2024-06-30 10:14:00,Procurement,Britannia,EMP1352,377549.96,Credit Card,INV824061,Approved,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00885,2024-09-27 06:05:00,IT,TCS,EMP1323,9198742.54,Bank Transfer,INV134853,Pending,High,Yes,Mumbai,Equipment,No,Yes,Yes
+TXN00246,2024-06-03 10:08:00,HR,Britannia,EMP1406,321436.67,Bank Transfer,INV432695,Approved,High,Yes,Pune,Salary,No,No,No
+TXN00378,2024-10-29 08:03:00,Sales,Sun Pharma,EMP1311,360333.37,Cash,INV318877,Approved,High,Yes,Delhi,Miscellaneous,No,No,Yes
+TXN00469,2024-09-12 19:05:00,Sales,Havells India,EMP1215,7262.17,Bank Transfer,INV223215,Rejected,High,Yes,Pune,Infrastructure,No,No,Yes
+TXN00166,2024-07-24 14:14:00,IT,Bajaj Auto,EMP1387,432546.47,Bank Transfer,INV628373,Rejected,Low,Yes,Pune,Consulting,No,No,No
+TXN00198,2024-07-26 20:11:00,HR,Eaton India,EMP1337,218906.55,Cash,INV743937,Pending,Low,No,Mumbai,Software,No,No,Yes
+TXN00524,2024-04-15 10:31:00,IT,Pidilite Industries,EMP1086,309339.8,Bank Transfer,INV557169,Approved,Medium,No,Delhi,Infrastructure,No,No,No
+TXN00566,2024-12-25 14:31:00,Procurement,TCS,EMP1441,227510.56,Bank Transfer,INV409153,Approved,Medium,Yes,Mumbai,Travel,No,No,No
+TXN00764,2024-12-16 13:17:00,Sales,Eaton India,EMP1091,46377.69,Bank Transfer,INV524745,Approved,Medium,No,Kolkata,Consulting,No,No,No
+TXN00616,2024-12-11 00:29:00,IT,Pidilite Industries,EMP1301,100278.25,Bank Transfer,INV724086,Approved,Low,No,Bangalore,Software,No,No,Yes
+TXN00642,2024-08-23 14:36:00,Finance,Reliance Industries,EMP1148,324918.07,Cheque,INV463627,Approved,Medium,No,Bangalore,Miscellaneous,No,No,No
+TXN00380,2024-02-19 03:46:00,HR,Siemens India,EMP1198,98782.9,Bank Transfer,INV360846,Approved,High,Yes,Kolkata,Software,No,No,Yes
+TXN00094,2024-10-20 07:51:00,Procurement,ABB India,EMP1499,384879.1,Credit Card,INV807764,Approved,Low,No,Hyderabad,Travel,No,No,Yes
+TXN00484,2024-12-13 17:57:00,Sales,Dabur India,EMP1318,187232.2,Credit Card,INV826897,Pending,High,Yes,Delhi,Salary,No,No,No
+TXN00864,2024-04-12 08:08:00,Procurement,ABB India,EMP1103,4257966.99,Bank Transfer,INV694191,Pending,High,Yes,Ahmedabad,Consulting,No,Yes,Yes
+TXN00722,2024-02-19 21:00:00,IT,Axis Bank,EMP1170,183481.51,Cheque,INV879020,Pending,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00256,2024-05-17 18:03:00,HR,HDFC Bank,EMP1044,335729.88,Cheque,INV534096,Rejected,Low,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00683,2024-03-05 16:42:00,IT,3M India,EMP1114,57760.03,Cash,INV993766,Approved,Low,No,Chennai,Miscellaneous,No,No,No
+TXN00814,2024-08-30 18:00:00,Sales,Infosys Ltd,EMP1176,348428.64,Bank Transfer,INV571923,Approved,High,Yes,Chennai,Salary,Yes,No,Yes
+TXN00716,2024-09-13 00:49:00,HR,HCL Tech,EMP1348,415768.7,Bank Transfer,INV726090,Approved,Low,No,Ahmedabad,Travel,No,No,Yes
+TXN00694,2024-09-28 15:04:00,IT,3M India,EMP1276,358305.82,Credit Card,INV230117,Pending,Low,No,Delhi,Salary,No,No,Yes
+TXN00700,2024-12-02 20:52:00,IT,Johnson Controls,EMP1084,212744.8,Bank Transfer,INV926051,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00748,2024-03-29 16:10:00,Finance,HUL,EMP1427,214692.28,Cheque,INV576364,Approved,Medium,No,Hyderabad,Software,No,No,No
+TXN00083,2024-12-22 17:26:00,IT,SBI,EMP1454,210367.84,Bank Transfer,INV613117,Approved,High,Yes,Hyderabad,Travel,No,No,Yes
+TXN00516,2024-08-20 03:07:00,Sales,Jyothy Labs,EMP1255,119256.79,Cheque,INV131167,Approved,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00635,2024-08-07 22:26:00,HR,Dabur India,EMP1231,427207.34,Cash,INV245699,Approved,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00625,2024-03-14 04:50:00,HR,L&T Construction,EMP1273,192206.79,Bank Transfer,INV728672,Approved,Medium,No,Chennai,Infrastructure,No,No,Yes
+TXN00142,2024-11-15 21:39:00,Finance,Axis Bank,EMP1500,52857.34,Bank Transfer,INV455556,Approved,Low,Yes,Kolkata,Consulting,No,Yes,Yes
+TXN00230,2024-05-01 13:31:00,Finance,SBI,EMP1365,143513.51,Cash,INV342716,Pending,Low,No,Pune,Miscellaneous,No,No,No
+TXN00634,2024-04-26 23:47:00,HR,Emami Ltd,EMP1120,260333.55,Credit Card,INV894423,Approved,Medium,No,Delhi,Equipment,No,No,Yes
+TXN00030,2024-12-13 17:21:00,Finance,ICICI Bank,EMP1450,485348.3,Bank Transfer,INV378361,Approved,Low,No,Pune,Miscellaneous,No,No,No
+TXN00682,2024-06-09 12:36:00,Finance,Asian Paints,EMP1032,297079.59,Bank Transfer,INV507000,Rejected,Low,Yes,Pune,Infrastructure,No,No,Yes
+TXN00194,2024-12-12 20:25:00,Sales,Britannia,EMP1055,10221.15,Bank Transfer,INV635482,Approved,Low,No,Chennai,Miscellaneous,No,No,Yes
+TXN00421,2024-08-23 17:57:00,Sales,Marico Ltd,EMP1402,408012.48,Cheque,INV158743,Pending,Low,No,Pune,Consulting,No,No,No
+TXN00658,2024-08-14 20:00:00,Finance,Jyothy Labs,EMP1036,477062.29,Bank Transfer,INV248407,Rejected,Low,Yes,Bangalore,Consulting,No,No,Yes
+TXN00728,2024-05-31 22:17:00,IT,ICICI Bank,EMP1088,115845.08,Bank Transfer,INV406019,Approved,Low,No,Bangalore,Equipment,No,No,Yes
+TXN00595,2024-01-12 10:27:00,HR,Nestle India,EMP1013,430525.96,Bank Transfer,INV369670,Approved,High,Yes,Bangalore,Equipment,No,No,No
+TXN00946,2024-09-22 06:23:00,IT,L&T Construction,EMP1081,1281501.22,Cheque,INV852689,Pending,Medium,Yes,Bangalore,Equipment,No,No,No
+TXN00101,2024-11-12 14:53:00,Sales,Reliance Industries,EMP1224,423019.76,Bank Transfer,INV717476,Approved,Low,No,Pune,Salary,No,No,No
+TXN00177,2024-01-04 17:35:00,Procurement,Infosys Ltd,EMP1009,267061.74,Bank Transfer,INV400614,Approved,Medium,No,Bangalore,Travel,No,No,No
+TXN00792,2024-07-23 02:35:00,Sales,Jyothy Labs,EMP1314,28301.02,Bank Transfer,INV576663,Approved,Medium,No,Pune,Consulting,No,No,Yes
+TXN00343,2024-05-21 07:38:00,HR,Marico Ltd,EMP1477,204958.45,Cash,INV283537,Approved,Low,Yes,Hyderabad,Equipment,No,No,Yes
+TXN00678,2024-12-10 17:55:00,Procurement,Tata Motors,EMP1459,225911.92,Bank Transfer,INV794830,Approved,Low,No,Delhi,Travel,No,No,No
+TXN00004,2024-05-30 20:39:00,Sales,Honeywell Automation,EMP1099,353763.06,Cash,INV338968,Pending,High,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00296,2024-07-28 03:16:00,IT,L&T Construction,EMP1097,64769.17,Cheque,INV326061,Approved,Medium,No,Delhi,Infrastructure,No,No,Yes
+TXN00410,2024-03-28 10:36:00,HR,Tata Motors,EMP1445,76580.65,Credit Card,INV153802,Approved,Low,No,Ahmedabad,Equipment,No,No,No
+TXN00182,2024-07-18 21:57:00,IT,Pidilite Industries,EMP1197,379026.59,Bank Transfer,INV822794,Approved,Low,No,Mumbai,Travel,No,No,Yes
+TXN00161,2024-03-08 16:26:00,Procurement,Honeywell Automation,EMP1030,281604.61,Credit Card,INV423139,Approved,Low,No,Chennai,Consulting,No,Yes,No
+TXN00461,2024-09-06 02:56:00,Procurement,L&T Construction,EMP1072,22670.65,Cash,INV721748,Approved,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00294,2024-06-23 11:52:00,Finance,Sun Pharma,EMP1433,229957.69,Credit Card,INV749863,Approved,Medium,No,Ahmedabad,Travel,No,No,Yes
+TXN00927,2024-12-24 04:46:00,HR,3M India,EMP1470,1257143.19,UPI,INV187859,Pending,Medium,Yes,Mumbai,Consulting,No,No,No
+TXN00507,2024-08-08 01:12:00,Finance,Wipro Technologies,EMP1407,331595.48,Credit Card,INV591868,Approved,Low,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00414,2024-04-01 05:43:00,Sales,Schneider Electric,EMP1339,347299.24,Credit Card,INV925551,Approved,High,Yes,Pune,Travel,No,No,Yes
+TXN00782,2024-06-26 15:39:00,IT,Siemens India,EMP1003,83402.19,Credit Card,INV227500,Approved,Low,Yes,Bangalore,Salary,No,No,No
+TXN00402,2024-04-28 19:14:00,HR,TCS,EMP1184,44340.34,Credit Card,INV240600,Approved,Medium,No,Pune,Salary,No,No,Yes
+TXN00867,2024-06-03 07:37:00,IT,Godrej Industries,EMP1066,6656673.07,Credit Card,INV407592,Approved,High,Yes,Kolkata,Salary,No,Yes,Yes
+TXN00549,2024-03-06 15:55:00,Sales,Godrej Industries,EMP1475,217892.58,Cheque,INV376002,Approved,Medium,No,Pune,Miscellaneous,No,No,No
+TXN00961,2024-09-24 22:13:00,Sales,Bosch India,EMP1310,238429.52,Bank Transfer,INV320848,Pending,High,Yes,Bangalore,Salary,No,Yes,Yes
+TXN00785,2024-10-27 09:10:00,HR,Jyothy Labs,EMP1222,442014.38,Bank Transfer,INV883369,Approved,Low,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00896,2024-08-06 17:08:00,Finance,Dabur India,EMP1061,8728600.47,Cheque,INV485570,Approved,High,Yes,Pune,Miscellaneous,No,Yes,Yes
+TXN00878,2024-02-02 05:41:00,HR,Havells India,EMP1336,7394068.32,Bank Transfer,INV849923,Pending,High,Yes,Bangalore,Equipment,No,Yes,Yes
+TXN00681,2024-10-14 13:51:00,HR,Sun Pharma,EMP1133,62266.53,Bank Transfer,INV193469,Approved,Low,No,Delhi,Consulting,No,No,No
+TXN00109,2024-12-05 04:58:00,Sales,Asian Paints,EMP1496,329747.09,Credit Card,INV235215,Approved,High,Yes,Hyderabad,Consulting,No,No,Yes
+TXN00646,2024-05-08 03:45:00,HR,Berger Paints,EMP1344,375594.63,Bank Transfer,INV171551,Approved,Medium,No,Ahmedabad,Salary,No,No,Yes
+TXN00372,2024-07-09 02:15:00,HR,Jyothy Labs,EMP1047,344542.6,Bank Transfer,INV896456,Approved,Low,No,Delhi,Salary,No,No,Yes
+TXN00758,2024-08-23 08:30:00,Sales,Dabur India,EMP1333,462459.58,Cheque,INV696360,Approved,Low,No,Kolkata,Infrastructure,No,No,Yes
+TXN00286,2024-02-18 01:00:00,HR,Tata Motors,EMP1169,181976.07,Bank Transfer,INV752011,Approved,Medium,No,Pune,Salary,No,No,Yes
+TXN00787,2024-04-02 10:27:00,HR,Havells India,EMP1126,40956.96,Credit Card,INV490032,Approved,Low,Yes,Mumbai,Software,No,No,No
+TXN00429,2024-01-26 03:24:00,Finance,Reliance Industries,EMP1219,198998.8,Credit Card,INV721549,Approved,Medium,No,Pune,Equipment,No,No,Yes
+TXN00223,2024-01-06 05:31:00,Sales,Bosch India,EMP1265,392578.62,Credit Card,INV275073,Approved,Medium,No,Delhi,Infrastructure,No,No,Yes
+TXN00720,2024-09-18 13:41:00,Finance,Asian Paints,EMP1057,138276.81,Bank Transfer,INV468075,Approved,Low,No,Bangalore,Travel,No,Yes,No
+TXN00419,2024-11-22 06:00:00,HR,Aurobindo Pharma,EMP1131,396146.77,Bank Transfer,INV631302,Approved,Medium,Yes,Pune,Equipment,No,No,Yes
+TXN00564,2024-12-19 21:25:00,Sales,Reliance Industries,EMP1065,71881.4,Bank Transfer,INV955604,Approved,High,Yes,Mumbai,Salary,No,No,Yes
+TXN00842,2024-06-18 12:37:00,Sales,Dr Reddy Labs,EMP1317,228233.46,Bank Transfer,INV711218,Approved,High,Yes,Bangalore,Infrastructure,Yes,No,Yes
+TXN00163,2024-07-14 14:55:00,Procurement,ITC Ltd,EMP1042,342951.53,Credit Card,INV665497,Approved,Medium,Yes,Kolkata,Consulting,No,No,Yes
+TXN00183,2024-02-08 10:38:00,IT,Johnson Controls,EMP1204,484615.66,Bank Transfer,INV764926,Approved,High,Yes,Ahmedabad,Salary,No,No,No
+TXN00297,2024-11-20 21:37:00,Finance,Dabur India,EMP1235,330936.06,UPI,INV241176,Rejected,Low,Yes,Mumbai,Consulting,No,No,Yes
+TXN00829,2024-02-27 08:43:00,IT,Tata Motors,EMP1370,221648.34,Bank Transfer,INV809217,Approved,High,Yes,Hyderabad,Infrastructure,Yes,No,Yes
+TXN00114,2024-07-14 16:33:00,Procurement,Tata Motors,EMP1419,103850.38,Credit Card,INV362147,Approved,Low,No,Delhi,Software,No,No,Yes
+TXN00217,2024-02-13 07:35:00,IT,Johnson Controls,EMP1370,305758.58,Credit Card,INV824016,Approved,Medium,No,Chennai,Consulting,No,No,Yes
+TXN00224,2024-06-20 13:17:00,IT,Tech Mahindra,EMP1135,357600.01,Credit Card,INV180813,Approved,Low,Yes,Bangalore,Equipment,No,No,No
+TXN00887,2024-04-16 18:52:00,Procurement,Colgate,EMP1181,4673638.94,Credit Card,INV994877,Approved,High,Yes,Delhi,Miscellaneous,No,Yes,Yes
+TXN00784,2024-05-30 14:47:00,Procurement,Britannia,EMP1263,473441.11,Cheque,INV362241,Approved,Medium,No,Hyderabad,Miscellaneous,No,No,No
+TXN00127,2024-04-30 20:23:00,Sales,ITC Ltd,EMP1487,285786.1,Credit Card,INV812048,Approved,Low,No,Delhi,Consulting,No,No,Yes
+TXN00622,2024-07-02 00:35:00,Finance,SBI,EMP1149,223002.02,Credit Card,INV902719,Approved,High,Yes,Chennai,Salary,No,No,Yes
+TXN00388,2024-07-20 14:48:00,IT,Honeywell Automation,EMP1259,49591.06,Bank Transfer,INV924566,Approved,Low,Yes,Mumbai,Consulting,No,No,Yes
+TXN00135,2024-11-05 10:53:00,IT,Wipro Technologies,EMP1423,432571.69,Bank Transfer,INV772612,Pending,Low,No,Kolkata,Consulting,No,No,No
+TXN00551,2024-12-27 14:27:00,Finance,Jyothy Labs,EMP1021,223552.25,UPI,INV688098,Approved,Low,No,Bangalore,Travel,No,No,No
+TXN00385,2024-05-11 09:05:00,IT,HUL,EMP1292,459351.49,Credit Card,INV858729,Approved,Low,No,Delhi,Consulting,No,No,Yes
+TXN00241,2024-08-29 16:22:00,IT,Sun Pharma,EMP1499,84014.28,Bank Transfer,INV352867,Approved,Medium,No,Mumbai,Infrastructure,No,No,No
+TXN00503,2024-06-29 04:00:00,HR,Bosch India,EMP1145,189642.03,Bank Transfer,INV456844,Rejected,Low,Yes,Chennai,Salary,No,No,Yes
+TXN00570,2024-12-30 12:26:00,Sales,Emami Ltd,EMP1410,485616.11,Bank Transfer,INV317273,Approved,Medium,No,Bangalore,Salary,No,No,No
+TXN00291,2024-03-21 16:54:00,Procurement,Jyothy Labs,EMP1446,86874.92,Credit Card,INV436208,Approved,High,Yes,Mumbai,Consulting,No,No,No
+TXN00024,2024-02-24 23:35:00,HR,Biocon,EMP1145,304390.76,Credit Card,INV313487,Approved,Medium,No,Hyderabad,Infrastructure,No,Yes,Yes
+TXN00426,2024-12-17 19:55:00,Finance,Pidilite Industries,EMP1240,445147.01,Bank Transfer,INV903398,Approved,Low,No,Hyderabad,Software,No,No,Yes
+TXN00876,2024-07-18 00:37:00,Sales,Wipro Technologies,EMP1331,6878167.45,Bank Transfer,INV566070,Approved,High,Yes,Pune,Salary,No,Yes,Yes
+TXN00579,2024-11-19 22:51:00,IT,Aurobindo Pharma,EMP1215,203991.39,Credit Card,INV680502,Pending,Medium,No,Pune,Travel,No,No,Yes
+TXN00361,2024-10-03 08:35:00,Procurement,Axis Bank,EMP1497,474500.64,Bank Transfer,INV719531,Approved,Medium,No,Kolkata,Consulting,No,No,Yes
+TXN00724,2024-11-12 10:19:00,Procurement,L&T Construction,EMP1274,361780.89,Cash,INV301019,Approved,Medium,No,Pune,Equipment,No,No,No
+TXN00171,2024-06-19 09:58:00,Finance,Bajaj Auto,EMP1480,99061.73,Credit Card,INV883159,Rejected,Low,Yes,Chennai,Software,No,No,No
+TXN00599,2024-11-29 04:19:00,IT,Nestle India,EMP1229,46534.64,Credit Card,INV313340,Pending,Low,No,Bangalore,Infrastructure,No,No,Yes
+TXN00640,2024-02-26 04:34:00,Procurement,Emami Ltd,EMP1381,39037.68,UPI,INV316509,Approved,Low,No,Ahmedabad,Salary,No,No,Yes
+TXN00160,2024-09-15 06:36:00,IT,SBI,EMP1085,167418.23,Bank Transfer,INV221886,Approved,Medium,No,Ahmedabad,Infrastructure,No,Yes,Yes
+TXN00031,2024-09-18 03:24:00,IT,L&T Construction,EMP1131,26971.33,Bank Transfer,INV645175,Rejected,Low,Yes,Chennai,Equipment,No,No,Yes
+TXN00479,2024-02-16 00:30:00,Sales,Tata Motors,EMP1361,232345.0,Credit Card,INV712011,Approved,Low,No,Kolkata,Salary,No,No,Yes
+TXN00944,2024-06-22 20:52:00,Finance,Asian Paints,EMP1230,703245.58,UPI,INV274624,Pending,High,Yes,Delhi,Consulting,No,No,No
+TXN00463,2024-02-06 01:47:00,HR,Jyothy Labs,EMP1335,14436.19,Cheque,INV748410,Approved,Medium,Yes,Bangalore,Software,No,Yes,Yes
+TXN00323,2024-10-03 15:41:00,HR,Godrej Industries,EMP1201,115536.79,Credit Card,INV868844,Pending,Low,No,Delhi,Miscellaneous,No,No,No
+TXN00299,2024-08-02 19:58:00,HR,Biocon,EMP1204,481978.8,UPI,INV574843,Pending,Low,No,Hyderabad,Infrastructure,No,No,Yes
+TXN00312,2024-02-23 06:34:00,Procurement,Tech Mahindra,EMP1383,344591.55,Cash,INV851690,Approved,Low,Yes,Hyderabad,Consulting,No,Yes,Yes
+TXN00915,2024-06-16 19:50:00,Sales,Pidilite Industries,EMP1500,700985.69,Credit Card,INV593549,Pending,High,Yes,Hyderabad,Consulting,No,Yes,No
+TXN00543,2024-07-07 05:36:00,Finance,Infosys Ltd,EMP1368,265289.66,Credit Card,INV575747,Pending,Low,No,Chennai,Salary,No,No,Yes
+TXN00795,2024-03-11 18:29:00,Finance,Axis Bank,EMP1164,431637.98,Credit Card,INV991450,Rejected,Low,Yes,Ahmedabad,Software,No,No,Yes
+TXN00086,2024-04-29 10:49:00,HR,Johnson Controls,EMP1002,142251.05,UPI,INV236306,Approved,Medium,Yes,Mumbai,Salary,No,Yes,No
+TXN00874,2024-12-02 07:10:00,IT,Siemens India,EMP1103,5571187.99,Bank Transfer,INV799961,Approved,High,Yes,Ahmedabad,Equipment,No,Yes,Yes
+TXN00575,2024-09-16 15:46:00,Finance,SBI,EMP1332,185049.77,Cheque,INV228957,Pending,Low,No,Mumbai,Salary,No,No,No
+TXN00499,2024-11-21 15:07:00,Sales,Nestle India,EMP1092,248483.82,Credit Card,INV356639,Approved,Medium,No,Delhi,Consulting,No,No,No
+TXN00647,2024-05-22 05:10:00,Finance,Johnson Controls,EMP1052,92732.12,Bank Transfer,INV877462,Approved,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00848,2024-06-26 09:07:00,Procurement,Tech Mahindra,EMP1389,216525.3,Credit Card,INV407057,Approved,High,Yes,Pune,Consulting,Yes,No,Yes
+TXN00586,2024-08-31 06:28:00,Finance,Godrej Industries,EMP1347,265496.52,Credit Card,INV644153,Pending,Medium,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00677,2024-02-21 23:24:00,Sales,Johnson Controls,EMP1100,357411.28,Cheque,INV699672,Pending,Medium,Yes,Ahmedabad,Infrastructure,No,No,Yes
+TXN00034,2024-12-11 06:32:00,Procurement,Tata Motors,EMP1338,46973.79,Bank Transfer,INV763686,Approved,Low,No,Chennai,Software,No,No,Yes
+TXN00413,2024-01-29 20:22:00,Finance,SBI,EMP1438,21053.89,Credit Card,INV732590,Approved,High,Yes,Mumbai,Travel,No,No,Yes
+TXN00262,2024-08-31 08:57:00,Sales,TCS,EMP1173,409606.03,Bank Transfer,INV393964,Pending,Medium,No,Chennai,Salary,No,No,Yes
+TXN00400,2024-03-15 20:59:00,IT,Tata Motors,EMP1163,38567.95,Bank Transfer,INV854388,Approved,Low,No,Mumbai,Infrastructure,No,No,Yes
+TXN00690,2024-03-01 16:41:00,Sales,3M India,EMP1223,485014.85,Credit Card,INV523618,Approved,Low,No,Hyderabad,Software,No,No,No
+TXN00175,2024-06-29 05:08:00,IT,Jyothy Labs,EMP1095,458865.2,Bank Transfer,INV772985,Rejected,Low,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00715,2024-12-15 22:08:00,Sales,HUL,EMP1257,364367.31,Credit Card,INV965745,Approved,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00546,2024-12-20 12:43:00,HR,ITC Ltd,EMP1363,214529.02,Credit Card,INV176604,Approved,Low,No,Chennai,Miscellaneous,No,No,No
+TXN00216,2024-08-14 06:05:00,Finance,Axis Bank,EMP1386,65962.83,Credit Card,INV468611,Rejected,Low,Yes,Bangalore,Salary,No,No,Yes
+TXN00511,2024-07-13 13:13:00,IT,Sun Pharma,EMP1209,60858.51,UPI,INV229620,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00788,2024-08-26 18:50:00,Sales,Sun Pharma,EMP1288,37786.4,Bank Transfer,INV322481,Approved,Low,No,Delhi,Consulting,No,No,Yes
+TXN00156,2024-06-16 02:25:00,Finance,Mahindra & Mahindra,EMP1072,241339.78,Cheque,INV107161,Approved,Low,No,Pune,Equipment,No,No,Yes
+TXN00456,2024-09-08 06:39:00,Procurement,Mahindra & Mahindra,EMP1331,248568.36,Bank Transfer,INV906048,Approved,Medium,Yes,Ahmedabad,Software,No,No,Yes
+TXN00998,2024-11-07 01:49:00,Sales,Godrej Industries,EMP1175,426091.95,Cash,INV740225,Pending,High,Yes,Kolkata,Travel,No,Yes,Yes
+TXN00328,2024-03-12 14:10:00,HR,Tech Mahindra,EMP1264,323521.12,Bank Transfer,INV295984,Approved,Medium,No,Chennai,Miscellaneous,No,No,No
+TXN00349,2024-09-18 08:25:00,HR,Honeywell Automation,EMP1066,31803.34,Credit Card,INV601554,Rejected,Low,Yes,Pune,Miscellaneous,No,No,Yes
+TXN00352,2024-03-08 18:43:00,HR,HDFC Bank,EMP1370,138624.81,Bank Transfer,INV553214,Pending,Low,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00989,2024-01-05 03:26:00,Sales,Pidilite Industries,EMP1332,727234.91,Cash,INV475394,Pending,High,Yes,Ahmedabad,Consulting,No,Yes,Yes
+TXN00572,2024-09-14 01:51:00,Finance,Pidilite Industries,EMP1221,61414.8,Bank Transfer,INV689280,Approved,Low,No,Pune,Infrastructure,No,Yes,Yes
+TXN00488,2024-06-05 05:50:00,Sales,Sun Pharma,EMP1248,189091.65,Bank Transfer,INV986585,Approved,Low,No,Bangalore,Consulting,No,No,Yes
+TXN00399,2024-06-17 14:34:00,HR,Bajaj Auto,EMP1335,73595.38,Bank Transfer,INV938970,Approved,Low,No,Bangalore,Miscellaneous,No,No,No
+TXN00555,2024-08-19 10:46:00,IT,Axis Bank,EMP1109,432323.03,Cheque,INV396698,Approved,Low,Yes,Kolkata,Travel,No,No,No
+TXN00337,2024-12-14 12:48:00,HR,Nestle India,EMP1283,392975.27,Bank Transfer,INV488196,Approved,Low,No,Pune,Infrastructure,No,No,Yes
+TXN00610,2024-08-09 13:17:00,Finance,Bosch India,EMP1239,250309.48,Bank Transfer,INV145576,Pending,Low,No,Kolkata,Consulting,No,No,No
+TXN00909,2024-12-03 08:50:00,IT,Infosys Ltd,EMP1064,564308.46,Credit Card,INV976609,Pending,Medium,Yes,Bangalore,Miscellaneous,No,No,No
+TXN00431,2024-12-16 20:45:00,Procurement,Emami Ltd,EMP1119,473986.89,Bank Transfer,INV746910,Approved,Low,No,Pune,Infrastructure,No,No,Yes
+TXN00603,2024-06-13 10:13:00,Procurement,Johnson Controls,EMP1169,12857.93,Credit Card,INV777844,Rejected,Medium,Yes,Mumbai,Travel,No,No,No
+TXN00921,2024-11-05 07:28:00,Procurement,Sun Pharma,EMP1292,1267558.49,Bank Transfer,INV663731,Pending,Medium,Yes,Kolkata,Software,No,Yes,No
+TXN00856,2024-01-21 06:18:00,Procurement,Pidilite Industries,EMP1458,342863.2,Cash,INV204411,Approved,High,Yes,Bangalore,Miscellaneous,Yes,No,Yes
+TXN00957,2024-11-29 03:20:00,Procurement,Colgate,EMP1285,693989.68,UPI,INV185390,Pending,High,Yes,Kolkata,Software,No,Yes,Yes
+TXN00932,2024-03-13 03:13:00,IT,Colgate,EMP1387,377950.77,UPI,INV141675,Pending,High,Yes,Chennai,Travel,No,No,No
+TXN00295,2024-12-03 07:00:00,Sales,Havells India,EMP1425,318662.28,Credit Card,INV674295,Approved,Medium,Yes,Bangalore,Miscellaneous,No,No,Yes
+TXN00627,2024-08-28 21:39:00,Finance,Tata Motors,EMP1261,197117.34,Cheque,INV887623,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00066,2024-09-12 22:18:00,IT,Biocon,EMP1213,418188.35,UPI,INV355570,Approved,Low,No,Bangalore,Infrastructure,No,Yes,Yes
+TXN00783,2024-02-28 06:01:00,Sales,Axis Bank,EMP1113,46304.17,Credit Card,INV232729,Approved,Low,No,Pune,Software,No,No,Yes
+TXN00898,2024-01-08 23:15:00,Finance,Tech Mahindra,EMP1030,2950369.21,Bank Transfer,INV145843,Approved,High,Yes,Chennai,Equipment,No,Yes,Yes
+TXN00727,2024-04-15 05:00:00,HR,Honeywell Automation,EMP1112,298095.81,Cash,INV929053,Approved,Low,No,Hyderabad,Equipment,No,No,Yes
+TXN00019,2024-10-11 21:45:00,Procurement,SBI,EMP1098,151870.37,UPI,INV707314,Approved,Low,No,Mumbai,Consulting,No,No,Yes
+TXN00231,2024-02-13 18:06:00,IT,Axis Bank,EMP1327,410881.63,Bank Transfer,INV695403,Approved,Medium,Yes,Hyderabad,Equipment,No,No,Yes
+TXN00227,2024-09-21 01:25:00,Finance,Marico Ltd,EMP1444,144741.9,Cheque,INV443199,Approved,Low,No,Hyderabad,Consulting,No,No,Yes
+TXN00100,2024-01-22 13:01:00,Procurement,Tech Mahindra,EMP1442,159965.01,Bank Transfer,INV524068,Approved,Low,Yes,Mumbai,Equipment,No,No,No
+TXN00326,2024-08-20 01:02:00,Sales,HDFC Bank,EMP1361,484378.49,Credit Card,INV386780,Pending,Low,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00651,2024-10-14 20:12:00,IT,Bajaj Auto,EMP1479,273142.81,Cheque,INV226672,Approved,Low,No,Mumbai,Miscellaneous,No,No,Yes
+TXN00917,2024-04-20 12:53:00,IT,Wipro Technologies,EMP1337,1130450.68,Cheque,INV899656,Pending,High,Yes,Delhi,Travel,No,Yes,No
+TXN00474,2024-08-20 05:24:00,Sales,Axis Bank,EMP1235,361311.5,Credit Card,INV382795,Approved,Low,No,Mumbai,Equipment,No,No,Yes
+TXN00905,2024-12-04 09:02:00,IT,Havells India,EMP1480,185089.34,UPI,INV891127,Pending,High,Yes,Hyderabad,Infrastructure,No,Yes,No
+TXN00812,2024-02-09 05:43:00,Sales,Sun Pharma,EMP1208,347434.64,Bank Transfer,INV709805,Approved,High,Yes,Pune,Equipment,Yes,No,Yes
+TXN00133,2024-08-09 16:58:00,Finance,ICICI Bank,EMP1266,80742.66,Bank Transfer,INV438334,Rejected,Low,Yes,Hyderabad,Infrastructure,No,Yes,No
+TXN00673,2024-06-21 19:27:00,Sales,Godrej Industries,EMP1350,445625.34,UPI,INV956526,Approved,Low,No,Mumbai,Equipment,No,No,Yes
+TXN00425,2024-06-07 10:09:00,Finance,Bosch India,EMP1347,496396.57,Bank Transfer,INV138328,Approved,Medium,No,Mumbai,Equipment,No,No,No
+TXN00020,2024-09-28 05:03:00,IT,Reliance Industries,EMP1436,96983.36,Credit Card,INV808011,Pending,Low,No,Chennai,Consulting,No,No,Yes
+TXN00213,2024-06-05 23:44:00,HR,Britannia,EMP1336,50143.6,Bank Transfer,INV323788,Approved,Low,No,Ahmedabad,Travel,No,Yes,Yes
+TXN00417,2024-06-11 08:33:00,IT,Schneider Electric,EMP1182,463917.16,Credit Card,INV620509,Approved,Medium,No,Bangalore,Consulting,No,No,Yes
+TXN00006,2024-03-24 14:24:00,Sales,Eaton India,EMP1353,280690.12,Credit Card,INV983794,Pending,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00280,2024-03-25 12:01:00,HR,Sun Pharma,EMP1373,492515.36,Bank Transfer,INV122977,Approved,Low,No,Mumbai,Miscellaneous,No,No,No
+TXN00292,2024-11-25 12:25:00,HR,Reliance Industries,EMP1236,224873.49,Credit Card,INV192295,Pending,Low,Yes,Ahmedabad,Software,No,No,No
+TXN00695,2024-12-21 05:00:00,IT,Dabur India,EMP1410,160576.56,Cash,INV703016,Approved,Low,No,Mumbai,Travel,No,No,Yes
+TXN00186,2024-06-30 17:05:00,IT,Johnson Controls,EMP1402,165593.01,Bank Transfer,INV406024,Approved,Medium,No,Chennai,Consulting,No,No,Yes
+TXN00409,2024-02-16 03:45:00,Procurement,Eaton India,EMP1186,47226.74,Credit Card,INV862182,Pending,Low,No,Kolkata,Consulting,No,No,Yes
+TXN00620,2024-10-23 18:21:00,IT,Asian Paints,EMP1215,167666.43,Bank Transfer,INV927527,Rejected,Low,Yes,Mumbai,Software,No,No,Yes
+TXN00047,2024-12-04 11:04:00,IT,Pidilite Industries,EMP1007,425539.94,Cheque,INV210665,Approved,Low,No,Ahmedabad,Software,No,No,No
+TXN00688,2024-06-04 14:41:00,HR,Honeywell Automation,EMP1071,223732.45,Bank Transfer,INV251857,Approved,Medium,No,Mumbai,Equipment,No,No,No
+TXN00514,2024-07-24 22:37:00,Finance,Tata Motors,EMP1034,185036.45,Bank Transfer,INV309991,Approved,High,Yes,Delhi,Salary,No,No,Yes
+TXN00284,2024-09-11 06:44:00,Procurement,Pidilite Industries,EMP1121,6355.31,Credit Card,INV215795,Pending,Medium,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00191,2024-01-14 23:29:00,HR,Dabur India,EMP1409,149208.95,Credit Card,INV958747,Pending,Medium,No,Bangalore,Software,No,No,Yes
+TXN00797,2024-05-04 21:41:00,HR,Tech Mahindra,EMP1039,486023.78,Bank Transfer,INV113765,Approved,Low,No,Ahmedabad,Travel,No,No,Yes
+TXN00872,2024-02-23 15:01:00,IT,Dabur India,EMP1201,2417398.71,Bank Transfer,INV524209,Pending,High,Yes,Bangalore,Infrastructure,No,Yes,Yes
+TXN00908,2024-05-23 21:17:00,Finance,Dr Reddy Labs,EMP1395,882786.15,Credit Card,INV698823,Pending,Medium,Yes,Hyderabad,Equipment,No,No,No
+TXN00875,2024-12-07 08:25:00,Procurement,HDFC Bank,EMP1238,5126723.51,Bank Transfer,INV129329,Approved,High,Yes,Delhi,Consulting,No,Yes,Yes
+TXN00448,2024-03-15 19:59:00,HR,Jyothy Labs,EMP1386,496824.86,Credit Card,INV349505,Approved,Medium,No,Pune,Travel,No,No,Yes
+TXN00779,2024-01-27 08:05:00,HR,Eaton India,EMP1012,321001.35,Credit Card,INV208442,Approved,High,Yes,Delhi,Travel,No,No,Yes
+TXN00221,2024-10-02 19:09:00,Sales,Reliance Industries,EMP1159,44115.67,Cheque,INV947312,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00958,2024-02-09 00:08:00,HR,Bosch India,EMP1384,141108.27,Cash,INV558858,Pending,High,Yes,Delhi,Travel,No,Yes,Yes
+TXN00588,2024-08-30 01:47:00,HR,ABB India,EMP1190,461240.19,Bank Transfer,INV993719,Approved,Low,No,Mumbai,Consulting,No,No,Yes
+TXN00384,2024-12-19 08:58:00,IT,Colgate,EMP1285,287480.76,Credit Card,INV198867,Approved,Low,Yes,Pune,Consulting,No,No,Yes
+TXN00051,2024-08-17 00:05:00,Sales,Sun Pharma,EMP1208,347434.64,Bank Transfer,INV709805,Approved,Low,No,Pune,Equipment,No,No,Yes
+TXN00819,2024-09-14 05:48:00,Sales,Britannia,EMP1055,10221.15,Bank Transfer,INV635482,Approved,High,Yes,Chennai,Miscellaneous,Yes,No,Yes
+TXN00711,2024-11-11 14:21:00,Sales,Havells India,EMP1055,7551.43,Cheque,INV295200,Approved,Low,No,Chennai,Travel,No,No,No
+TXN00870,2024-04-14 16:09:00,IT,Jyothy Labs,EMP1070,3676576.88,Bank Transfer,INV993654,Approved,High,Yes,Hyderabad,Software,No,Yes,Yes
+TXN00831,2024-01-11 04:26:00,HR,ICICI Bank,EMP1370,100329.23,Bank Transfer,INV661894,Rejected,High,Yes,Chennai,Salary,Yes,No,Yes
+TXN00553,2024-04-02 13:58:00,Finance,Dr Reddy Labs,EMP1394,251564.83,Bank Transfer,INV444622,Approved,Medium,No,Kolkata,Equipment,No,No,No
+TXN00527,2024-05-08 19:32:00,Procurement,ABB India,EMP1093,441043.8,Credit Card,INV641300,Pending,Low,No,Ahmedabad,Equipment,No,No,Yes
+TXN00631,2024-05-15 20:04:00,Sales,Reliance Industries,EMP1151,422088.68,Bank Transfer,INV774920,Approved,Low,No,Delhi,Travel,No,No,Yes
+TXN00972,2024-08-26 23:22:00,Procurement,Bajaj Auto,EMP1316,469845.52,Cash,INV501035,Pending,High,Yes,Mumbai,Salary,No,Yes,Yes
+TXN00268,2024-11-27 05:38:00,Finance,Sun Pharma,EMP1130,306130.22,Cheque,INV847362,Rejected,Medium,Yes,Kolkata,Miscellaneous,No,No,Yes
+TXN00585,2024-02-23 10:33:00,IT,L&T Construction,EMP1422,390382.01,Bank Transfer,INV253672,Approved,Medium,Yes,Mumbai,Miscellaneous,No,No,No
+TXN00197,2024-12-29 03:01:00,Sales,HDFC Bank,EMP1347,401024.81,Cheque,INV876459,Approved,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00813,2024-01-05 19:22:00,HR,Emami Ltd,EMP1018,461126.93,Bank Transfer,INV840880,Approved,High,Yes,Hyderabad,Consulting,Yes,No,Yes
+TXN00120,2024-10-05 16:50:00,IT,ABB India,EMP1011,198274.6,Bank Transfer,INV766549,Approved,Low,No,Pune,Infrastructure,No,Yes,Yes
+TXN00444,2024-10-23 09:39:00,Finance,Pidilite Industries,EMP1274,390370.93,Bank Transfer,INV637566,Rejected,Low,Yes,Pune,Miscellaneous,No,No,No
+TXN00943,2024-05-13 21:20:00,Procurement,HUL,EMP1415,746634.59,Cheque,INV373363,Pending,High,Yes,Hyderabad,Miscellaneous,No,Yes,No
+TXN00761,2024-02-17 11:29:00,Procurement,Siemens India,EMP1461,410053.42,Bank Transfer,INV289030,Approved,High,Yes,Kolkata,Infrastructure,No,No,Yes
+TXN00669,2024-12-22 13:33:00,Procurement,Aurobindo Pharma,EMP1376,218320.05,Bank Transfer,INV295454,Approved,Low,No,Delhi,Miscellaneous,No,No,Yes
+TXN00739,2024-04-01 13:33:00,Sales,Johnson Controls,EMP1093,341319.49,Bank Transfer,INV799686,Approved,Medium,No,Delhi,Equipment,No,No,No
+TXN00264,2024-03-22 02:19:00,IT,HUL,EMP1070,391355.63,Bank Transfer,INV696296,Approved,Low,No,Mumbai,Salary,No,Yes,Yes
+TXN00765,2024-05-12 05:53:00,Finance,Reliance Industries,EMP1459,451312.66,Bank Transfer,INV889762,Approved,Low,No,Ahmedabad,Miscellaneous,No,No,Yes
+TXN00189,2024-08-13 10:27:00,IT,Axis Bank,EMP1154,163729.25,Cheque,INV310608,Approved,Low,No,Pune,Equipment,No,No,No
+TXN00023,2024-08-12 17:45:00,Sales,Schneider Electric,EMP1414,328718.28,Cash,INV956795,Approved,High,Yes,Delhi,Salary,No,No,No
+TXN00411,2024-03-01 04:12:00,Finance,Schneider Electric,EMP1392,130289.93,Bank Transfer,INV996963,Approved,Medium,No,Ahmedabad,Salary,No,No,Yes
+TXN00975,2024-01-16 03:59:00,IT,Eaton India,EMP1233,417725.36,Bank Transfer,INV886364,Pending,High,Yes,Delhi,Travel,No,Yes,Yes
+TXN00310,2024-06-13 12:58:00,Finance,ITC Ltd,EMP1132,272417.47,Bank Transfer,INV641975,Pending,Low,No,Ahmedabad,Miscellaneous,No,Yes,No
+TXN00768,2024-11-20 14:40:00,IT,HDFC Bank,EMP1019,113218.27,UPI,INV540586,Approved,Medium,No,Chennai,Equipment,No,No,No
+TXN00653,2024-02-22 22:34:00,IT,Tata Motors,EMP1129,479722.18,Credit Card,INV761519,Approved,Medium,No,Bangalore,Equipment,No,No,Yes
+TXN00912,2024-04-29 03:41:00,Finance,Mahindra & Mahindra,EMP1351,834070.9,Cheque,INV708059,Pending,Medium,Yes,Chennai,Travel,No,No,No
+TXN00081,2024-11-22 11:06:00,HR,Emami Ltd,EMP1013,311675.7,Cheque,INV443939,Rejected,Low,Yes,Delhi,Software,No,No,No
+TXN00743,2024-09-29 17:52:00,HR,ITC Ltd,EMP1043,292577.15,Bank Transfer,INV705947,Pending,Medium,No,Delhi,Salary,No,No,Yes
+TXN00525,2024-04-19 09:16:00,Finance,Asian Paints,EMP1294,204003.54,Bank Transfer,INV878974,Rejected,Medium,Yes,Delhi,Consulting,No,No,No
+TXN00392,2024-11-13 04:55:00,Sales,Infosys Ltd,EMP1176,348428.64,Bank Transfer,INV571923,Approved,Low,No,Chennai,Salary,No,No,Yes
+TXN00995,2024-05-05 22:43:00,Sales,Infosys Ltd,EMP1245,169497.35,Cash,INV593670,Pending,High,Yes,Kolkata,Software,No,Yes,Yes
+TXN00832,2024-04-22 21:09:00,IT,Johnson Controls,EMP1247,40610.13,Bank Transfer,INV592053,Approved,High,Yes,Mumbai,Travel,Yes,No,No
+TXN00654,2024-12-18 10:54:00,Procurement,Tech Mahindra,EMP1172,13736.16,Cheque,INV570717,Approved,Medium,No,Mumbai,Salary,No,Yes,No
+TXN00742,2024-08-05 15:44:00,Procurement,Johnson Controls,EMP1407,320119.07,Bank Transfer,INV785720,Rejected,Low,Yes,Ahmedabad,Consulting,No,No,No
+TXN00624,2024-02-26 10:59:00,HR,Asian Paints,EMP1234,123874.22,Cheque,INV793013,Approved,Low,No,Kolkata,Software,No,Yes,No
+TXN00151,2024-10-27 07:15:00,Finance,Bosch India,EMP1116,320782.56,Bank Transfer,INV533377,Approved,Low,No,Bangalore,Travel,No,No,Yes
+TXN00040,2024-07-18 18:44:00,Finance,Honeywell Automation,EMP1195,241104.97,Cheque,INV413118,Pending,Medium,No,Kolkata,Consulting,No,No,Yes
+TXN00960,2024-08-10 23:46:00,Sales,Bosch India,EMP1166,511325.37,Bank Transfer,INV691198,Pending,High,Yes,Bangalore,Equipment,No,Yes,Yes
+TXN00335,2024-09-01 07:58:00,Finance,Aurobindo Pharma,EMP1307,438999.33,Bank Transfer,INV298202,Approved,Medium,Yes,Delhi,Consulting,No,Yes,Yes
+TXN00079,2024-05-19 05:16:00,Procurement,Aurobindo Pharma,EMP1383,435846.49,Cheque,INV591081,Rejected,Low,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00042,2024-03-06 19:34:00,Finance,HUL,EMP1304,284374.03,Cash,INV773971,Approved,Medium,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00873,2024-04-30 17:16:00,IT,Dabur India,EMP1440,6936194.9,Bank Transfer,INV253350,Pending,High,Yes,Bangalore,Salary,No,Yes,Yes
+TXN00583,2024-07-09 08:40:00,IT,Havells India,EMP1064,28627.77,Credit Card,INV230809,Approved,Low,Yes,Pune,Salary,No,No,Yes
+TXN00537,2024-07-20 08:19:00,Finance,Dr Reddy Labs,EMP1153,109141.31,Cheque,INV560163,Approved,Medium,No,Kolkata,Infrastructure,No,Yes,Yes
+TXN00841,2024-05-15 21:22:00,Sales,ABB India,EMP1391,273997.88,Bank Transfer,INV437408,Pending,High,Yes,Chennai,Consulting,Yes,No,No
+TXN00996,2024-04-18 03:42:00,Procurement,Dr Reddy Labs,EMP1391,737712.3,Bank Transfer,INV234744,Pending,High,Yes,Bangalore,Miscellaneous,No,Yes,Yes
+TXN00855,2024-05-30 00:29:00,IT,L&T Construction,EMP1095,336947.32,Cash,INV252627,Pending,High,Yes,Pune,Equipment,Yes,No,Yes
+TXN00846,2024-11-09 03:27:00,IT,Mahindra & Mahindra,EMP1128,144163.72,Bank Transfer,INV376331,Rejected,High,Yes,Kolkata,Salary,Yes,No,Yes
+TXN00250,2024-08-02 05:56:00,Procurement,Jyothy Labs,EMP1452,192462.72,Bank Transfer,INV206355,Pending,Medium,No,Chennai,Salary,No,No,Yes
+TXN00633,2024-10-05 08:00:00,Sales,Aurobindo Pharma,EMP1422,176583.02,UPI,INV525468,Pending,Medium,Yes,Bangalore,Infrastructure,No,No,Yes
+TXN00706,2024-02-14 09:26:00,Sales,Reliance Industries,EMP1325,44340.06,Credit Card,INV198181,Approved,Low,No,Ahmedabad,Infrastructure,No,No,No
+TXN00470,2024-10-03 16:14:00,Procurement,Eaton India,EMP1338,108013.81,Bank Transfer,INV218152,Pending,Medium,No,Ahmedabad,Miscellaneous,No,No,No
+TXN00354,2024-01-31 06:52:00,Sales,Emami Ltd,EMP1430,316781.8,Bank Transfer,INV450912,Approved,Low,No,Hyderabad,Equipment,No,Yes,Yes
+TXN00282,2024-12-25 04:13:00,Finance,Asian Paints,EMP1216,332523.97,Credit Card,INV383091,Approved,Medium,No,Delhi,Consulting,No,No,Yes
+TXN00442,2024-09-12 23:15:00,IT,Biocon,EMP1211,463649.4,Credit Card,INV135087,Rejected,Low,Yes,Pune,Travel,No,No,Yes
+TXN00506,2024-03-01 07:08:00,HR,Sun Pharma,EMP1158,67045.37,Bank Transfer,INV182423,Approved,Medium,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00649,2024-08-15 01:38:00,Finance,HCL Tech,EMP1396,191810.79,Bank Transfer,INV361829,Approved,Low,Yes,Kolkata,Travel,No,No,Yes
+TXN00149,2024-04-16 22:45:00,Procurement,Berger Paints,EMP1246,177657.57,Cheque,INV934042,Approved,Low,No,Kolkata,Miscellaneous,No,No,Yes
+TXN00745,2024-10-09 13:15:00,HR,Sun Pharma,EMP1029,374762.7,Bank Transfer,INV829578,Approved,Low,Yes,Kolkata,Equipment,No,Yes,No
+TXN00130,2024-06-12 21:22:00,Finance,ABB India,EMP1278,148729.33,Bank Transfer,INV265156,Approved,High,Yes,Bangalore,Infrastructure,No,No,Yes
+TXN00097,2024-11-12 01:43:00,Finance,Biocon,EMP1227,332659.65,Bank Transfer,INV563516,Approved,Low,No,Pune,Miscellaneous,No,No,Yes
+TXN00954,2024-11-18 22:06:00,HR,Bajaj Auto,EMP1443,756569.96,UPI,INV362111,Approved,High,Yes,Kolkata,Consulting,No,Yes,Yes
+TXN00087,2024-05-01 18:20:00,Finance,Mahindra & Mahindra,EMP1136,30937.51,Credit Card,INV651640,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00180,2024-10-16 03:57:00,IT,Wipro Technologies,EMP1118,109651.44,Cheque,INV694316,Approved,Low,Yes,Hyderabad,Consulting,No,No,Yes
+TXN00255,2024-08-29 15:57:00,Sales,Reliance Industries,EMP1329,274342.38,Bank Transfer,INV499974,Approved,Low,No,Ahmedabad,Equipment,No,No,No
+TXN00406,2024-07-21 23:02:00,IT,ITC Ltd,EMP1265,383754.14,UPI,INV299072,Approved,Low,No,Hyderabad,Miscellaneous,No,No,Yes
+TXN00757,2024-06-07 17:55:00,Finance,Jyothy Labs,EMP1049,230129.89,Bank Transfer,INV409967,Approved,Low,No,Delhi,Travel,No,No,No
+TXN00948,2024-05-24 09:01:00,HR,Eaton India,EMP1396,1078894.54,Cash,INV385693,Pending,High,Yes,Kolkata,Software,No,No,No
+TXN00038,2024-08-31 14:16:00,HR,Eaton India,EMP1142,384077.77,Bank Transfer,INV757193,Approved,Low,No,Chennai,Equipment,No,No,Yes
+TXN00750,2024-09-01 10:41:00,Procurement,ITC Ltd,EMP1085,32062.47,Bank Transfer,INV544828,Approved,Low,Yes,Pune,Travel,No,No,Yes
+TXN00902,2024-06-05 23:35:00,HR,ICICI Bank,EMP1191,1128629.52,Bank Transfer,INV137609,Pending,High,Yes,Ahmedabad,Software,No,No,No
+TXN00952,2024-09-30 03:15:00,Finance,Jyothy Labs,EMP1373,345233.89,Bank Transfer,INV899749,Pending,High,Yes,Delhi,Miscellaneous,No,Yes,Yes
+TXN00611,2024-01-03 12:12:00,Sales,Reliance Industries,EMP1451,288050.71,Cash,INV873266,Approved,Medium,No,Chennai,Salary,No,No,No
+TXN00037,2024-08-25 21:33:00,IT,Johnson Controls,EMP1163,475269.61,Cheque,INV742412,Pending,Medium,No,Ahmedabad,Salary,No,No,Yes
+TXN00652,2024-01-07 12:13:00,Procurement,Sun Pharma,EMP1034,330691.04,Bank Transfer,INV754216,Approved,Low,No,Hyderabad,Infrastructure,No,No,Yes
+TXN00305,2024-08-14 07:58:00,Sales,3M India,EMP1280,370532.77,Bank Transfer,INV860127,Rejected,Low,Yes,Bangalore,Software,No,Yes,Yes
+TXN00333,2024-02-19 05:30:00,IT,Johnson Controls,EMP1020,439487.56,Bank Transfer,INV888930,Approved,Low,Yes,Mumbai,Infrastructure,No,No,Yes
+TXN00458,2024-06-17 12:36:00,Finance,Colgate,EMP1363,470255.98,Bank Transfer,INV557239,Approved,Medium,No,Delhi,Consulting,No,No,No
+TXN00018,2024-09-03 06:55:00,Procurement,HCL Tech,EMP1085,192591.69,UPI,INV378085,Rejected,Medium,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00428,2024-10-08 10:17:00,HR,Aurobindo Pharma,EMP1294,126188.41,Bank Transfer,INV743052,Pending,Low,Yes,Mumbai,Miscellaneous,No,No,No
+TXN00366,2024-11-12 14:17:00,IT,Jyothy Labs,EMP1097,163718.64,Bank Transfer,INV660957,Approved,High,Yes,Hyderabad,Equipment,No,No,No
+TXN00301,2024-04-01 16:34:00,Sales,ICICI Bank,EMP1390,179357.71,Bank Transfer,INV698357,Rejected,Medium,Yes,Hyderabad,Infrastructure,No,No,No
+TXN00950,2024-04-09 19:54:00,Sales,Berger Paints,EMP1218,841680.1,Cash,INV416831,Pending,Medium,Yes,Chennai,Travel,No,No,No
+TXN00274,2024-06-30 07:47:00,Sales,Nestle India,EMP1404,443987.56,Bank Transfer,INV714015,Approved,Medium,No,Delhi,Miscellaneous,No,No,Yes
+TXN00556,2024-04-01 07:49:00,Procurement,Reliance Industries,EMP1011,426911.19,Bank Transfer,INV917357,Approved,Medium,No,Bangalore,Travel,No,No,Yes
+TXN00025,2024-11-20 13:53:00,Sales,Wipro Technologies,EMP1002,170110.49,Bank Transfer,INV374680,Approved,Low,No,Mumbai,Travel,No,Yes,No
+TXN00839,2024-11-16 21:34:00,IT,Mahindra & Mahindra,EMP1151,53313.52,Bank Transfer,INV371216,Approved,High,Yes,Pune,Software,Yes,No,Yes
+TXN00786,2024-06-29 11:57:00,Finance,Dabur India,EMP1086,445277.59,UPI,INV365356,Approved,Low,No,Pune,Miscellaneous,No,Yes,Yes
+TXN00304,2024-12-22 09:44:00,Finance,ITC Ltd,EMP1199,211200.29,Credit Card,INV818430,Approved,Low,Yes,Hyderabad,Salary,No,No,Yes
+TXN00692,2024-09-07 20:42:00,IT,Sun Pharma,EMP1012,295490.99,UPI,INV602790,Approved,Medium,No,Bangalore,Miscellaneous,No,No,Yes
+TXN00940,2024-05-29 21:31:00,Procurement,Eaton India,EMP1201,957086.84,UPI,INV604322,Pending,Medium,Yes,Chennai,Travel,No,No,No
+TXN00971,2024-08-11 03:28:00,Sales,ICICI Bank,EMP1286,724821.6,UPI,INV465093,Approved,High,Yes,Pune,Infrastructure,No,Yes,Yes
+TXN00259,2024-06-12 23:58:00,Finance,Reliance Industries,EMP1199,280400.28,Credit Card,INV998235,Approved,Low,No,Kolkata,Travel,No,No,Yes
+TXN00379,2024-02-01 11:35:00,Procurement,Godrej Industries,EMP1407,355674.72,Cheque,INV378727,Approved,Medium,No,Delhi,Salary,No,No,No
+TXN00982,2024-06-11 00:40:00,HR,Infosys Ltd,EMP1112,528459.21,Bank Transfer,INV185222,Pending,High,Yes,Chennai,Equipment,No,Yes,Yes
+TXN00614,2024-01-18 12:20:00,Finance,Axis Bank,EMP1032,459962.31,Bank Transfer,INV416115,Approved,Low,Yes,Mumbai,Consulting,No,Yes,No
+TXN00911,2024-02-02 14:11:00,Sales,Biocon,EMP1133,1323224.75,Bank Transfer,INV338466,Pending,High,Yes,Bangalore,Infrastructure,No,Yes,No
+TXN00052,2024-05-18 09:16:00,HR,ICICI Bank,EMP1370,100329.23,Bank Transfer,INV661894,Rejected,Medium,Yes,Chennai,Salary,No,No,Yes
+TXN00376,2024-06-13 23:04:00,IT,ITC Ltd,EMP1098,264414.54,Bank Transfer,INV678255,Approved,Low,No,Pune,Travel,No,No,Yes
+TXN00472,2024-01-15 15:32:00,Finance,Tech Mahindra,EMP1459,121473.42,Bank Transfer,INV707924,Approved,Low,No,Pune,Salary,No,No,No
+TXN00502,2024-02-09 16:12:00,HR,HDFC Bank,EMP1307,377551.11,Bank Transfer,INV431570,Pending,Medium,No,Pune,Travel,No,No,No
+TXN00889,2024-11-03 17:21:00,Finance,Sun Pharma,EMP1421,9054631.39,Cheque,INV363592,Approved,High,Yes,Pune,Travel,No,Yes,Yes
+TXN00125,2024-02-22 02:20:00,Sales,Asian Paints,EMP1229,303297.71,Bank Transfer,INV823270,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00041,2024-10-06 19:57:00,HR,Jyothy Labs,EMP1113,140102.98,Bank Transfer,INV507746,Approved,Medium,No,Bangalore,Infrastructure,No,No,Yes
+TXN00289,2024-02-27 13:28:00,Finance,Tech Mahindra,EMP1134,329211.92,Cash,INV810859,Approved,Medium,No,Chennai,Software,No,No,No
+TXN00476,2024-04-27 02:26:00,IT,Jyothy Labs,EMP1442,497853.85,Credit Card,INV977646,Approved,Low,No,Chennai,Salary,No,No,Yes
+TXN00050,2024-11-01 22:56:00,Sales,ABB India,EMP1006,260730.49,Bank Transfer,INV353080,Approved,Low,No,Ahmedabad,Software,No,No,Yes
+TXN00446,2024-11-15 00:18:00,Procurement,Reliance Industries,EMP1065,255270.07,Cheque,INV391345,Approved,Medium,No,Hyderabad,Travel,No,No,Yes
+TXN00981,2024-06-23 23:36:00,Finance,Honeywell Automation,EMP1477,397254.03,Cash,INV194960,Approved,High,Yes,Delhi,Salary,No,Yes,Yes
+TXN00894,2024-09-11 16:14:00,Sales,Britannia,EMP1245,4275637.64,Credit Card,INV338818,Approved,High,Yes,Mumbai,Travel,No,Yes,Yes
+TXN00746,2024-02-24 21:37:00,Finance,Emami Ltd,EMP1429,298993.2,Bank Transfer,INV254021,Approved,Low,Yes,Kolkata,Salary,No,No,Yes
+TXN00630,2024-10-25 01:29:00,IT,Schneider Electric,EMP1173,215920.66,Bank Transfer,INV528818,Approved,Low,No,Mumbai,Salary,No,No,Yes
+TXN00833,2024-07-01 15:01:00,Sales,Reliance Industries,EMP1329,274342.38,Bank Transfer,INV499974,Approved,High,Yes,Ahmedabad,Equipment,Yes,No,No
+TXN00528,2024-09-29 19:54:00,Procurement,Honeywell Automation,EMP1373,315245.44,Bank Transfer,INV481969,Approved,Low,No,Hyderabad,Infrastructure,No,No,Yes
+TXN00203,2024-07-15 17:32:00,Procurement,Nestle India,EMP1351,248404.31,Credit Card,INV565412,Approved,Low,Yes,Chennai,Equipment,No,Yes,No
+TXN00970,2024-09-24 00:33:00,IT,Bajaj Auto,EMP1490,174587.23,UPI,INV974098,Approved,High,Yes,Bangalore,Infrastructure,No,Yes,Yes
+TXN00605,2024-07-11 19:22:00,Procurement,Mahindra & Mahindra,EMP1430,385143.09,Credit Card,INV108840,Approved,Low,No,Mumbai,Salary,No,No,Yes
+TXN00725,2024-03-01 13:04:00,Procurement,Nestle India,EMP1269,466009.5,Bank Transfer,INV122937,Approved,Low,No,Hyderabad,Travel,No,No,No
+TXN00346,2024-12-24 08:15:00,Sales,Reliance Industries,EMP1205,338480.47,Cheque,INV179721,Approved,Low,No,Chennai,Consulting,No,No,Yes
+TXN00008,2024-10-25 12:23:00,HR,Axis Bank,EMP1261,249290.34,Credit Card,INV214975,Approved,Low,No,Delhi,Miscellaneous,No,No,No
+TXN00154,2024-11-04 03:59:00,Sales,Aurobindo Pharma,EMP1233,494604.24,Bank Transfer,INV617904,Pending,Low,No,Hyderabad,Salary,No,No,Yes
+TXN00082,2024-12-24 09:41:00,Procurement,ICICI Bank,EMP1072,27446.67,Cash,INV616554,Approved,Low,No,Kolkata,Miscellaneous,No,No,No
+TXN00691,2024-03-29 20:47:00,Procurement,Reliance Industries,EMP1399,234518.52,Cheque,INV500661,Approved,Medium,No,Delhi,Travel,No,No,Yes
+TXN00892,2024-04-14 17:52:00,Sales,HCL Tech,EMP1121,5701663.36,Credit Card,INV691246,Pending,High,Yes,Mumbai,Equipment,No,Yes,Yes
+TXN00393,2024-05-12 17:30:00,IT,SBI,EMP1356,350883.84,Cash,INV711324,Rejected,Low,Yes,Hyderabad,Salary,No,Yes,Yes
+TXN00778,2024-03-07 14:40:00,Sales,Mahindra & Mahindra,EMP1123,327998.75,Bank Transfer,INV303244,Approved,Low,No,Kolkata,Infrastructure,No,No,No
+TXN00545,2024-03-15 00:18:00,Sales,Dr Reddy Labs,EMP1317,228233.46,Bank Transfer,INV711218,Approved,Low,Yes,Bangalore,Infrastructure,No,No,Yes
+TXN00435,2024-08-25 10:35:00,Finance,Dabur India,EMP1091,157477.68,Bank Transfer,INV727320,Approved,Medium,No,Kolkata,Equipment,No,No,Yes
+TXN00184,2024-07-11 13:11:00,IT,ITC Ltd,EMP1044,387222.87,Bank Transfer,INV358421,Approved,Low,No,Bangalore,Software,No,No,No
+TXN00805,2024-06-05 22:15:00,Sales,Havells India,EMP1415,372318.28,Cash,INV755520,Approved,High,Yes,Pune,Miscellaneous,Yes,No,Yes
+TXN00115,2024-03-04 09:05:00,HR,Biocon,EMP1231,453126.57,Bank Transfer,INV558723,Approved,High,Yes,Ahmedabad,Equipment,No,No,No
+TXN00374,2024-12-22 15:12:00,IT,Mahindra & Mahindra,EMP1279,177094.02,Credit Card,INV388698,Pending,Low,No,Bangalore,Travel,No,No,Yes
+TXN00548,2024-04-01 08:10:00,IT,Jyothy Labs,EMP1477,172892.48,Bank Transfer,INV194002,Approved,Low,Yes,Delhi,Equipment,No,Yes,Yes
+TXN00865,2024-04-03 12:50:00,Procurement,HDFC Bank,EMP1071,5949285.47,Bank Transfer,INV628288,Pending,High,Yes,Pune,Miscellaneous,No,Yes,Yes
+TXN00344,2024-09-19 08:56:00,IT,Honeywell Automation,EMP1129,348624.97,UPI,INV690525,Approved,Low,No,Ahmedabad,Software,No,No,Yes
+TXN00730,2024-11-09 09:20:00,Finance,Eaton India,EMP1418,10152.05,Bank Transfer,INV865960,Rejected,Low,Yes,Mumbai,Consulting,No,No,Yes
+TXN00485,2024-08-22 02:05:00,Procurement,Mahindra & Mahindra,EMP1148,479336.97,Bank Transfer,INV272769,Approved,Medium,No,Chennai,Consulting,No,No,Yes
+TXN00800,2024-02-24 23:07:00,HR,TCS,EMP1458,233119.18,Bank Transfer,INV599374,Approved,Low,No,Delhi,Equipment,No,No,Yes
+TXN00382,2024-10-08 10:54:00,Sales,Nestle India,EMP1392,318454.21,Cheque,INV439162,Approved,Low,No,Hyderabad,Equipment,No,No,No
+TXN00515,2024-09-12 08:48:00,IT,3M India,EMP1140,379369.96,Cheque,INV519677,Approved,Medium,No,Ahmedabad,Consulting,No,No,Yes
+TXN00462,2024-08-18 00:02:00,Sales,HCL Tech,EMP1173,394950.37,Cash,INV223928,Approved,Medium,No,Bangalore,Software,No,No,Yes
+TXN00931,2024-03-01 09:17:00,Procurement,Dabur India,EMP1115,1345221.37,Credit Card,INV372031,Pending,High,Yes,Delhi,Salary,No,No,No
+TXN00822,2024-08-19 15:47:00,IT,Schneider Electric,EMP1130,341936.78,Cheque,INV102049,Rejected,High,Yes,Mumbai,Infrastructure,Yes,No,Yes
+TXN00990,2024-04-05 22:28:00,Procurement,3M India,EMP1295,570873.83,UPI,INV518731,Pending,High,Yes,Chennai,Equipment,No,Yes,Yes
+TXN00619,2024-10-13 01:27:00,Sales,L&T Construction,EMP1500,104184.09,Cheque,INV923408,Approved,Low,No,Ahmedabad,Consulting,No,No,Yes
+TXN00119,2024-11-19 16:36:00,HR,SBI,EMP1150,217473.25,Credit Card,INV352249,Approved,Low,No,Pune,Travel,No,No,No
+TXN00650,2024-06-21 06:43:00,Finance,Sun Pharma,EMP1491,441731.6,Credit Card,INV970790,Approved,Medium,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00760,2024-01-30 23:50:00,HR,ABB India,EMP1005,81508.31,Bank Transfer,INV494077,Approved,Low,Yes,Kolkata,Infrastructure,No,No,Yes
+TXN00265,2024-01-26 11:45:00,HR,Biocon,EMP1189,412635.61,Bank Transfer,INV766275,Rejected,Medium,Yes,Chennai,Equipment,No,No,No
+TXN00436,2024-12-04 01:05:00,HR,Axis Bank,EMP1455,292480.11,Credit Card,INV949178,Approved,Low,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00311,2024-11-29 06:20:00,IT,Reliance Industries,EMP1486,52498.43,UPI,INV910883,Approved,Low,Yes,Chennai,Infrastructure,No,No,Yes
+TXN00056,2024-08-01 19:38:00,IT,Sun Pharma,EMP1398,263673.4,Bank Transfer,INV564226,Approved,Low,No,Mumbai,Consulting,No,No,Yes
+TXN00790,2024-11-03 10:37:00,Procurement,Dr Reddy Labs,EMP1296,15528.01,Cash,INV921355,Pending,High,Yes,Ahmedabad,Equipment,No,No,Yes
+TXN00433,2024-12-31 03:20:00,IT,Tech Mahindra,EMP1406,154548.47,Bank Transfer,INV719221,Approved,Medium,No,Ahmedabad,Miscellaneous,No,Yes,Yes
+TXN00412,2024-12-03 15:29:00,Procurement,Dabur India,EMP1041,302602.2,Cash,INV673929,Approved,Medium,No,Chennai,Travel,No,No,No
+TXN00687,2024-02-06 16:46:00,Sales,Aurobindo Pharma,EMP1357,461916.57,Credit Card,INV674630,Approved,Low,No,Mumbai,Infrastructure,No,No,No
+TXN00670,2024-04-18 05:12:00,Finance,Mahindra & Mahindra,EMP1415,380786.52,Bank Transfer,INV528649,Approved,High,Yes,Delhi,Infrastructure,No,No,Yes
+TXN00498,2024-05-28 17:31:00,Finance,Asian Paints,EMP1428,294678.09,Bank Transfer,INV875795,Approved,Low,Yes,Hyderabad,Equipment,No,No,No
+TXN00012,2024-02-10 02:46:00,Procurement,Tech Mahindra,EMP1390,268689.55,Bank Transfer,INV791798,Approved,Low,No,Kolkata,Salary,No,No,Yes
+TXN00466,2024-03-29 10:04:00,Finance,Biocon,EMP1073,379987.29,Bank Transfer,INV487896,Approved,Low,No,Mumbai,Salary,No,No,No
+TXN00997,2024-06-16 23:52:00,Procurement,Johnson Controls,EMP1202,450586.38,Bank Transfer,INV612029,Pending,High,Yes,Mumbai,Salary,No,Yes,Yes
+TXN00394,2024-04-12 22:39:00,Sales,HCL Tech,EMP1239,329105.15,Cash,INV507523,Approved,Medium,No,Pune,Infrastructure,No,No,Yes
+TXN00520,2024-03-21 16:03:00,Procurement,Cipla Ltd,EMP1254,297567.33,Bank Transfer,INV809348,Approved,High,Yes,Pune,Travel,No,Yes,No
+TXN00589,2024-07-09 09:23:00,Sales,Aurobindo Pharma,EMP1249,18849.0,Bank Transfer,INV921866,Approved,Low,No,Hyderabad,Salary,No,No,No
+TXN00132,2024-09-02 16:26:00,Procurement,Honeywell Automation,EMP1038,67036.76,Bank Transfer,INV177767,Approved,Medium,No,Bangalore,Infrastructure,No,No,No
+TXN00327,2024-07-06 18:41:00,Finance,Bosch India,EMP1129,191282.75,Cheque,INV641455,Approved,Medium,No,Ahmedabad,Consulting,No,Yes,Yes
+TXN00165,2024-02-27 01:51:00,Procurement,Schneider Electric,EMP1393,468437.78,Cheque,INV352356,Approved,Low,Yes,Mumbai,Salary,No,No,Yes
+TXN00013,2024-12-19 06:45:00,Sales,HUL,EMP1344,326689.64,Bank Transfer,INV642717,Approved,Low,Yes,Mumbai,Consulting,No,No,Yes
+TXN00827,2024-06-19 16:49:00,HR,Dr Reddy Labs,EMP1058,287631.82,Bank Transfer,INV226502,Approved,High,Yes,Hyderabad,Miscellaneous,Yes,No,No
+TXN00823,2024-06-28 17:16:00,Finance,Jyothy Labs,EMP1102,306455.9,Credit Card,INV971889,Approved,High,Yes,Hyderabad,Salary,Yes,Yes,No
+TXN00415,2024-06-02 10:23:00,Procurement,Tech Mahindra,EMP1389,216525.3,Credit Card,INV407057,Approved,Low,No,Pune,Consulting,No,No,Yes
+TXN00884,2024-03-09 20:36:00,IT,L&T Construction,EMP1101,3893712.07,Bank Transfer,INV399986,Approved,High,Yes,Bangalore,Miscellaneous,No,Yes,Yes
+TXN00672,2024-01-04 21:37:00,Finance,HDFC Bank,EMP1109,263555.6,Cash,INV732275,Approved,High,Yes,Hyderabad,Miscellaneous,No,No,Yes
+TXN00104,2024-06-10 04:28:00,Finance,Emami Ltd,EMP1227,317535.63,Credit Card,INV720148,Approved,Low,No,Ahmedabad,Travel,No,Yes,Yes
+TXN00751,2024-03-24 17:06:00,Finance,Bajaj Auto,EMP1306,10433.62,Cheque,INV296863,Approved,Medium,Yes,Hyderabad,Travel,No,No,Yes
+TXN00703,2024-02-20 01:10:00,Sales,ITC Ltd,EMP1093,175860.58,Credit Card,INV927061,Approved,Low,No,Ahmedabad,Consulting,No,No,Yes
+TXN00355,2024-03-03 11:55:00,IT,L&T Construction,EMP1296,290067.76,Credit Card,INV283017,Rejected,Low,Yes,Pune,Software,No,No,Yes
+TXN00085,2024-02-16 21:13:00,IT,TCS,EMP1026,394463.32,Bank Transfer,INV232040,Pending,Low,No,Chennai,Consulting,No,No,Yes
+TXN00826,2024-06-29 09:45:00,HR,Sun Pharma,EMP1158,67045.37,Bank Transfer,INV182423,Approved,High,Yes,Mumbai,Infrastructure,Yes,No,Yes

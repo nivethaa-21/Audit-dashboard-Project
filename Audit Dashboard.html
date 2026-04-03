@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AuditForce — Financial Audit Dashboard FY 2024-25</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root {
+  --navy: #0b1f3a;
+  --navy2: #122545;
+  --navy3: #1a3358;
+  --accent: #2563eb;
+  --accent2: #3b82f6;
+  --red: #ef4444;
+  --red-bg: rgba(239,68,68,0.12);
+  --amber: #f59e0b;
+  --amber-bg: rgba(245,158,11,0.12);
+  --green: #22c55e;
+  --green-bg: rgba(34,197,94,0.12);
+  --blue-bg: rgba(59,130,246,0.12);
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --border: rgba(255,255,255,0.07);
+  --card: rgba(255,255,255,0.04);
+  --card2: rgba(255,255,255,0.07);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:var(--text);min-height:100vh;font-size:14px;}
+::-webkit-scrollbar{width:5px;height:5px;}
+::-webkit-scrollbar-track{background:transparent;}
+::-webkit-scrollbar-thumb{background:var(--navy3);border-radius:10px;}
+
+/* LAYOUT */
+.shell{display:flex;min-height:100vh;}
+.sidebar{width:220px;min-width:220px;background:var(--navy2);border-right:1px solid var(--border);display:flex;flex-direction:column;padding:0;position:sticky;top:0;height:100vh;overflow-y:auto;}
+.main{flex:1;overflow-x:hidden;padding:28px 28px 40px;}
+
+/* SIDEBAR */
+.sb-logo{padding:22px 20px 18px;border-bottom:1px solid var(--border);}
+.sb-logo-mark{display:flex;align-items:center;gap:10px;}
+.sb-icon{width:36px;height:36px;background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:14px;color:#fff;letter-spacing:-0.5px;}
+.sb-name{font-size:15px;font-weight:600;color:#fff;}
+.sb-ver{font-size:10px;color:var(--text3);margin-top:1px;}
+.sb-section{padding:18px 14px 6px;font-size:10px;font-weight:600;color:var(--text3);letter-spacing:1px;text-transform:uppercase;}
+.sb-item{display:flex;align-items:center;gap:10px;padding:9px 14px;cursor:pointer;border-radius:var(--radius-sm);margin:1px 6px;color:var(--text2);font-size:13px;transition:all .15s;}
+.sb-item:hover{background:var(--card2);color:var(--text);}
+.sb-item.active{background:var(--accent);color:#fff;}
+.sb-item .sb-dot{width:7px;height:7px;border-radius:50%;}
+.sb-badge{margin-left:auto;background:var(--red-bg);color:var(--red);font-size:10px;padding:2px 7px;border-radius:20px;font-weight:500;}
+.sb-footer{margin-top:auto;padding:16px;border-top:1px solid var(--border);}
+.sb-user{display:flex;align-items:center;gap:10px;}
+.sb-avatar{width:32px;height:32px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:#fff;}
+.sb-uname{font-size:12px;font-weight:500;}
+.sb-urole{font-size:11px;color:var(--text3);}
+
+/* TOPBAR */
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:14px;}
+.tb-left h1{font-size:22px;font-weight:600;color:#fff;letter-spacing:-0.3px;}
+.tb-left p{font-size:13px;color:var(--text2);margin-top:3px;}
+.tb-right{display:flex;align-items:center;gap:10px;}
+.live-pill{display:flex;align-items:center;gap:6px;background:var(--green-bg);color:var(--green);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:500;border:1px solid rgba(34,197,94,0.2);}
+.live-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 1.5s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.btn-export{background:var(--card2);border:1px solid var(--border);color:var(--text2);padding:6px 14px;border-radius:var(--radius-sm);cursor:pointer;font-size:12px;font-family:'DM Sans',sans-serif;transition:all .15s;}
+.btn-export:hover{background:var(--card);color:var(--text);}
+
+/* FILTERS */
+.filters-bar{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px 18px;margin-bottom:22px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.f-label{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.8px;margin-right:4px;}
+select{background:var(--navy2);border:1px solid var(--border);color:var(--text);padding:6px 10px;border-radius:var(--radius-sm);font-size:12px;font-family:'DM Sans',sans-serif;cursor:pointer;outline:none;}
+select:hover{border-color:rgba(255,255,255,0.15);}
+select:focus{border-color:var(--accent2);}
+.btn-reset{background:transparent;border:1px solid var(--border);color:var(--text3);padding:6px 12px;border-radius:var(--radius-sm);cursor:pointer;font-size:12px;font-family:'DM Sans',sans-serif;transition:all .15s;margin-left:auto;}
+.btn-reset:hover{border-color:var(--red);color:var(--red);}
+
+/* KPI GRID */
+.kpi-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-bottom:22px;}
+.kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;position:relative;overflow:hidden;transition:transform .15s;}
+.kpi:hover{transform:translateY(-2px);}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:12px 12px 0 0;}
+.kpi.danger::before{background:var(--red);}
+.kpi.warn::before{background:var(--amber);}
+.kpi.ok::before{background:var(--green);}
+.kpi.info::before{background:var(--accent2);}
+.kpi-icon{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;font-size:16px;}
+.kpi.danger .kpi-icon{background:var(--red-bg);}
+.kpi.warn .kpi-icon{background:var(--amber-bg);}
+.kpi.ok .kpi-icon{background:var(--green-bg);}
+.kpi.info .kpi-icon{background:var(--blue-bg);}
+.kpi-val{font-size:24px;font-weight:600;letter-spacing:-0.5px;line-height:1;}
+.kpi.danger .kpi-val{color:var(--red);}
+.kpi.warn .kpi-val{color:var(--amber);}
+.kpi.ok .kpi-val{color:var(--green);}
+.kpi.info .kpi-val{color:var(--accent2);}
+.kpi-label{font-size:11px;color:var(--text3);margin-top:5px;font-weight:500;text-transform:uppercase;letter-spacing:0.5px;}
+.kpi-sub{font-size:11px;color:var(--text3);margin-top:4px;}
+
+/* CHART CARDS */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px;}
+.grid-3-1{display:grid;grid-template-columns:2.2fr 1fr;gap:14px;margin-bottom:14px;}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:14px;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:20px;}
+.card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.card-title{font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:0.6px;}
+.card-badge{font-size:10px;padding:3px 8px;border-radius:20px;}
+.chart-wrap{position:relative;width:100%;}
+
+/* HEATMAP */
+.hm-table{width:100%;border-collapse:separate;border-spacing:4px;font-size:12px;}
+.hm-table th{font-size:10px;font-weight:600;color:var(--text3);text-align:center;padding:4px;text-transform:uppercase;letter-spacing:0.5px;}
+.hm-table th:first-child{text-align:left;}
+.hm-table td{text-align:center;padding:8px 6px;border-radius:6px;font-weight:600;font-size:13px;}
+.hm-table td:first-child{text-align:left;font-weight:400;font-size:12px;color:var(--text2);padding-left:2px;background:transparent!important;}
+.hm-high{background:rgba(239,68,68,0.18);color:#f87171;}
+.hm-med{background:rgba(245,158,11,0.18);color:#fbbf24;}
+.hm-low{background:rgba(34,197,94,0.18);color:#4ade80;}
+
+/* ANOMALY ALERTS */
+.alert-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.alert-item{display:flex;align-items:flex-start;gap:10px;padding:10px 12px;border-radius:var(--radius-sm);border:1px solid;}
+.alert-item.a-red{background:var(--red-bg);border-color:rgba(239,68,68,0.2);}
+.alert-item.a-amber{background:var(--amber-bg);border-color:rgba(245,158,11,0.2);}
+.alert-item.a-blue{background:var(--blue-bg);border-color:rgba(59,130,246,0.2);}
+.alert-ico{font-size:14px;margin-top:1px;}
+.alert-txt{font-size:12px;color:var(--text);line-height:1.4;}
+.alert-count{font-size:18px;font-weight:600;display:block;}
+.alert-item.a-red .alert-count{color:var(--red);}
+.alert-item.a-amber .alert-count{color:var(--amber);}
+.alert-item.a-blue .alert-count{color:var(--accent2);}
+
+/* LEGEND */
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:10px;}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--text2);}
+.leg-sq{width:10px;height:10px;border-radius:2px;}
+
+/* TABLE */
+.tbl-wrap{overflow-x:auto;}
+.data-table{width:100%;border-collapse:collapse;font-size:12px;}
+.data-table th{background:var(--navy3);padding:10px 12px;text-align:left;font-size:10px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:0.6px;white-space:nowrap;position:sticky;top:0;z-index:1;}
+.data-table td{padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:middle;white-space:nowrap;}
+.data-table tr:hover td{background:rgba(255,255,255,0.03);}
+.data-table tr:last-child td{border-bottom:none;}
+.pill{display:inline-block;padding:2px 9px;border-radius:20px;font-size:10px;font-weight:600;}
+.pill-red{background:var(--red-bg);color:#f87171;border:1px solid rgba(239,68,68,0.2);}
+.pill-amber{background:var(--amber-bg);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);}
+.pill-green{background:var(--green-bg);color:#4ade80;border:1px solid rgba(34,197,94,0.2);}
+.pill-blue{background:var(--blue-bg);color:#60a5fa;border:1px solid rgba(59,130,246,0.2);}
+.mono{font-family:'DM Mono',monospace;font-size:11px;color:var(--text3);}
+.tbl-scroll{max-height:300px;overflow-y:auto;}
+.pg-bar{display:flex;align-items:center;justify-content:space-between;margin-top:14px;padding-top:12px;border-top:1px solid var(--border);}
+.pg-info{font-size:11px;color:var(--text3);}
+.pg-btns{display:flex;gap:6px;}
+.pg-btn{background:var(--card2);border:1px solid var(--border);color:var(--text2);padding:5px 12px;border-radius:6px;cursor:pointer;font-size:11px;font-family:'DM Sans',sans-serif;transition:all .15s;}
+.pg-btn:hover{border-color:var(--accent2);color:var(--accent2);}
+
+/* SECTION DIVIDER */
+.sec-title{font-size:11px;font-weight:600;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;margin-top:4px;padding-left:2px;border-left:3px solid var(--accent);padding-left:10px;}
+
+/* FADE-IN */
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
+.kpi{animation:fadeUp .4s ease both;}
+.kpi:nth-child(1){animation-delay:.05s;}
+.kpi:nth-child(2){animation-delay:.1s;}
+.kpi:nth-child(3){animation-delay:.15s;}
+.kpi:nth-child(4){animation-delay:.2s;}
+.kpi:nth-child(5){animation-delay:.25s;}
+.kpi:nth-child(6){animation-delay:.3s;}
+.card{animation:fadeUp .5s ease both;animation-delay:.2s;}
+
+@media(max-width:1400px){.kpi-grid{grid-template-columns:repeat(3,1fr);}}
+@media(max-width:1100px){.grid-2,.grid-3-1,.grid-3{grid-template-columns:1fr;}.sidebar{display:none;}}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<!-- SIDEBAR -->
+<nav class="sidebar">
+  <div class="sb-logo">
+    <div class="sb-logo-mark">
+      <div class="sb-icon">AF</div>
+      <div>
+        <div class="sb-name">AuditForce</div>
+        <div class="sb-ver">v2.4.1 Enterprise</div>
+      </div>
+    </div>
+  </div>
+  <div class="sb-section">Overview</div>
+  <div class="sb-item active">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+    Dashboard
+  </div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    Transactions
+    <span class="sb-badge" id="sb-flagged-count">—</span>
+  </div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+    Risk Management
+  </div>
+  <div class="sb-section">Audit Tools</div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    Anomaly Detector
+  </div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+    Audit Reports
+  </div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+    Vendor Analysis
+  </div>
+  <div class="sb-section">Settings</div>
+  <div class="sb-item">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+    Configurations
+  </div>
+  <div class="sb-footer">
+    <div class="sb-user">
+      <div class="sb-avatar">AU</div>
+      <div>
+        <div class="sb-uname">Audit User</div>
+        <div class="sb-urole">Senior Auditor</div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="main">
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <div class="tb-left">
+      <h1>Financial Audit Dashboard</h1>
+      <p>FY 2024–25 &nbsp;·&nbsp; All Entities &nbsp;·&nbsp; Consolidated View &nbsp;·&nbsp; <span id="date-label" style="color:var(--accent2)"></span></p>
+    </div>
+    <div class="tb-right">
+      <div class="live-pill"><span class="live-dot"></span> Live Feed</div>
+      <button class="btn-export" onclick="exportCSV()">⬇ Export CSV</button>
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters-bar">
+    <span class="f-label">Filter:</span>
+    <select id="f-dept" onchange="applyFilters()">
+      <option value="">All Departments</option>
+      <option>Finance</option><option>HR</option><option>Sales</option><option>Procurement</option><option>IT</option>
+    </select>
+    <select id="f-risk" onchange="applyFilters()">
+      <option value="">All Risk Levels</option>
+      <option>High</option><option>Medium</option><option>Low</option>
+    </select>
+    <select id="f-loc" onchange="applyFilters()">
+      <option value="">All Locations</option>
+      <option>Mumbai</option><option>Delhi</option><option>Bangalore</option><option>Hyderabad</option><option>Chennai</option><option>Pune</option>
+    </select>
+    <select id="f-month" onchange="applyFilters()">
+      <option value="">All Months</option>
+      <option>Apr</option><option>May</option><option>Jun</option><option>Jul</option><option>Aug</option><option>Sep</option>
+      <option>Oct</option><option>Nov</option><option>Dec</option><option>Jan</option><option>Feb</option><option>Mar</option>
+    </select>
+    <select id="f-status" onchange="applyFilters()">
+      <option value="">All Statuses</option>
+      <option>Approved</option><option>Pending</option><option>Rejected</option>
+    </select>
+    <select id="f-method" onchange="applyFilters()">
+      <option value="">All Payment Methods</option>
+      <option>Bank Transfer</option><option>Cash</option><option>Credit</option>
+    </select>
+    <button class="btn-reset" onclick="resetFilters()">✕ Reset All</button>
+  </div>
+
+  <!-- KPI -->
+  <div class="sec-title">Key Performance Indicators</div>
+  <div class="kpi-grid" id="kpi-grid"></div>
+
+  <!-- ROW 1 -->
+  <div class="sec-title">Transaction Analysis</div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-head">
+        <span class="card-title">Transactions by Department</span>
+        <div class="legend">
+          <span class="leg-item"><span class="leg-sq" style="background:#3b82f6"></span>Total</span>
+          <span class="leg-item"><span class="leg-sq" style="background:#ef4444"></span>Flagged</span>
+        </div>
+      </div>
+      <div class="chart-wrap" style="height:230px"><canvas id="deptChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <span class="card-title">Risk Distribution</span>
+        <div class="legend">
+          <span class="leg-item"><span class="leg-sq" style="background:#ef4444"></span>High</span>
+          <span class="leg-item"><span class="leg-sq" style="background:#f59e0b"></span>Medium</span>
+          <span class="leg-item"><span class="leg-sq" style="background:#22c55e"></span>Low</span>
+        </div>
+      </div>
+      <div class="chart-wrap" style="height:230px"><canvas id="riskChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- ROW 2 -->
+  <div class="grid-3-1">
+    <div class="card">
+      <div class="card-head">
+        <span class="card-title">Monthly Transaction Trend (Count &amp; Amount ₹L)</span>
+        <div class="legend">
+          <span class="leg-item"><span class="leg-sq" style="background:#3b82f6"></span>Count</span>
+          <span class="leg-item"><span class="leg-sq" style="background:#ef4444;opacity:.7"></span>Amt (₹L)</span>
+        </div>
+      </div>
+      <div class="chart-wrap" style="height:210px"><canvas id="timeChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">Anomaly Alerts</span></div>
+      <ul class="alert-list" id="alert-list"></ul>
+    </div>
+  </div>
+
+  <!-- ROW 3 -->
+  <div class="grid-3">
+    <div class="card">
+      <div class="card-head"><span class="card-title">Payment Method Split</span></div>
+      <div class="chart-wrap" style="height:190px"><canvas id="payChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">Expense Type Breakdown</span></div>
+      <div class="chart-wrap" style="height:190px"><canvas id="expChart"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">Location-wise Risk Share</span></div>
+      <div class="chart-wrap" style="height:190px"><canvas id="locChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- HEATMAP -->
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-head"><span class="card-title">Risk × Department Heatmap</span></div>
+      <table class="hm-table" id="heatmap"></table>
+    </div>
+    <div class="card">
+      <div class="card-head"><span class="card-title">Approval Status by Department</span></div>
+      <div class="chart-wrap" style="height:210px"><canvas id="statusChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- TABLE -->
+  <div class="sec-title" style="margin-top:8px;">Flagged Transactions — Detailed Audit View</div>
+  <div class="card">
+    <div class="card-head">
+      <span class="card-title">Transactions Requiring Audit Action</span>
+      <span style="font-size:11px;color:var(--text3);" id="tbl-count-label"></span>
+    </div>
+    <div class="tbl-scroll">
+      <div class="tbl-wrap">
+        <table class="data-table">
+          <thead><tr>
+            <th>Txn ID</th>
+            <th>Date</th>
+            <th>Department</th>
+            <th>Vendor Name</th>
+            <th>Emp ID</th>
+            <th>Amount (₹)</th>
+            <th>Method</th>
+            <th>Invoice No.</th>
+            <th>Status</th>
+            <th>Risk</th>
+            <th>Audit Flag</th>
+            <th>Location</th>
+            <th>Expense Type</th>
+            <th>Duplicate</th>
+            <th>Late Payment</th>
+            <th>Anomaly Notes</th>
+          </tr></thead>
+          <tbody id="flag-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="pg-bar">
+      <span class="pg-info" id="pg-info"></span>
+      <div class="pg-btns">
+        <button class="pg-btn" onclick="changePage(-1)">← Previous</button>
+        <button class="pg-btn" onclick="changePage(1)">Next →</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<script>
+// ── DATA GENERATION ──────────────────────────────────────────────────
+const DEPTS=['Finance','HR','Sales','Procurement','IT'];
+const VENDORS=['Tata Consultancy Services','Infosys Limited','Wipro Technologies','HCL Systems Ltd','Tech Mahindra','Reliance Industries','L&T Finance Holdings','Bajaj Corp Ltd','HDFC Vendor Services','ICICI Merchant Solutions','Adani Logistics','Mahindra Supplies Co','Sun Pharmaceutical','Zomato Business','Swiggy Corporate','OYO Rooms India','MakeMyTrip Business','BYJU\'s Education','Flipkart B2B','Amazon Business India','Paytm Merchant Services','Razorpay Vendor','Nykaa B2B','Meesho Vendor Hub','Delhivery Pvt Ltd'];
+const LOCS=['Mumbai','Delhi','Bangalore','Hyderabad','Chennai','Pune'];
+const METHODS=['Bank Transfer','Cash','Credit'];
+const STATUSES=['Approved','Pending','Rejected'];
+const EXPTYPES=['Travel','Salary','Equipment','Misc'];
+const MONTHS=['Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec','Jan','Feb','Mar'];
+
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;}}
+const rng=mulberry32(42);
+function rand(a,b){return Math.floor(rng()*(b-a+1))+a;}
+function pick(arr){return arr[rand(0,arr.length-1)];}
+function fmtDate(d){return d.toISOString().slice(0,10);}
+
+let DATA=[];
+(function(){
+  const start=new Date('2024-04-01');
+  for(let i=0;i<1200;i++){
+    const days=rand(0,364);
+    const d=new Date(start);d.setDate(d.getDate()+days);
+    const dept=pick(DEPTS),vendor=pick(VENDORS),method=pick(METHODS);
+    let amount=rand(5000,800000);
+    const rw=rng();
+    let risk=rw<0.55?'Low':rw<0.80?'Medium':'High';
+    const sw=rng();
+    let status=sw<0.72?'Approved':sw<0.86?'Pending':'Rejected';
+    let dup=rng()<0.07?'Yes':'No';
+    let late=rng()<0.09?'Yes':'No';
+    if(rng()<0.04){amount=rand(900000,2500000);risk='High';}
+    const auditFlag=(risk==='High'||status==='Rejected'||dup==='Yes'||amount>500000||status==='Pending')?'Yes':'No';
+    const emp='EMP'+String(rand(1000,2999));
+    const inv='INV-'+String(rand(10000,99999));
+    const txnId='TXN'+String(10000+i+1);
+    const monthIdx=Math.min(11,Math.floor(days/30.4));
+    let anotes=[];
+    if(dup==='Yes')anotes.push('Duplicate Transaction');
+    if(amount>900000)anotes.push('Abnormal Amount');
+    if(status==='Rejected')anotes.push('Rejected — Verify Reversal');
+    if(status==='Pending'&&amount>200000)anotes.push('High-Value Pending Approval');
+    if(late==='Yes')anotes.push('Late Payment Detected');
+    if(risk==='High'&&!anotes.length)anotes.push('High Risk Entry');
+    const loc=pick(LOCS),expType=pick(EXPTYPES);
+    DATA.push({txnId,date:fmtDate(d),dept,vendor,emp,amount,method,inv,status,risk,auditFlag,loc,expType,dup,late,monthIdx,anomaly:anotes.join('; ')});
+  }
+})();
+
+let filtered=[...DATA];
+let curPage=0;
+const PAGE=12;
+let charts={};
+
+document.getElementById('date-label').textContent='Last Updated: '+new Date().toLocaleDateString('en-IN',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
+document.getElementById('sb-flagged-count').textContent=DATA.filter(r=>r.auditFlag==='Yes').length;
+
+// ── FILTERS ──────────────────────────────────────────────────────────
+function applyFilters(){
+  const dept=document.getElementById('f-dept').value;
+  const risk=document.getElementById('f-risk').value;
+  const loc=document.getElementById('f-loc').value;
+  const mo=document.getElementById('f-month').value;
+  const st=document.getElementById('f-status').value;
+  const mth=document.getElementById('f-method').value;
+  filtered=DATA.filter(r=>
+    (!dept||r.dept===dept)&&
+    (!risk||r.risk===risk)&&
+    (!loc||r.loc===loc)&&
+    (!mo||MONTHS[r.monthIdx]===mo)&&
+    (!st||r.status===st)&&
+    (!mth||r.method===mth)
+  );
+  curPage=0;
+  renderAll();
+}
+function resetFilters(){
+  ['f-dept','f-risk','f-loc','f-month','f-status','f-method'].forEach(id=>document.getElementById(id).value='');
+  filtered=[...DATA];curPage=0;renderAll();
+}
+
+// ── KPIs ─────────────────────────────────────────────────────────────
+function renderKPIs(){
+  const n=filtered.length;
+  const amt=filtered.reduce((s,r)=>s+r.amount,0);
+  const high=filtered.filter(r=>r.risk==='High').length;
+  const flagged=filtered.filter(r=>r.auditFlag==='Yes').length;
+  const pending=filtered.filter(r=>r.status==='Pending').length;
+  const dups=filtered.filter(r=>r.dup==='Yes').length;
+  const kpis=[
+    {cls:'info',icon:'📊',val:n.toLocaleString('en-IN'),label:'Total Transactions',sub:'Filtered records'},
+    {cls:'info',icon:'💰',val:'₹'+Math.round(amt/1e7).toLocaleString('en-IN')+'Cr',label:'Total Amount Audited',sub:'Gross transaction value'},
+    {cls:'danger',icon:'🚨',val:high.toLocaleString('en-IN'),label:'High Risk Transactions',sub:Math.round(high*100/n)+'% of total'},
+    {cls:'danger',icon:'⚑',val:flagged.toLocaleString('en-IN'),label:'Flagged / Anomalies',sub:'Require immediate action'},
+    {cls:'warn',icon:'⏳',val:pending.toLocaleString('en-IN'),label:'Pending Approvals',sub:'Awaiting authorization'},
+    {cls:'warn',icon:'⚡',val:dups.toLocaleString('en-IN'),label:'Duplicate Transactions',sub:'Potential double payments'},
+  ];
+  document.getElementById('kpi-grid').innerHTML=kpis.map(k=>`
+    <div class="kpi ${k.cls}">
+      <div class="kpi-icon">${k.icon}</div>
+      <div class="kpi-val">${k.val}</div>
+      <div class="kpi-label">${k.label}</div>
+      <div class="kpi-sub">${k.sub}</div>
+    </div>`).join('');
+}
+
+// ── CHARTS ───────────────────────────────────────────────────────────
+const CHART_DEFAULTS={responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}}};
+
+function mkChart(id,type,data,options){
+  if(charts[id])charts[id].destroy();
+  charts[id]=new Chart(document.getElementById(id),{type,data,options:{...CHART_DEFAULTS,...options}});
+}
+
+function renderDeptChart(){
+  const cnts={};DEPTS.forEach(d=>cnts[d]=0);
+  const fcnts={};DEPTS.forEach(d=>fcnts[d]=0);
+  filtered.forEach(r=>{cnts[r.dept]++;if(r.auditFlag==='Yes')fcnts[r.dept]++;});
+  mkChart('deptChart','bar',{
+    labels:DEPTS,
+    datasets:[
+      {label:'Total',data:DEPTS.map(d=>cnts[d]),backgroundColor:'rgba(59,130,246,0.7)',borderRadius:5,borderSkipped:false},
+      {label:'Flagged',data:DEPTS.map(d=>fcnts[d]),backgroundColor:'rgba(239,68,68,0.8)',borderRadius:5,borderSkipped:false}
+    ]
+  },{scales:{x:{grid:{display:false,color:'rgba(255,255,255,0.05)'},ticks:{color:'#64748b',font:{size:11}}},y:{grid:{color:'rgba(255,255,255,0.05)'},ticks:{color:'#64748b',font:{size:11}}}}});
+}
+
+function renderRiskChart(){
+  const c={Low:0,Medium:0,High:0};
+  filtered.forEach(r=>c[r.risk]++);
+  mkChart('riskChart','doughnut',{
+    labels:['High','Medium','Low'],
+    datasets:[{data:[c.High,c.Medium,c.Low],backgroundColor:['#ef4444','#f59e0b','#22c55e'],borderWidth:0,hoverOffset:8}]
+  },{cutout:'68%',plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>{const pct=Math.round(ctx.parsed*100/filtered.length);return ctx.label+': '+ctx.parsed+' ('+pct+'%)';}}}}});
+}
+
+function renderTimeChart(){
+  const cnt=new Array(12).fill(0),amt=new Array(12).fill(0);
+  filtered.forEach(r=>{cnt[r.monthIdx]++;amt[r.monthIdx]+=r.amount;});
+  mkChart('timeChart','line',{
+    labels:MONTHS,
+    datasets:[
+      {label:'Count',data:cnt,borderColor:'#3b82f6',backgroundColor:'rgba(59,130,246,0.1)',tension:0.35,fill:true,pointRadius:3,pointBackgroundColor:'#3b82f6',yAxisID:'y'},
+      {label:'Amt(L)',data:amt.map(v=>Math.round(v/100000)),borderColor:'#ef4444',backgroundColor:'rgba(239,68,68,0.05)',tension:0.35,fill:false,pointRadius:3,borderDash:[4,3],yAxisID:'y2'}
+    ]
+  },{interaction:{mode:'index'},scales:{
+    x:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#64748b',font:{size:10}}},
+    y:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#64748b',font:{size:10}},position:'left'},
+    y2:{grid:{display:false},ticks:{color:'#64748b',font:{size:10}},position:'right'}
+  }});
+}
+
+function renderPayChart(){
+  const c={};METHODS.forEach(m=>c[m]=0);filtered.forEach(r=>c[r.method]++);
+  mkChart('payChart','bar',{
+    labels:METHODS,
+    datasets:[{label:'Transactions',data:METHODS.map(m=>c[m]),backgroundColor:['rgba(59,130,246,0.8)','rgba(245,158,11,0.8)','rgba(34,197,94,0.8)'],borderRadius:6,borderSkipped:false}]
+  },{indexAxis:'y',scales:{x:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#64748b',font:{size:11}}},y:{grid:{display:false},ticks:{color:'#64748b',font:{size:11}}}}});
+}
+
+function renderExpChart(){
+  const c={};EXPTYPES.forEach(e=>c[e]=0);filtered.forEach(r=>c[r.expType]++);
+  mkChart('expChart','doughnut',{
+    labels:EXPTYPES,
+    datasets:[{data:EXPTYPES.map(e=>c[e]),backgroundColor:['#6366f1','#22c55e','#f59e0b','#64748b'],borderWidth:0,hoverOffset:6}]
+  },{cutout:'60%',plugins:{legend:{display:true,position:'bottom',labels:{color:'#64748b',font:{size:10},padding:10,boxWidth:10}},tooltip:{}}});
+}
+
+function renderLocChart(){
+  const c={};LOCS.forEach(l=>c[l]=0);
+  filtered.filter(r=>r.risk==='High').forEach(r=>c[r.loc]++);
+  mkChart('locChart','bar',{
+    labels:LOCS,
+    datasets:[{label:'High Risk',data:LOCS.map(l=>c[l]),backgroundColor:'rgba(239,68,68,0.75)',borderRadius:5,borderSkipped:false}]
+  },{scales:{x:{grid:{display:false},ticks:{color:'#64748b',font:{size:10}}},y:{grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#64748b',font:{size:10}}}}});
+}
+
+function renderStatusChart(){
+  const cnts={};
+  DEPTS.forEach(d=>cnts[d]={Approved:0,Pending:0,Rejected:0});
+  filtered.forEach(r=>cnts[r.dept][r.status]++);
+  mkChart('statusChart','bar',{
+    labels:DEPTS,
+    datasets:[
+      {label:'Approved',data:DEPTS.map(d=>cnts[d].Approved),backgroundColor:'rgba(34,197,94,0.7)',borderRadius:3,borderSkipped:false},
+      {label:'Pending',data:DEPTS.map(d=>cnts[d].Pending),backgroundColor:'rgba(245,158,11,0.7)',borderRadius:3,borderSkipped:false},
+      {label:'Rejected',data:DEPTS.map(d=>cnts[d].Rejected),backgroundColor:'rgba(239,68,68,0.7)',borderRadius:3,borderSkipped:false}
+    ]
+  },{scales:{x:{stacked:true,grid:{display:false},ticks:{color:'#64748b',font:{size:10}}},y:{stacked:true,grid:{color:'rgba(255,255,255,0.04)'},ticks:{color:'#64748b',font:{size:10}}}},plugins:{legend:{display:true,position:'top',labels:{color:'#94a3b8',font:{size:10},padding:12,boxWidth:10}}}});
+}
+
+// ── HEATMAP ───────────────────────────────────────────────────────────
+function renderHeatmap(){
+  const risks=['High','Medium','Low'];
+  const c={};DEPTS.forEach(d=>{c[d]={};risks.forEach(r=>c[d][r]=0);});
+  filtered.forEach(r=>c[r.dept][r.risk]++);
+  let html='<thead><tr><th>Dept</th>';
+  risks.forEach(r=>html+=`<th>${r}</th>`);
+  html+='<th>Total</th></tr></thead><tbody>';
+  DEPTS.forEach(d=>{
+    let tot=0;
+    html+=`<tr><td>${d}</td>`;
+    risks.forEach(r=>{
+      const v=c[d][r];tot+=v;
+      const cls=r==='High'?'hm-high':r==='Medium'?'hm-med':'hm-low';
+      html+=`<td class="${cls}">${v}</td>`;
+    });
+    html+=`<td style="color:var(--text2);font-size:13px;font-weight:600;background:transparent;">${tot}</td></tr>`;
+  });
+  document.getElementById('heatmap').innerHTML=html+'</tbody>';
+}
+
+// ── ANOMALY ALERTS ────────────────────────────────────────────────────
+function renderAlerts(){
+  const high=filtered.filter(r=>r.risk==='High').length;
+  const dups=filtered.filter(r=>r.dup==='Yes').length;
+  const big=filtered.filter(r=>r.amount>1000000).length;
+  const rej=filtered.filter(r=>r.status==='Rejected').length;
+  const late=filtered.filter(r=>r.late==='Yes').length;
+  const pend=filtered.filter(r=>r.status==='Pending'&&r.amount>300000).length;
+  const items=[
+    {cls:'a-red',ico:'🚨',count:high,txt:'High-risk transactions flagged for immediate review'},
+    {cls:'a-red',ico:'⚡',count:dups,txt:'Duplicate payments — verify vendor reconciliation'},
+    {cls:'a-amber',ico:'⚠',count:big,txt:'Transactions exceeding ₹10 Lakh threshold'},
+    {cls:'a-amber',ico:'✗',count:rej,txt:'Rejected entries — confirm reversal status'},
+    {cls:'a-blue',ico:'⏱',count:late,txt:'Late payment indicators detected'},
+    {cls:'a-blue',ico:'⏳',count:pend,txt:'High-value transactions pending sign-off'},
+  ];
+  document.getElementById('alert-list').innerHTML=items.map(a=>`
+    <li class="alert-item ${a.cls}">
+      <span class="alert-ico">${a.ico}</span>
+      <span class="alert-txt"><span class="alert-count">${a.count}</span>${a.txt}</span>
+    </li>`).join('');
+}
+
+// ── FLAG TABLE ────────────────────────────────────────────────────────
+function renderTable(){
+  const flagged=filtered.filter(r=>r.auditFlag==='Yes'||r.anomaly);
+  document.getElementById('tbl-count-label').textContent=flagged.length.toLocaleString('en-IN')+' records found';
+  const start=curPage*PAGE;
+  const rows=flagged.slice(start,start+PAGE);
+  document.getElementById('pg-info').textContent=`Showing ${start+1}–${Math.min(start+PAGE,flagged.length)} of ${flagged.length.toLocaleString('en-IN')} flagged records`;
+  const riskPill=r=>r==='High'?'<span class="pill pill-red">High</span>':r==='Medium'?'<span class="pill pill-amber">Medium</span>':'<span class="pill pill-green">Low</span>';
+  const statusPill=s=>s==='Approved'?'<span class="pill pill-green">Approved</span>':s==='Rejected'?'<span class="pill pill-red">Rejected</span>':'<span class="pill pill-amber">Pending</span>';
+  const yesNo=v=>v==='Yes'?'<span class="pill pill-red">Yes</span>':'<span class="pill pill-green" style="opacity:.6">No</span>';
+  document.getElementById('flag-tbody').innerHTML=rows.map(r=>`<tr>
+    <td class="mono">${r.txnId}</td>
+    <td class="mono" style="color:var(--text2)">${r.date}</td>
+    <td>${r.dept}</td>
+    <td style="color:var(--text2)">${r.vendor}</td>
+    <td class="mono">${r.emp}</td>
+    <td style="font-weight:600;text-align:right;font-variant-numeric:tabular-nums;">₹${r.amount.toLocaleString('en-IN')}</td>
+    <td>${r.method}</td>
+    <td class="mono">${r.inv}</td>
+    <td>${statusPill(r.status)}</td>
+    <td>${riskPill(r.risk)}</td>
+    <td>${yesNo(r.auditFlag)}</td>
+    <td>${r.loc}</td>
+    <td>${r.expType}</td>
+    <td>${yesNo(r.dup)}</td>
+    <td>${yesNo(r.late)}</td>
+    <td style="color:var(--text3);font-size:11px;max-width:200px;white-space:normal;">${r.anomaly||'—'}</td>
+  </tr>`).join('');
+}
+
+function changePage(dir){
+  const flagged=filtered.filter(r=>r.auditFlag==='Yes'||r.anomaly);
+  const maxPg=Math.ceil(flagged.length/PAGE)-1;
+  curPage=Math.max(0,Math.min(maxPg,curPage+dir));
+  renderTable();
+}
+
+// ── EXPORT ────────────────────────────────────────────────────────────
+function exportCSV(){
+  const headers=['Transaction_ID','Date','Department','Vendor_Name','Employee_ID','Amount_INR','Payment_Method','Invoice_Number','Approval_Status','Risk_Category','Audit_Flag','Location','Expense_Type','Duplicate_Indicator','Late_Payment_Indicator','Anomaly_Notes'];
+  const rows=filtered.map(r=>[r.txnId,r.date,r.dept,`"${r.vendor}"`,r.emp,r.amount,r.method,r.inv,r.status,r.risk,r.auditFlag,r.loc,r.expType,r.dup,r.late,`"${r.anomaly}"`].join(','));
+  const csv=[headers.join(','),...rows].join('\n');
+  const a=document.createElement('a');
+  a.href='data:text/csv;charset=utf-8,'+encodeURIComponent(csv);
+  a.download='AuditForce_FY2024_25_Export.csv';
+  a.click();
+}
+
+// ── RENDER ALL ────────────────────────────────────────────────────────
+function renderAll(){
+  renderKPIs();
+  renderDeptChart();
+  renderRiskChart();
+  renderTimeChart();
+  renderPayChart();
+  renderExpChart();
+  renderLocChart();
+  renderStatusChart();
+  renderHeatmap();
+  renderAlerts();
+  renderTable();
+}
+
+renderAll();
+</script>
+</body>
+</html>
